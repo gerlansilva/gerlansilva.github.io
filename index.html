@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerlan Silva da Silva</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f3ee;
+      --bg2: #eee8df;
+      --ink: #1c1a17;
+      --ink2: #4a4540;
+      --ink3: #8a7f74;
+      --accent: #2d6a4f;
+      --accent2: #40916c;
+      --gold: #b7891a;
+      --card: #ffffff;
+      --border: #ddd6cc;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(247,243,238,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2rem; height: 60px;
+    }
+    .nav-brand {
+      font-family: 'Lora', serif;
+      font-weight: 700; font-size: 1rem;
+      color: var(--ink); text-decoration: none;
+      letter-spacing: 0.01em;
+    }
+    .nav-links { display: flex; gap: 0; }
+    .nav-links a {
+      color: var(--ink2); text-decoration: none;
+      font-size: 0.82rem; font-weight: 400;
+      padding: 0 1rem; height: 60px;
+      display: flex; align-items: center;
+      border-bottom: 2px solid transparent;
+      transition: color 0.2s, border-color 0.2s;
+      letter-spacing: 0.03em; text-transform: uppercase;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--accent); border-bottom-color: var(--accent);
+    }
+
+    /* ── SECTIONS ── */
+    section { display: none; }
+    section.active { display: block; }
+
+    /* ── HERO ── */
+    .hero {
+      max-width: 900px; margin: 0 auto;
+      padding: 5rem 2rem 3rem;
+      display: grid; grid-template-columns: 1fr 220px;
+      gap: 3rem; align-items: start;
+    }
+    .hero-text h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 700; line-height: 1.2;
+      color: var(--ink); margin-bottom: 0.4rem;
+    }
+    .hero-text .role {
+      font-size: 1rem; color: var(--accent2);
+      font-weight: 500; margin-bottom: 0.2rem;
+    }
+    .hero-text .institution {
+      font-size: 0.9rem; color: var(--ink3);
+      margin-bottom: 1.8rem;
+    }
+    .hero-text p {
+      font-size: 0.95rem; color: var(--ink2);
+      line-height: 1.8; margin-bottom: 1rem;
+    }
+    .hero-photo {
+      width: 220px; height: 260px;
+      border-radius: 4px;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-photo .placeholder {
+      font-size: 5rem; color: var(--border);
+    }
+
+    /* ── SOCIAL LINKS ── */
+    .social-links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.6rem; }
+    .social-link {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 6px 14px; border-radius: 3px;
+      border: 1px solid var(--border);
+      font-size: 0.8rem; font-weight: 400;
+      color: var(--ink2); text-decoration: none;
+      background: var(--card);
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .social-link:hover {
+      border-color: var(--accent); color: var(--accent);
+      background: #f0f8f4;
+    }
+
+    /* ── INTERESTS ── */
+    .interests-block {
+      max-width: 900px; margin: 0 auto;
+      padding: 0 2rem 4rem;
+    }
+    .section-label {
+      font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.12em; color: var(--gold);
+      font-weight: 500; margin-bottom: 1rem;
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .tag {
+      background: var(--card); border: 1px solid var(--border);
+      padding: 5px 14px; border-radius: 2px;
+      font-size: 0.82rem; color: var(--ink2);
+    }
+
+    /* ── GROUPS ── */
+    .groups-block {
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 2rem;
+    }
+    .groups-inner { max-width: 900px; margin: 0 auto; }
+    .groups-inner h2 {
+      font-family: 'Lora', serif; font-size: 1.3rem;
+      margin-bottom: 1.4rem; color: var(--ink);
+    }
+    .group-list { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; }
+    .group-list li {
+      font-size: 0.9rem; color: var(--ink2);
+      padding-left: 1.2rem; position: relative;
+    }
+    .group-list li::before {
+      content: "—"; position: absolute; left: 0;
+      color: var(--accent); font-weight: 600;
+    }
+
+    /* ── PUBLICATIONS ── */
+    .pub-container { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; }
+    .pub-container h1 {
+      font-family: 'Lora', serif; font-size: 2rem;
+      margin-bottom: 0.5rem; color: var(--ink);
+    }
+    .pub-subtitle { color: var(--ink3); font-size: 0.85rem; margin-bottom: 2rem; }
+    .pub-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 4px; padding: 1.4rem 1.6rem;
+      margin-bottom: 1rem;
+      border-left: 3px solid var(--accent);
+      transition: box-shadow 0.2s;
+    }
+    .pub-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.07); }
+    .pub-title { font-family: 'Lora', serif; font-size: 1rem; font-weight: 600; margin-bottom: 0.5rem; line-height: 1.4; }
+    .pub-meta { font-size: 0.8rem; color: var(--ink3); display: flex; flex-wrap: wrap; gap: 0.8rem; align-items: center; }
+    .pub-year {
+      background: var(--accent); color: white;
+      padding: 1px 8px; border-radius: 2px; font-size: 0.75rem;
+    }
+    .pub-journal { font-style: italic; }
+    .pub-doi a { color: var(--accent2); text-decoration: none; }
+    .pub-doi a:hover { text-decoration: underline; }
+    .loader-pub { text-align: center; padding: 4rem; color: var(--ink3); }
+    .spinner {
+      width: 32px; height: 32px; border: 2px solid var(--border);
+      border-top-color: var(--accent); border-radius: 50%;
+      animation: spin 0.8s linear infinite; margin: 0 auto 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── PROJECTS ── */
+    .proj-container { max-width: 900px; margin: 0 auto; padding: 4rem 2rem; }
+    .proj-container h1 {
+      font-family: 'Lora', serif; font-size: 2rem;
+      margin-bottom: 2rem; color: var(--ink);
+    }
+    .proj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 1.2rem; }
+    .proj-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 4px; padding: 1.8rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .proj-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.08); transform: translateY(-2px); }
+    .proj-num {
+      font-size: 0.7rem; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--gold); margin-bottom: 0.6rem;
+    }
+    .proj-title {
+      font-family: 'Lora', serif; font-size: 1.05rem;
+      font-weight: 600; margin-bottom: 0.7rem; line-height: 1.4;
+    }
+    .proj-desc { font-size: 0.88rem; color: var(--ink2); line-height: 1.7; }
+
+    /* ── CONTACT ── */
+    .contact-container { max-width: 700px; margin: 0 auto; padding: 4rem 2rem; }
+    .contact-container h1 {
+      font-family: 'Lora', serif; font-size: 2rem;
+      margin-bottom: 0.5rem; color: var(--ink);
+    }
+    .contact-sub { color: var(--ink3); font-size: 0.9rem; margin-bottom: 3rem; }
+    .contact-grid { display: flex; flex-direction: column; gap: 1rem; }
+    .contact-item {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 4px; padding: 1.4rem 1.8rem;
+      display: flex; align-items: center; gap: 1.2rem;
+      text-decoration: none; color: inherit;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .contact-item:hover {
+      border-color: var(--accent);
+      box-shadow: 0 4px 16px rgba(45,106,79,0.1);
+    }
+    .contact-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .contact-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink3); }
+    .contact-value { font-size: 0.95rem; color: var(--ink); font-weight: 400; }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center; padding: 2.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.78rem; color: var(--ink3);
+    }
+    footer a { color: var(--accent2); text-decoration: none; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-photo { width: 140px; height: 160px; }
+      .nav-links a { padding: 0 0.6rem; font-size: 0.75rem; }
+      .proj-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="#" onclick="showSection('sobre')">Gerlan Silva da Silva</a>
+  <div class="nav-links">
+    <a href="#" onclick="showSection('sobre')" id="nav-sobre" class="active">Sobre</a>
+    <a href="#" onclick="showSection('publicacoes')" id="nav-publicacoes">Publicações</a>
+    <a href="#" onclick="showSection('projetos')" id="nav-projetos">Projetos</a>
+    <a href="#" onclick="showSection('contato')" id="nav-contato">Contato</a>
+  </div>
+</nav>
+
+<!-- ═══════════════ SOBRE ═══════════════ -->
+<section id="sobre" class="active">
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Gerlan Silva<br>da Silva</h1>
+      <div class="role">Doutorando em Educação</div>
+      <div class="institution">Universidade Federal de São Carlos — UFSCar</div>
+      <p>
+        Doutorando em Educação pela Universidade Federal de São Carlos (UFSCar), Mestre em Educação Científica e Tecnológica pela Universidade Federal de Santa Catarina (UFSC) e Licenciado em Matemática e Física pela Universidade Federal do Oeste do Pará (UFOPA).
+      </p>
+      <p>
+        Faço parte do Grupo de Trabalho de Educação Estatística da SBEM (GT-12/SBEM) e da Red Latinoamericana de Investigación en Educación Estadística (RELIEE).
+      </p>
+      <div class="social-links">
+        <a class="social-link" href="http://lattes.cnpq.br/2364822008221312" target="_blank">
+          📋 Lattes CNPq
+        </a>
+        <a class="social-link" href="https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR&authuser=1" target="_blank">
+          🎓 Google Scholar
+        </a>
+        <a class="social-link" href="https://orcid.org/0000-0002-9996-9983" target="_blank">
+          🔬 ORCID
+        </a>
+        <a class="social-link" href="mailto:gerlanmatfis@gmail.com">
+          ✉️ E-mail
+        </a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <span class="placeholder">👤</span>
+      <!-- Substitua pela sua foto:
+           <img src="assets/img/foto.jpg" alt="Gerlan Silva da Silva" /> -->
+    </div>
+  </div>
+
+  <div class="interests-block">
+    <div class="section-label">Interesses de Pesquisa</div>
+    <div class="tags">
+      <span class="tag">Revisões Sistemáticas</span>
+      <span class="tag">Estudos Bibliométricos</span>
+      <span class="tag">Educação Probabilística</span>
+      <span class="tag">Livros Didáticos</span>
+      <span class="tag">Educação Estatística</span>
+    </div>
+  </div>
+
+  <div class="groups-block">
+    <div class="groups-inner">
+      <div class="section-label">Grupos de Pesquisa</div>
+      <ul class="group-list">
+        <li>Grupo de Trabalho de Educação Estatística da SBEM — GT-12/SBEM</li>
+        <li>Red Latinoamericana de Investigación en Educación Estadística — RELIEE</li>
+        <li>Grupo de Estudos e Pesquisas em Processos Formativos em Educação Matemática — GEPPROFEM/UFSC</li>
+        <li>Insubordinações Criativas em Educação Matemática — ICEM/UFSC</li>
+        <li>Grupo de Estudos e Pesquisa em Educação Matemática — GEM/UFSCar</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ PUBLICAÇÕES ═══════════════ -->
+<section id="publicacoes">
+  <div class="pub-container">
+    <h1>Publicações</h1>
+    <p class="pub-subtitle">Dados obtidos automaticamente via API pública do ORCID · <a href="https://orcid.org/0000-0002-9996-9983" target="_blank">0000-0002-9996-9983</a></p>
+    <div id="pub-list">
+      <div class="loader-pub">
+        <div class="spinner"></div>
+        Buscando publicações no ORCID...
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ PROJETOS ═══════════════ -->
+<section id="projetos">
+  <div class="proj-container">
+    <h1>Projetos</h1>
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <div class="proj-num">Projeto 01</div>
+        <div class="proj-title">Coletivos de Pensamento no Campo da Educação Estatística</div>
+        <div class="proj-desc">
+          Investigação sobre os coletivos de pensamento que organizam e estruturam o campo da Educação Estatística, analisando tendências, perspectivas e modos de produção do conhecimento na área.
+        </div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-num">Projeto 02</div>
+        <div class="proj-title">Retratos Bibliométricos de Revistas de Educação Matemática</div>
+        <div class="proj-desc">
+          Mapeamento e análise bibliométrica da produção científica veiculada em periódicos de Educação Matemática, identificando padrões de colaboração, temáticas emergentes e redes de conhecimento.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ CONTATO ═══════════════ -->
+<section id="contato">
+  <div class="contact-container">
+    <h1>Contato</h1>
+    <p class="contact-sub">Fique à vontade para entrar em contato para colaborações, dúvidas ou troca de experiências.</p>
+    <div class="contact-grid">
+
+      <a class="contact-item" href="mailto:gerlanmatfis@gmail.com">
+        <span class="contact-icon">✉️</span>
+        <div>
+          <div class="contact-label">E-mail</div>
+          <div class="contact-value">gerlanmatfis@gmail.com</div>
+        </div>
+      </a>
+
+      <a class="contact-item" href="http://lattes.cnpq.br/2364822008221312" target="_blank">
+        <span class="contact-icon">📋</span>
+        <div>
+          <div class="contact-label">Currículo Lattes</div>
+          <div class="contact-value">lattes.cnpq.br/2364822008221312</div>
+        </div>
+      </a>
+
+      <a class="contact-item" href="https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR&authuser=1" target="_blank">
+        <span class="contact-icon">🎓</span>
+        <div>
+          <div class="contact-label">Google Scholar</div>
+          <div class="contact-value">Gerlan Silva da Silva</div>
+        </div>
+      </a>
+
+      <a class="contact-item" href="https://orcid.org/0000-0002-9996-9983" target="_blank">
+        <span class="contact-icon">🔬</span>
+        <div>
+          <div class="contact-label">ORCID</div>
+          <div class="contact-value">0000-0002-9996-9983</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2025 Gerlan Silva da Silva · UFSCar ·
+  Publicações via <a href="https://orcid.org/0000-0002-9996-9983" target="_blank">ORCID</a>
+</footer>
+
+<script>
+  // ── Navegação ──
+  function showSection(id) {
+    document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    document.getElementById('nav-' + id).classList.add('active');
+    if (id === 'publicacoes') loadPublications();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    return false;
+  }
+
+  // ── Publicações via ORCID ──
+  const ORCID_ID = "0000-0002-9996-9983";
+  const BASE = "https://pub.orcid.org/v3.0";
+  let pubLoaded = false;
+
+  async function loadPublications() {
+    if (pubLoaded) return;
+    const list = document.getElementById('pub-list');
+    try {
+      const works = await fetchOrcid(`${BASE}/${ORCID_ID}/works`);
+      const groups = works.group || [];
+
+      if (groups.length === 0) {
+        list.innerHTML = `<p style="color:var(--ink3)">Nenhuma publicação encontrada no perfil ORCID.</p>`;
+        return;
+      }
+
+      const sorted = groups
+        .map(g => g["work-summary"]?.[0])
+        .filter(Boolean)
+        .sort((a, b) => {
+          const ya = parseInt(a["publication-date"]?.year?.value || "0");
+          const yb = parseInt(b["publication-date"]?.year?.value || "0");
+          return yb - ya;
+        });
+
+      list.innerHTML = sorted.map(s => {
+        const title   = s.title?.title?.value || "Sem título";
+        const year    = s["publication-date"]?.year?.value || "";
+        const journal = s["journal-title"]?.value || "";
+        const type    = s.type?.replace(/_/g, " ") || "";
+        const extIds  = s["external-ids"]?.["external-id"] || [];
+        const doi     = extIds.find(e => e["external-id-type"] === "doi")?.["external-id-value"] || "";
+
+        return `
+          <div class="pub-card">
+            <div class="pub-title">${title}</div>
+            <div class="pub-meta">
+              ${year ? `<span class="pub-year">${year}</span>` : ""}
+              ${journal ? `<span class="pub-journal">${journal}</span>` : ""}
+              ${type ? `<span style="color:var(--ink3)">${type}</span>` : ""}
+              ${doi ? `<span class="pub-doi">🔗 <a href="https://doi.org/${doi}" target="_blank">doi.org/${doi}</a></span>` : ""}
+            </div>
+          </div>`;
+      }).join("") + `<p style="font-size:0.78rem;color:var(--ink3);margin-top:1.5rem">
+        ${sorted.length} publicação(ões) · Fonte: <a href="https://orcid.org/${ORCID_ID}" target="_blank" style="color:var(--accent2)">ORCID</a>
+      </p>`;
+
+      pubLoaded = true;
+    } catch (e) {
+      list.innerHTML = `<p style="color:#c0392b">Erro ao carregar publicações: ${e.message}</p>`;
+    }
+  }
+
+  async function fetchOrcid(url) {
+    const r = await fetch(url, { headers: { Accept: "application/json" } });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }
+</script>
+</body>
+</html>
