@@ -1,12 +1,12 @@
 - title: Memória do SIPEM
-  tag: "SIPEM"
+  image: /assets/images/projects/sipem.png
   url: https://gerlansilva.github.io/memoria-sipem/
   description: Sistematização e preservação de documentos e registros dos Seminários Internacionais de Pesquisa em Educação Matemática.
 - title: Memória do GT 19
-  tag: "ANPEd · GT 19"
+  image: /assets/images/projects/gt19.png
   url: https://gt19anped.pages.dev/
   description: Organização de registros e produções do Grupo de Trabalho 19 — Educação Matemática, da ANPEd.
 - title: Acervo da Primeira Conferência de Educação Estatística
-  tag: "Florianópolis · 1999"
+  image: /assets/images/projects/conferencia.png
   url: https://cieee-acervo.netlify.app/
   description: Preservação e disponibilização de documentos e registros relativos à conferência realizada em Florianópolis em 1999.
