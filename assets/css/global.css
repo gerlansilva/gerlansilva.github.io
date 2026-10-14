@@ -853,3 +853,21 @@ body{background:var(--c-soft)!important}
 .links-row a{color:var(--c-navy)!important}
 .links-row a:hover{color:var(--c-forest)!important}
 .site-navbar .nav-link:hover,.site-navbar .nav-link.active{color:var(--c-forest)!important}
+
+/* Logos institucionais: preservar limites da caixa e proporções originais */
+.education-row .edu-symbol{
+  width:60px!important;height:60px!important;min-width:60px!important;
+  box-sizing:border-box!important;padding:7px!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  overflow:hidden!important;
+}
+.education-row .edu-symbol img,
+.education-row .edu-symbol img[alt="UFSCar"],
+.education-row .edu-symbol img[alt="UFSC"],
+.education-row .edu-symbol img[alt="UFOPA"]{
+  width:auto!important;height:auto!important;
+  max-width:44px!important;max-height:44px!important;
+  object-fit:contain!important;object-position:center!important;
+  transform:none!important;scale:1!important;
+  display:block!important;
+}
