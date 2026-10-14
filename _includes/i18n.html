@@ -1,0 +1,1 @@
+{% case include.key %}{% when 'selected_publications' %}Artigos selecionados{% when 'view_all' %} (ver todos){% when 'all_publications' %}Todas as publicações{% when 'education' %}Formação acadêmica{% when 'experience' %}Experiência{% else %}{{ include.key }}{% endcase %}
