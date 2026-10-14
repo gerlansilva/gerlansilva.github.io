@@ -1,6 +1,6 @@
 {% assign a = include.item %}
 <article class="pub-card">
-  <div class="article-type">{{a.pub_date | default: a.date | date: "%Y"}} · Artigo em periódico</div>
+  <div class="article-type">{% if a.pub_date %}{{a.pub_date}}{% elsif a.date %}{{a.date | date: "%Y"}}{% else %}Ano não informado{% endif %} · Artigo em periódico</div>
   <h3>{{a.title}}</h3>
   {% if a.authors and a.authors.size > 0 %}<p class="pub-author">{{a.authors | join: ', '}}</p>{% endif %}
   {% if a.pub %}<p class="pub-meta"><i class="fas fa-book"></i> <em>{{a.pub}}</em></p>{% endif %}
