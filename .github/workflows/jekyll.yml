@@ -1,0 +1,52 @@
+name: Gerar e publicar site Jekyll
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_config.yml'
+      - '_data/**'
+      - '_includes/**'
+      - '_layouts/**'
+      - '_publications/**'
+      - 'assets/**'
+      - 'index.html'
+      - 'publications.html'
+      - 'projects.html'
+      - 'research.html'
+      - '.github/workflows/jekyll.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: jekyll-docs
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+      - name: Instalar Jekyll
+        run: gem install jekyll -v 3.10.0 --no-document
+      - name: Gerar site
+        run: |
+          rm -rf docs
+          jekyll build --destination docs
+          touch docs/.nojekyll
+          test -s docs/index.html
+          test -s docs/publications/index.html
+      - name: Atualizar site compilado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs
+          if ! git diff --cached --quiet; then
+            git commit -m "Build Jekyll site for Pages"
+            for n in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin HEAD:main && exit 0
+              sleep 3
+            done
+            exit 1
+          fi
