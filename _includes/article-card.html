@@ -1,0 +1,17 @@
+{% assign a = include.item %}
+<article class="pub-card">
+  <div class="article-type">{{a.pub_date | default: a.date | date: "%Y"}} · Artigo em periódico</div>
+  <h3>{{a.title}}</h3>
+  {% if a.authors and a.authors.size > 0 %}<p class="pub-author">{{a.authors | join: ', '}}</p>{% endif %}
+  {% if a.pub %}<p class="pub-meta"><i class="fas fa-book"></i> <em>{{a.pub}}</em></p>{% endif %}
+  {% if a.abstract or a.keywords %}
+  <details><summary><i class="fas fa-align-left"></i> Resumo e palavras-chave</summary>
+   {% if a.abstract %}<p>{{a.abstract}}</p>{% else %}<p>Resumo não disponível nos metadados públicos.</p>{% endif %}
+   {% if a.keywords %}<p class="keywords"><strong>Palavras-chave:</strong> {{a.keywords | join: '; '}}</p>{% endif %}
+  </details>
+  {% else %}<details><summary><i class="fas fa-align-left"></i> Resumo e palavras-chave</summary><p>Metadados ainda não disponibilizados na fonte consultada.</p></details>{% endif %}
+  <div class="pub-actions">
+  {% if a.links.DOI %}<a href="{{a.links.DOI}}" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i> Acessar artigo</a>{% endif %}
+  {% if a.doi %}<span><i class="fas fa-fingerprint"></i> {{a.doi}}</span>{% endif %}
+  </div>
+</article>
