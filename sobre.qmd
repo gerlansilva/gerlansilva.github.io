@@ -1,0 +1,42 @@
+---
+title: "Quem sou eu?"
+image: https://avatars.githubusercontent.com/u/50636844?v=4
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: rounded
+  links:
+    - text: ORCID
+      href: https://orcid.org/0000-0002-9996-9983
+    - text: Lattes
+      href: http://lattes.cnpq.br/2364822008221312
+    - icon: github
+      href: https://github.com/gerlansilva
+---
+
+Sou doutorando em Educação, na linha de pesquisa **Educação em Ciências e Matemática**, do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (UFSCar), em São Carlos, São Paulo, sob orientação da professora Cármen Lúcia Brancaglion Passos.
+
+Minha formação inicial é em Licenciatura Integrada em Matemática e Física, pela Universidade Federal do Oeste do Pará (UFOPA). Sou mestre em Educação Científica e Tecnológica pela Universidade Federal de Santa Catarina (UFSC), onde desenvolvi uma pesquisa sobre a produção acadêmica brasileira relacionada ao ensino e à aprendizagem de Probabilidade na Educação Básica, sob orientação da professora Regina Célia Grando.
+
+Atualmente, desenvolvo uma investigação sobre o campo da Educação Estatística no Brasil e na Espanha, buscando compreender sua constituição e seu desenvolvimento por meio da produção científica, das redes de colaboração e das trajetórias de pesquisadoras que contribuíram para sua construção.
+
+Minha aproximação com a Ciência da Informação, especialmente com os estudos métricos, despertou o interesse por iniciativas de sistematização, organização e preservação da produção científica. A partir desse movimento, comecei a desenvolver projetos independentes, entre eles o Memória do SIPEM, o Memória do GT 19 e o Acervo da Primeira Conferência de Educação Estatística.
+
+## Formação acadêmica
+
+**2024–2028 (previsão) — Doutorado em Educação, em andamento**  
+Universidade Federal de São Carlos (UFSCar). Linha de pesquisa: Educação em Ciências e Matemática.
+
+**2021–2023 — Mestrado em Educação Científica e Tecnológica**  
+Universidade Federal de Santa Catarina (UFSC). Orientadora: Regina Célia Grando.
+
+**2015–2021 — Licenciatura Integrada em Matemática e Física**  
+Universidade Federal do Oeste do Pará (UFOPA).
+
+## Interesses de pesquisa
+
+- Revisões sistemáticas
+- Educação Estatística
+- Acervos digitais e memória científica
+- Estudos métricos
+- Educação Probabilística

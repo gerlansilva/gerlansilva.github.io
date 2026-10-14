@@ -1,0 +1,15 @@
+/* Identidade editorial discreta; Quarto Cosmo e layouts nativos */
+:root { --bs-body-font-family: "Inter", Arial, sans-serif; }
+body { background: #fff; color: #293342; }
+.navbar { border-bottom: 1px solid #e9edf1; box-shadow: none; }
+.navbar-brand { font-weight: 650; }
+.navbar-nav .nav-link { font-size: .94rem; }
+h1,h2,h3 { letter-spacing: -.025em; }
+#quarto-content { line-height: 1.78; }
+main.content p { text-align: justify; }
+.quarto-about-solana .about-contents p, .quarto-about-trestles .about-contents p { max-width: 78ch; }
+.quarto-about-solana .about-entity .about-image { border-radius: 50%; }
+a { text-underline-offset: 3px; }
+.about-links { font-weight: 600; }
+.grid h3 { font-size: 1.15rem; }
+.grid > div { padding: 1rem 0; }

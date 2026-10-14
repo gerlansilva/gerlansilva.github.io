@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Gerlan Silva"
+  site-url: https://gerlansilva.github.io
+  navbar:
+    background: "#ffffff"
+    foreground: "#25354a"
+    left:
+      - text: Início
+        href: index.qmd
+      - text: Quem sou eu?
+        href: sobre.qmd
+      - text: Pesquisas
+        href: pesquisas.qmd
+      - text: Publicações
+        href: publicacoes.qmd
+      - text: Projetos
+        href: projetos.qmd
+    right:
+      - icon: github
+        href: https://github.com/gerlansilva
+  page-footer:
+    left: "© 2026 Gerlan Silva"
+    right:
+      - text: ORCID
+        href: https://orcid.org/0000-0002-9996-9983
+      - text: Lattes
+        href: http://lattes.cnpq.br/2364822008221312
+format:
+  html:
+    theme: cosmo
+    css: quarto-custom.css
+    toc: false
+    link-external-newwindow: true
+lang: pt-BR

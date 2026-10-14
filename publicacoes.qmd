@@ -1,0 +1,47 @@
+---
+title: "Publicações acadêmicas"
+toc: true
+---
+
+A produção acadêmica está organizada por tipo de documento. Consulte também meu [ORCID](https://orcid.org/0000-0002-9996-9983) e o [Currículo Lattes](http://lattes.cnpq.br/2364822008221312).
+
+## Artigos científicos
+
+Os registros dos artigos em periódicos serão adicionados após conferência dos metadados disponíveis no ORCID.
+
+## Trabalhos em eventos
+
+Esta seção apresentará os trabalhos publicados em anais de eventos, com autoria, ano, evento e link de acesso.
+
+## Dissertação
+
+### O estado da arte da pesquisa em educação probabilística na escola básica
+
+**Autor:** Silva, Gerlan Silva da  
+**Instituição:** Universidade Federal de Santa Catarina (UFSC)  
+**Programa:** Pós-Graduação em Educação Científica e Tecnológica  
+**Orientadora:** Regina Célia Grando  
+**Período:** 2021–2023  
+**Ano de defesa:** 2023  
+**Financiamento:** FAPESC e CAPES/PROEX
+
+::: {.callout-note collapse="true"}
+## Resumo
+
+Nosso objetivo nesta pesquisa é inventariar, sistematizar, descrever e analisar a pesquisa acadêmica brasileira sobre o ensino e a aprendizagem de Probabilidade na Educação Básica, produzida no âmbito dos programas de pós-graduação, na área de Educação e Ensino, evidenciando suas principais tendências temáticas e aspectos teórico-metodológicos. Essa investigação se caracteriza metodologicamente como qualitativa quanto à abordagem, de natureza exploratória, quanto aos seus objetivos, e bibliográfica, considerando os seus procedimentos de produção e análise dos dados. O mapeamento das pesquisas, como fonte de dados, foi realizado de forma totalmente digital, através do Catálogo de teses e dissertações da CAPES, da Biblioteca Digital Brasileira de Teses e Dissertações (BDTD), e de acervos de currículos da plataforma Lattes. Essas buscas nos retornaram um total de 99 teses e dissertações, defendidas no Brasil no período de maio de 1994 a junho de 2021, que relacionam e articulam a Educação Probabilística na Escola Básica como objeto de estudo.
+
+O estudo organizou 78 dissertações e 21 teses e identificou sete núcleos temáticos, destacando-se os recursos didáticos e as metodologias de ensino da Probabilidade. As pesquisas foram codificadas no MAXQDA, contemplando aspectos teórico-metodológicos e resultados das investigações.
+:::
+
+[Consultar dissertação e registro completo](https://repositorio.ufsc.br/handle/123456789/251185?show=full)
+
+## Trabalho de conclusão de curso
+
+### Formação/prática de professores que ensinam estatística, probabilidade e combinatória: um estudo baseado em periódicos científicos brasileiros
+
+**Universidade:** Universidade Federal do Oeste do Pará (UFOPA)  
+**Orientador:** Rodrigo Medeiros dos Santos  
+**Período:** 2020–2021  
+**Financiamento:** Auxílio da UFOPA para compra de livros
+
+[Consultar TCC](https://repositorio.ufopa.edu.br/items/a36d5724-8fb4-4eb7-8faa-6722ab0fc56c)

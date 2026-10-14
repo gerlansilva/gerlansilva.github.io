@@ -1,0 +1,42 @@
+---
+title: "Gerlan Silva"
+subtitle: "Doutorando em Educação — Universidade Federal de São Carlos (UFSCar)"
+image: https://avatars.githubusercontent.com/u/50636844?v=4
+about:
+  template: solana
+  image-width: 19em
+  links:
+    - text: ORCID
+      href: https://orcid.org/0000-0002-9996-9983
+    - text: Lattes
+      href: http://lattes.cnpq.br/2364822008221312
+    - icon: github
+      href: https://github.com/gerlansilva
+page-layout: full
+---
+
+Sou doutorando em Educação, na linha **Educação em Ciências e Matemática**, do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (UFSCar), em São Carlos (SP).
+
+Minha trajetória de pesquisa se desenvolve no campo da **Educação Matemática**, especialmente na **Educação Estatística** e na **Educação Probabilística**. Também me interesso por revisões sistemáticas, estudos métricos, acervos digitais e memória científica.
+
+[Conheça minha trajetória →](sobre.qmd){.about-links}
+
+## Projetos em destaque
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+### [Memória do SIPEM](https://gerlansilva.github.io/memoria-sipem/)
+
+Acervo de registros dos Seminários Internacionais de Pesquisa em Educação Matemática.
+:::
+::: {.g-col-12 .g-col-md-4}
+### [Memória do GT 19](https://gt19anped.pages.dev/)
+
+Organização de registros do GT 19 — Educação Matemática, da ANPEd.
+:::
+::: {.g-col-12 .g-col-md-4}
+### [Primeira Conferência de Educação Estatística](https://cieee-acervo.netlify.app/)
+
+Acervo histórico de documentos da conferência realizada em Florianópolis, em 1999.
+:::
+:::
