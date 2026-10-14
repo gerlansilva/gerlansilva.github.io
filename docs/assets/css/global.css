@@ -757,3 +757,10 @@ a:hover{color:var(--academic-green)}
 .interest-amber{color:#85541b;background:#fff1d8}
 .edu-symbol{background:transparent;border:0;width:45px;height:45px;display:flex;align-items:center;justify-content:center;font-size:.68rem}
 .edu-symbol img{width:44px;height:44px;object-fit:contain}
+
+/* Marcas institucionais: mesma caixa e mesmas dimensões visuais */
+.education-row{grid-template-columns:52px minmax(0,1fr) auto;column-gap:14px;align-items:center}
+.edu-symbol{width:52px!important;height:52px!important;min-width:52px;display:grid!important;place-items:center;background:#fff!important;border:1px solid #e7edf1!important;border-radius:9px!important;padding:5px;overflow:hidden}
+.edu-symbol img{width:40px!important;height:40px!important;max-width:40px;max-height:40px;object-fit:contain!important;display:block}
+.section-title-custom,.site-card h2{line-height:1.45}
+@media(max-width:700px){.education-row{grid-template-columns:52px minmax(0,1fr)}.edu-date{grid-column:2}}
