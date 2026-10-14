@@ -19,23 +19,23 @@ Sou doutorando em Educação, na linha **Educação em Ciências e Matemática**
 
 Minha trajetória de pesquisa se desenvolve no campo da **Educação Matemática**, especialmente na **Educação Estatística** e na **Educação Probabilística**. Também me interesso por revisões sistemáticas, estudos métricos, acervos digitais e memória científica.
 
-[Conheça minha trajetória →](sobre.qmd){.about-links}
+<a class="about-links icon-link" href="sobre.qmd"><i class="bi bi-person-vcard" aria-hidden="true"></i> Conheça minha trajetória</a>
 
 ## Projetos em destaque
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-4}
-### [Memória do SIPEM](https://gerlansilva.github.io/memoria-sipem/)
+### <i class="bi bi-archive" aria-hidden="true"></i> [Memória do SIPEM](https://gerlansilva.github.io/memoria-sipem/)
 
 Acervo de registros dos Seminários Internacionais de Pesquisa em Educação Matemática.
 :::
 ::: {.g-col-12 .g-col-md-4}
-### [Memória do GT 19](https://gt19anped.pages.dev/)
+### <i class="bi bi-journal-bookmark" aria-hidden="true"></i> [Memória do GT 19](https://gt19anped.pages.dev/)
 
 Organização de registros do GT 19 — Educação Matemática, da ANPEd.
 :::
 ::: {.g-col-12 .g-col-md-4}
-### [Primeira Conferência de Educação Estatística](https://cieee-acervo.netlify.app/)
+### <i class="bi bi-collection" aria-hidden="true"></i> [Primeira Conferência de Educação Estatística](https://cieee-acervo.netlify.app/)
 
 Acervo histórico de documentos da conferência realizada em Florianópolis, em 1999.
 :::
