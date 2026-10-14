@@ -769,3 +769,68 @@ a:hover{color:var(--academic-green)}
    Reduz a dimensão exibida e mantém face, testa e queixo no círculo. */
 .profile-portrait{display:block!important;width:188px!important;height:188px!important;min-width:188px;max-width:188px!important;aspect-ratio:1/1;border-radius:50%!important;object-fit:cover!important;object-position:50% 69%!important;image-rendering:auto;transform:none!important;filter:none!important;box-shadow:0 0 0 3px #e4edf0!important;margin-left:auto!important;margin-right:auto!important}
 @media(max-width:767px){.profile-portrait{width:176px!important;height:176px!important;min-width:176px;max-width:176px!important}}
+
+
+/* ===== Identidade visual unificada · outubro 2026 =====
+   Azul-petróleo / verde-botânico / vermelho-coral / papel.
+   As cores expressam hierarquia, não elementos decorativos aleatórios.
+*/
+:root{
+  --site-ink:#23384a;
+  --site-blue:#194f73;
+  --site-green:#227654;
+  --site-red:#c14e56;
+  --site-paper:#f7f9f7;
+  --site-border:#dce7e3;
+  --site-muted:#586b76;
+}
+html{scroll-behavior:smooth}
+body{background:var(--site-paper)!important;color:var(--site-ink)!important}
+.site-navbar{background:#fff!important;border-bottom:3px solid var(--site-green)!important;box-shadow:0 3px 12px rgba(30,65,69,.075)!important}
+.site-navbar .navbar-brand{color:var(--site-blue)!important}
+.site-navbar .nav-link{color:var(--site-ink)!important}
+.site-navbar .nav-link:hover,.site-navbar .nav-link.active{color:var(--site-green)!important}
+.site-card,.card{background:#fff!important;border:1px solid var(--site-border)!important;border-radius:9px!important;box-shadow:0 3px 15px rgba(32,67,66,.045)!important}
+.site-card h2,.section-title-custom{color:var(--site-ink)!important}
+.site-card h2 .heading-emoji,.section-title-custom .heading-emoji{font-size:1.12em;margin-right:9px;vertical-align:-.06em}
+a,.links-row a,.project-line h3 a{color:var(--site-blue)!important}
+a:hover,.links-row a:hover,.project-line h3 a:hover{color:var(--site-green)!important}
+.links-row .ai-orcid{color:#a6ce39!important}
+.links-row .ai-google-scholar{color:#4285f4!important}
+.links-row .ai-lattes{color:var(--site-green)!important}
+.links-row .fa-envelope{color:var(--site-red)!important}
+.links-row .fa-github{color:#293244!important}
+.lang-toggle-label.active{color:var(--site-green)!important}
+.lang-toggle-label:hover{color:var(--site-blue)!important}
+.interest-blue{color:#185a86;background:#e7f0fa}
+.interest-green{color:#186541;background:#e3f3e9}
+.interest-red{color:#ad3f49;background:#fce9e9}
+.interest-purple{color:#684992;background:#f0eafa}
+.interest-amber{color:#875d1e;background:#fff2d8}
+.pub-card{border:1px solid var(--site-border)!important;box-shadow:none!important;border-radius:8px!important}
+.pub-card h3{color:var(--site-blue)!important}
+.pub-card .article-type{color:#23664b!important;background:#e7f4ec!important}
+.pub-card details summary{color:var(--site-green)!important}
+.pub-card .pub-actions .fa-file-alt,.academic-work .fa-file-pdf{color:var(--site-red)!important}
+.pub-meta i{color:var(--site-green)!important}
+.project-art{border-radius:6px;overflow:hidden}
+.project-line{border-bottom:1px solid var(--site-border)}
+.education-row{grid-template-columns:60px minmax(0,1fr) auto!important;gap:15px!important;align-items:center!important;border-bottom:1px solid #e9eeec!important}
+.edu-symbol{
+ width:60px!important;height:60px!important;min-width:60px!important;
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ background:#fff!important;border:1px solid #e1e8e4!important;border-radius:9px!important;
+ padding:5px!important;overflow:hidden!important;
+}
+.edu-symbol img{
+ display:block!important;
+ width:48px!important;height:48px!important;max-width:48px!important;max-height:48px!important;
+ object-fit:contain!important;
+}
+.edu-symbol img[alt="UFSCar"]{transform:scale(1.04)}
+.edu-symbol img[alt="UFSC"]{transform:scale(1.12)}
+.edu-symbol img[alt="UFOPA"]{transform:scale(1.42)}
+@media(max-width:720px){
+ .education-row{grid-template-columns:60px minmax(0,1fr)!important}
+ .edu-date{grid-column:2!important}
+}
