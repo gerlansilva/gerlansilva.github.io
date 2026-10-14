@@ -745,3 +745,15 @@ a:hover{color:var(--academic-green)}
 .lang-toggle-divider{width:1px;height:14px;background:#c0cbd3;display:inline-block}
 .profile-portrait{display:block;width:195px;height:195px;border-radius:50%;object-fit:cover;object-position:center 33%;border:3px solid #e6edf1;max-width:100%;margin:0 auto}
 @media(max-width:768px){.lang-toggle{margin:16px 0 6px}}
+
+/* Retrato da foto vertical: manter o rosto inteiro dentro da máscara circular */
+.profile-portrait{width:220px;height:220px;max-width:100%;border-radius:50%;object-fit:cover;object-position:center 73%;border:3px solid #e6edf1;box-shadow:0 3px 13px rgba(22,68,92,.10)}
+.interest-tags{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0 24px}
+.interest-tag{display:inline-flex;padding:6px 11px;border-radius:6px;font-size:.81rem;font-weight:600;line-height:1.5}
+.interest-blue{color:#155b9c;background:#e7f1fd}
+.interest-green{color:#18683e;background:#e4f4eb}
+.interest-red{color:#9e343e;background:#fce8ea}
+.interest-purple{color:#64449a;background:#efe9fb}
+.interest-amber{color:#85541b;background:#fff1d8}
+.edu-symbol{background:transparent;border:0;width:45px;height:45px;display:flex;align-items:center;justify-content:center;font-size:.68rem}
+.edu-symbol img{width:44px;height:44px;object-fit:contain}
