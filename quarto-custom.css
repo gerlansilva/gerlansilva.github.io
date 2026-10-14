@@ -13,3 +13,8 @@ a { text-underline-offset: 3px; }
 .about-links { font-weight: 600; }
 .grid h3 { font-size: 1.15rem; }
 .grid > div { padding: 1rem 0; }
+
+/* Ícones sem setas decorativas */
+.icon-link i, h3 > i, p > i { margin-right: .42rem; vertical-align: -.05em; }
+.icon-link { display: inline-flex; align-items: center; gap: .2rem; text-decoration: none; }
+.icon-link:hover { text-decoration: underline; }
