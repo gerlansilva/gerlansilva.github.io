@@ -29,7 +29,8 @@ jobs:
         with:
           ruby-version: '3.2'
       - name: Instalar Jekyll
-        run: gem install jekyll -v 3.10.0 --no-document
+        run: |
+          gem install jekyll -v 3.10.0 --no-document
           gem install kramdown-parser-gfm --no-document
       - name: Gerar site
         run: |
