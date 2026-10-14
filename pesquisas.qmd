@@ -21,4 +21,4 @@ Estudo da constituição e do desenvolvimento do campo da Educação Estatístic
 
 Estado da arte da produção acadêmica brasileira sobre o ensino e a aprendizagem de Probabilidade na Educação Básica, com corpus de 99 teses e dissertações defendidas de 1994 a 2021.
 
-[Acessar dissertação](https://repositorio.ufsc.br/handle/123456789/251185)
+<a class="icon-link" href="https://repositorio.ufsc.br/handle/123456789/251185"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> Acessar dissertação</a>
