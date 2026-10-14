@@ -871,3 +871,20 @@ body{background:var(--c-soft)!important}
   transform:none!important;scale:1!important;
   display:block!important;
 }
+
+/* Alinhamento editorial: somente parágrafos longos, evitando justificação em metadados */
+.card-body .col-md-9 > p:not(.text-muted):not(.mb-2),
+.project-content > p,
+.project-overview{
+  text-align:justify!important;
+  text-justify:inter-word;
+  hyphens:auto;
+  overflow-wrap:break-word;
+}
+.project-content > p{line-height:1.8;margin-bottom:14px}
+.project-overview{max-width:88ch;line-height:1.8;margin:10px 0 23px;color:#526475}
+@media(max-width:600px){
+ .card-body .col-md-9 > p:not(.text-muted):not(.mb-2),
+ .project-content > p,
+ .project-overview{hyphens:auto}
+}
