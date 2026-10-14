@@ -834,3 +834,22 @@ a:hover,.links-row a:hover,.project-line h3 a:hover{color:var(--site-green)!impo
  .education-row{grid-template-columns:60px minmax(0,1fr)!important}
  .edu-date{grid-column:2!important}
 }
+
+/* CORREÇÃO DE CONTRASTE E HIERARQUIA — prevalece sobre estilos anteriores */
+:root{--c-forest:#216b4c;--c-coral:#b84853;--c-navy:#293d52;--c-soft:#f5f8f6}
+body{background:var(--c-soft)!important}
+.site-card h2,.section-title-custom{color:var(--c-navy)!important}
+.project-line h3 a,.project-line h3 a:visited{color:var(--c-forest)!important;text-decoration:none!important}
+.project-line h3 a:hover{color:var(--c-coral)!important;text-decoration:underline!important}
+.project-line a:not(h3 a),.project-line a:not(h3 a):visited{color:var(--c-coral)!important;font-weight:600}
+.project-line a:not(h3 a) .fa-archive{color:var(--c-coral)!important}
+.pub-card h3,.pub-card h3 a{color:var(--c-navy)!important}
+.pub-card h3 a:hover{color:var(--c-forest)!important}
+.pub-card .pub-meta,.pub-card .pub-meta i{color:var(--c-forest)!important}
+.pub-card .pub-actions a,.pub-card .pub-actions a:visited{color:var(--c-coral)!important}
+.pub-card .article-type{background:#e3f2e9!important;color:var(--c-forest)!important}
+.pub-card details summary{color:var(--c-forest)!important}
+.site-card > p > a,.site-card > p > a:visited{color:var(--c-coral)!important}
+.links-row a{color:var(--c-navy)!important}
+.links-row a:hover{color:var(--c-forest)!important}
+.site-navbar .nav-link:hover,.site-navbar .nav-link.active{color:var(--c-forest)!important}
