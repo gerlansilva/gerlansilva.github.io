@@ -3,7 +3,7 @@ title: "Publicações acadêmicas"
 toc: true
 ---
 
-A produção acadêmica está organizada por tipo de documento. Consulte também meu [ORCID](https://orcid.org/0000-0002-9996-9983) e o [Currículo Lattes](http://lattes.cnpq.br/2364822008221312).
+A produção acadêmica está organizada por tipo de documento. Consulte também meu <a class="icon-link" href="https://orcid.org/0000-0002-9996-9983"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a> e o <a class="icon-link" href="http://lattes.cnpq.br/2364822008221312"><i class="ai ai-lattes" aria-hidden="true"></i> Currículo Lattes</a>.
 
 ## Artigos científicos
 
@@ -33,7 +33,7 @@ Nosso objetivo nesta pesquisa é inventariar, sistematizar, descrever e analisar
 O estudo organizou 78 dissertações e 21 teses e identificou sete núcleos temáticos, destacando-se os recursos didáticos e as metodologias de ensino da Probabilidade. As pesquisas foram codificadas no MAXQDA, contemplando aspectos teórico-metodológicos e resultados das investigações.
 :::
 
-[Consultar dissertação e registro completo](https://repositorio.ufsc.br/handle/123456789/251185?show=full)
+<a class="icon-link" href="https://repositorio.ufsc.br/handle/123456789/251185?show=full"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consultar dissertação e registro completo</a>
 
 ## Trabalho de conclusão de curso
 
@@ -44,4 +44,4 @@ O estudo organizou 78 dissertações e 21 teses e identificou sete núcleos tem�
 **Período:** 2020–2021  
 **Financiamento:** Auxílio da UFOPA para compra de livros
 
-[Consultar TCC](https://repositorio.ufopa.edu.br/items/a36d5724-8fb4-4eb7-8faa-6722ab0fc56c)
+<a class="icon-link" href="https://repositorio.ufopa.edu.br/items/a36d5724-8fb4-4eb7-8faa-6722ab0fc56c"><i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consultar TCC</a>
