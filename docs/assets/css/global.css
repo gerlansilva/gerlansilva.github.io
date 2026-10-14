@@ -737,3 +737,11 @@ a:hover{color:var(--academic-green)}
 .academic-work h3{font-size:1.12rem;font-weight:650;margin-bottom:16px}
 .academic-work p{margin-bottom:6px}
 @media(max-width:768px){body{padding-top:76px!important}.project-line{grid-template-columns:1fr}.project-art{justify-content:flex-start}.lang-switch{margin:16px 0 6px}}
+
+/* Seletor de idiomas inspirado no componente original do Academic Homepage */
+.lang-toggle{display:flex;align-items:center;gap:8px;margin-top:0}
+.lang-toggle-label{background:none;border:0;padding:3px 1px;font-family:inherit;font-size:.8rem;font-weight:600;color:#73808e;cursor:pointer}
+.lang-toggle-label.active,.lang-toggle-label:hover{color:#145e80;text-decoration:underline;text-underline-offset:5px}
+.lang-toggle-divider{width:1px;height:14px;background:#c0cbd3;display:inline-block}
+.profile-portrait{display:block;width:195px;height:195px;border-radius:50%;object-fit:cover;object-position:center 33%;border:3px solid #e6edf1;max-width:100%;margin:0 auto}
+@media(max-width:768px){.lang-toggle{margin:16px 0 6px}}
