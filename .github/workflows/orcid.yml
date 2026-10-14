@@ -1,0 +1,30 @@
+name: Sincronizar artigos do ORCID
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 9 * * 1'
+permissions:
+  contents: write
+concurrency:
+  group: orcid-import
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar API pública ORCID
+        run: python scripts/sync_orcid.py
+      - name: Salvar novos registros
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+gerlansilva@users.noreply.github.com"
+          git add _publications/orcid
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync journal articles from public ORCID record"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
