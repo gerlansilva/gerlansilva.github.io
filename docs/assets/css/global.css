@@ -764,3 +764,8 @@ a:hover{color:var(--academic-green)}
 .edu-symbol img{width:40px!important;height:40px!important;max-width:40px;max-height:40px;object-fit:contain!important;display:block}
 .section-title-custom,.site-card h2{line-height:1.45}
 @media(max-width:700px){.education-row{grid-template-columns:52px minmax(0,1fr)}.edu-date{grid-column:2}}
+
+/* Retrato: usa o arquivo original de 720x1280 sem interpolação exagerada.
+   Reduz a dimensão exibida e mantém face, testa e queixo no círculo. */
+.profile-portrait{display:block!important;width:188px!important;height:188px!important;min-width:188px;max-width:188px!important;aspect-ratio:1/1;border-radius:50%!important;object-fit:cover!important;object-position:50% 69%!important;image-rendering:auto;transform:none!important;filter:none!important;box-shadow:0 0 0 3px #e4edf0!important;margin-left:auto!important;margin-right:auto!important}
+@media(max-width:767px){.profile-portrait{width:176px!important;height:176px!important;min-width:176px;max-width:176px!important}}
