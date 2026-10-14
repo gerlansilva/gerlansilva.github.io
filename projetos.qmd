@@ -8,16 +8,16 @@ Minha aproximação com a Ciência da Informação, especialmente com os estudos
 
 Iniciativa de sistematização e preservação de registros dos Seminários Internacionais de Pesquisa em Educação Matemática. O acervo reúne informações sobre diferentes edições e procura facilitar a recuperação de documentos e registros da memória científica desse evento.
 
-[Explorar o acervo](https://gerlansilva.github.io/memoria-sipem/)
+<i class="bi bi-archive" aria-hidden="true"></i> [Explorar o acervo](https://gerlansilva.github.io/memoria-sipem/)
 
 ## Memória do GT 19
 
 Acervo dedicado à sistematização de registros históricos e produções relacionadas ao Grupo de Trabalho 19 — Educação Matemática, da ANPEd.
 
-[Explorar o acervo](https://gt19anped.pages.dev/)
+<i class="bi bi-archive" aria-hidden="true"></i> [Explorar o acervo](https://gt19anped.pages.dev/)
 
 ## Acervo da Primeira Conferência de Educação Estatística
 
 Organização e disponibilização de documentos e registros relativos à conferência realizada em Florianópolis, em 1999, visando contribuir para a preservação da memória histórica da Educação Estatística no Brasil.
 
-[Explorar o acervo](https://cieee-acervo.netlify.app/)
+<i class="bi bi-archive" aria-hidden="true"></i> [Explorar o acervo](https://cieee-acervo.netlify.app/)
