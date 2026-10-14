@@ -1,0 +1,17 @@
+title: Gerlan Silva
+description: Portfólio acadêmico
+url: https://gerlansilva.github.io
+baseurl: ""
+markdown: kramdown
+collections:
+  publications:
+    output: false
+exclude:
+  - README.md
+  - Gemfile
+  - "*.qmd"
+  - _quarto.yml
+  - quarto-custom.css
+  - script.js
+  - styles.css
+  - docs
