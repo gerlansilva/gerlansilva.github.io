@@ -7,7 +7,7 @@
   {% if a.abstract or a.keywords %}
   <details><summary><i class="fas fa-align-left"></i> Resumo e palavras-chave</summary>
    {% if a.abstract %}<p>{{a.abstract}}</p>{% else %}<p>Resumo não disponível nos metadados públicos.</p>{% endif %}
-   {% if a.keywords %}<p class="keywords"><strong>Palavras-chave:</strong> {{a.keywords | join: '; '}}</p>{% endif %}
+   {% if a.keywords and a.keywords.size > 0 %}<p class="pub-keyword-label"><strong>Palavras-chave</strong></p><div class="pub-keyword-list">{% for keyword in a.keywords %}<span class="pub-keyword">{{ keyword }}</span>{% endfor %}</div>{% endif %}
   </details>
   {% else %}<details><summary><i class="fas fa-align-left"></i> Resumo e palavras-chave</summary><p>Metadados ainda não disponibilizados na fonte consultada.</p></details>{% endif %}
   <div class="pub-actions">
