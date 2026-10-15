@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 440" role="img" aria-labelledby="title desc">
+<title id="title">Memória do EIEM</title><desc id="desc">Capa editorial do acervo do Encontro de Investigação em Educação Matemática</desc>
+<rect width="880" height="440" fill="#ffffff"/>
+<rect x="1" y="1" width="878" height="438" rx="14" fill="none" stroke="#dfe7e5" stroke-width="2"/>
+<rect x="0" y="0" width="13" height="440" fill="#2f7568"/>
+<g transform="translate(54 55)">
+<path d="M11 38 Q90 2 172 32 V254 Q90 224 11 259 Z" fill="#f0f6f3" stroke="#2f7568" stroke-width="7" stroke-linejoin="round"/>
+<path d="M172 32 Q252 2 334 38 V259 Q252 224 172 254 Z" fill="#e7eef2" stroke="#244e66" stroke-width="7" stroke-linejoin="round"/>
+<path d="M172 32 V254" stroke="#2f7568" stroke-width="5"/>
+<g stroke="#87aca3" stroke-width="6" stroke-linecap="round"><path d="M40 86 Q96 66 146 87"/><path d="M40 119 Q96 100 146 120"/><path d="M40 152 Q96 131 146 153"/></g>
+<g stroke="#8ea8b5" stroke-width="6" stroke-linecap="round"><path d="M198 87 Q254 66 309 86"/><path d="M198 120 Q254 100 309 120"/><path d="M198 153 Q254 132 309 153"/></g>
+<circle cx="172" cy="254" r="12" fill="#c27655"/>
+</g>
+<text x="451" y="113" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" letter-spacing="5" fill="#397767">ACERVO DIGITAL</text>
+<text x="445" y="212" font-family="Inter, Arial, sans-serif" font-size="108" font-weight="750" letter-spacing="-5" fill="#244e66">EIEM</text>
+<rect x="451" y="237" width="104" height="5" rx="2" fill="#c27655"/>
+<text x="451" y="289" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" fill="#263d49">Encontro de Investigação</text>
+<text x="451" y="323" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" fill="#263d49">em Educação Matemática</text>
+<text x="451" y="373" font-family="Inter, Arial, sans-serif" font-size="18" fill="#64747a">Memória · Anais · Produção científica</text>
+</svg>
