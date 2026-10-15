@@ -7,7 +7,6 @@ pub_date: "2022"
 authors:
   - Gerlan Silva da Silva
   - Rodrigo Medeiros dos Santos
-abstract: "O estudo inventaria, sistematiza e descreve a produção científica brasileira sobre formação e prática de professores que ensinam Estatística, Probabilidade e Combinatória. Analisa 34 artigos e organiza os resultados em quatro eixos temáticos relacionados a saberes docentes, formação, grupos colaborativos e trabalho docente."
 keywords:
   - "Educação Estatística"
   - "Estado do conhecimento"
