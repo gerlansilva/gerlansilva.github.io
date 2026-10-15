@@ -4,9 +4,9 @@
   <h3>{{a.title}}</h3>
   {% if a.authors and a.authors.size > 0 %}<p class="pub-author">{{a.authors | join: ', '}}</p>{% endif %}
   {% if a.pub %}<p class="pub-meta"><i class="fas fa-book"></i> <em>{{a.pub}}</em></p>{% endif %}
-  {% if a.abstract or a.keywords %}
+  {% if a.abstract or a.keywords or a.links.DOI %}
   <details><summary><i class="fas fa-align-left"></i> Resumo e palavras-chave</summary>
-   {% if a.abstract %}<p>{{a.abstract}}</p>{% else %}<p>Resumo não disponível nos metadados públicos.</p>{% endif %}
+   {% if a.abstract %}<p>{{a.abstract}}</p>{% elsif a.links.DOI %}<p>Para consultar o resumo original, acesse a <a href="{{a.links.DOI}}" target="_blank" rel="noopener">página oficial do artigo</a>. Não reproduzimos uma síntese como se fosse o resumo publicado.</p>{% endif %}
    {% if a.keywords and a.keywords.size > 0 %}<p class="pub-keyword-label"><strong>Palavras-chave</strong></p><div class="pub-keyword-list">{% for keyword in a.keywords %}<span class="pub-keyword">{{ keyword }}</span>{% endfor %}</div>{% endif %}
   </details>
   {% else %}<details><summary><i class="fas fa-align-left"></i> Resumo e palavras-chave</summary><p>Metadados ainda não disponibilizados na fonte consultada.</p></details>{% endif %}
