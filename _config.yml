@@ -2,9 +2,8 @@ title: Gerlan Silva
 description: Portfólio acadêmico
 url: https://gerlansilva.github.io
 baseurl: ""
-# Preencha com o identificador do painel https://SEU-CODIGO.goatcounter.com
-# A integração permanece desativada enquanto estiver vazio.
-goatcounter_code: ""
+# Estatísticas de acesso: https://gerlan.goatcounter.com/
+goatcounter_code: "gerlan"
 markdown: kramdown
 collections:
   publications:
