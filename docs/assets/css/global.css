@@ -888,3 +888,10 @@ body{background:var(--c-soft)!important}
  .project-content > p,
  .project-overview{hyphens:auto}
 }
+
+/* Palavras-chave: cada termo em sua própria tag, como os interesses de pesquisa */
+.pub-keyword-label{font-size:.82rem;margin:14px 0 7px!important;color:#415b63}
+.pub-keyword-list{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:0 0 5px}
+.pub-keyword{display:inline-flex;max-width:100%;padding:5px 10px;border-radius:6px;background:#e3f3e9;color:#1e654a;border:1px solid #cce7d7;font-size:.8rem;font-weight:600;line-height:1.45}
+.pub-keyword:nth-child(3n+2){background:#e9f0fa;color:#225981;border-color:#d6e3f3}
+.pub-keyword:nth-child(3n){background:#fbebec;color:#994852;border-color:#f0d7da}
