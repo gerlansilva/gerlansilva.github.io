@@ -63,46 +63,144 @@
     "text": "Sobre a apresentação\nApresentação na 17ª Reunião Regional da ANPEd Sudeste, em São Paulo, no formato de revisão crítica de tese em andamento, com orientação de Carmen Lúcia Brancaglion Passos e coorientação de Celi Espasandin Lopes.\nO trabalho discute as lacunas dos estudos métricos na Educação Matemática e propõe uma cienciometria da Educação Estatística: extração de metadados via API do OpenAlex, padronização em planilha e construção de redes de coautoria, cocitação e coocorrência no VOSviewer.\n\nCampo: Educação Estatística no Brasil e na Espanha.\nMétodo: estudo cienciométrico com apoio de Python, OpenAlex e VOSviewer.\nComplemento: entrevistas narrativas com pesquisadoras do campo."
   },
   {
-    "objectID": "projetos/memoria/observatorio-ee/index.html",
-    "href": "projetos/memoria/observatorio-ee/index.html",
-    "title": "Observatório EE",
+    "objectID": "projetos/memoria/conferencia-1999/index.html",
+    "href": "projetos/memoria/conferencia-1999/index.html",
+    "title": "Acervo da Conferência de 1999",
     "section": "",
-    "text": "Explorar o acervo  Código"
+    "text": "Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999.\nAcervo dedicado à conferência Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI, realizada em Florianópolis, entre 20 e 23 de setembro de 1999. Reúne e contextualiza os registros localizados, evitando que documentos e informações sobre essa experiência permaneçam dispersos ou pouco conhecidos."
   },
   {
-    "objectID": "projetos/memoria/observatorio-ee/index.html#sobre-o-projeto",
-    "href": "projetos/memoria/observatorio-ee/index.html#sobre-o-projeto",
-    "title": "Observatório EE",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nRepositório digital de teses e dissertações brasileiras em Educação Estatística, organizado a partir da planilha de estado da arte. Reúne metadados sobre autoria, orientação, instituição, programa, nível de ensino, foco temático e conteúdo enfocado, com interface de consulta inspirada no Tainacan.\n\nPesquisas catalogadas: 880\nInstituições: 137\nEstados: 26"
+    "objectID": "projetos/memoria/conferencia-1999/index.html#acesso-ao-acervo",
+    "href": "projetos/memoria/conferencia-1999/index.html#acesso-ao-acervo",
+    "title": "Acervo da Conferência de 1999",
+    "section": "Acesso ao acervo",
+    "text": "Acesso ao acervo\n\nAcervo digital — cieee-acervo.netlify.app\nCódigo-fonte — github.com/gerlansilva/acervo-educacao-estatistica-1999"
   },
   {
-    "objectID": "projetos/memoria/gt19/index.html",
-    "href": "projetos/memoria/gt19/index.html",
-    "title": "Memória do GT 19",
+    "objectID": "projetos/memoria/conferencia-1999/index.html#o-acervo-em-números",
+    "href": "projetos/memoria/conferencia-1999/index.html#o-acervo-em-números",
+    "title": "Acervo da Conferência de 1999",
+    "section": "O acervo em números",
+    "text": "O acervo em números\n\nTrabalhos: 61\nAutores: 126\nPaíses: 9\nEixos temáticos: 6"
+  },
+  {
+    "objectID": "projetos/memoria/sipem/index.html",
+    "href": "projetos/memoria/sipem/index.html",
+    "title": "Memória do SIPEM",
     "section": "",
-    "text": "Explorar o acervo  Código"
+    "text": "Acervo dos anais do Seminário Internacional de Pesquisa em Educação Matemática.\nO Memória do SIPEM nasceu da dificuldade de localizar e consultar, em um mesmo lugar, os registros das diferentes edições do Seminário Internacional de Pesquisa em Educação Matemática. A iniciativa reúne e organiza anais, trabalhos e informações sobre as edições, com atenção à recuperação dos documentos e à preservação da trajetória das pesquisas e dos debates do seminário."
   },
   {
-    "objectID": "projetos/memoria/gt19/index.html#sobre-o-projeto",
-    "href": "projetos/memoria/gt19/index.html#sobre-o-projeto",
-    "title": "Memória do GT 19",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nAcervo dedicado à continuidade do acesso aos trabalhos e registros do Grupo de Trabalho 19 — Educação Matemática, da ANPEd. O projeto identifica, organiza e dá visibilidade a esses registros, contribuindo para que pesquisadores possam consultar a produção do grupo em diferentes momentos e acompanhar suas discussões ao longo do tempo.\n\nÂmbito: Reuniões Nacionais da ANPEd\nConteúdo: trabalhos, coordenação e dados das edições"
+    "objectID": "projetos/memoria/sipem/index.html#acesso-ao-acervo",
+    "href": "projetos/memoria/sipem/index.html#acesso-ao-acervo",
+    "title": "Memória do SIPEM",
+    "section": "Acesso ao acervo",
+    "text": "Acesso ao acervo\n\nAcervo digital — memoria-sipem.pages.dev\nCódigo-fonte — github.com/gerlansilva/memoria-sipem"
+  },
+  {
+    "objectID": "projetos/memoria/sipem/index.html#o-acervo-em-números",
+    "href": "projetos/memoria/sipem/index.html#o-acervo-em-números",
+    "title": "Memória do SIPEM",
+    "section": "O acervo em números",
+    "text": "O acervo em números\n\nEdições: 9 realizadas\nRegistros indexados: 1.645\nPeríodo documentado: 2000–2024"
+  },
+  {
+    "objectID": "projetos/ferramentas/codificando/index.html",
+    "href": "projetos/ferramentas/codificando/index.html",
+    "title": "Codificando",
+    "section": "",
+    "text": "CAQDAS local para análise qualitativa de dados.\nO Codificando é um ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador."
+  },
+  {
+    "objectID": "projetos/ferramentas/codificando/index.html#acesso-à-ferramenta",
+    "href": "projetos/ferramentas/codificando/index.html#acesso-à-ferramenta",
+    "title": "Codificando",
+    "section": "Acesso à ferramenta",
+    "text": "Acesso à ferramenta\n\nBaixar a versão mais recente — github.com/gerlansilva/codificando/releases/latest\nCódigo-fonte — github.com/gerlansilva/codificando"
+  },
+  {
+    "objectID": "projetos/ferramentas/codificando/index.html#o-que-a-ferramenta-faz",
+    "href": "projetos/ferramentas/codificando/index.html#o-que-a-ferramenta-faz",
+    "title": "Codificando",
+    "section": "O que a ferramenta faz",
+    "text": "O que a ferramenta faz\n\nImportação: PDF, DOCX, TXT e RTF\nCodificação: direto na página do documento, com codebook hierárquico\nAnálise: trechos, consultas, comentários e relatórios\nPlataformas: macOS (Apple Silicon) e Windows (x64)\nDados: armazenados localmente"
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html",
+    "href": "projetos/ferramentas/cite/index.html",
+    "title": "Cite",
+    "section": "",
+    "text": "Gerenciador de referências local para macOS e Windows.\nO Cite organiza a biblioteca pessoal, importa metadados, pesquisa artigos online, abre PDFs com anotações e publica a bibliografia em um repositório GitHub. O aplicativo funciona de forma local, sem depender de conta ou serviço externo, e se integra ao Word por meio de um add-in próprio."
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html#acesso-à-ferramenta",
+    "href": "projetos/ferramentas/cite/index.html#acesso-à-ferramenta",
+    "title": "Cite",
+    "section": "Acesso à ferramenta",
+    "text": "Acesso à ferramenta\n\nCódigo-fonte e instaladores — github.com/gerlansilva/cite-desktop"
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html#o-que-a-ferramenta-faz",
+    "href": "projetos/ferramentas/cite/index.html#o-que-a-ferramenta-faz",
+    "title": "Cite",
+    "section": "O que a ferramenta faz",
+    "text": "O que a ferramenta faz\n\nBiblioteca: referências, metadados e PDFs em um só lugar\nLeitura: anotações em PDF e tradução de trechos\nEscrita: add-in do Word com citações e bibliografia vinculadas\nPublicação: bibliografia versionada em repositório GitHub\nPlataformas: macOS e Windows"
+  },
+  {
+    "objectID": "projetos/ferramentas/buscaem/index.html",
+    "href": "projetos/ferramentas/buscaem/index.html",
+    "title": "BuscaEM",
+    "section": "",
+    "text": "Buscador de artigos de periódicos de Educação Matemática.\nO BuscaEM é um buscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano."
+  },
+  {
+    "objectID": "projetos/ferramentas/buscaem/index.html#acesso-à-ferramenta",
+    "href": "projetos/ferramentas/buscaem/index.html#acesso-à-ferramenta",
+    "title": "BuscaEM",
+    "section": "Acesso à ferramenta",
+    "text": "Acesso à ferramenta\n\nBuscaEM — buscaem.pages.dev\nCódigo-fonte — github.com/gerlansilva/BucaEM"
+  },
+  {
+    "objectID": "projetos/ferramentas/buscaem/index.html#o-que-a-ferramenta-faz",
+    "href": "projetos/ferramentas/buscaem/index.html#o-que-a-ferramenta-faz",
+    "title": "BuscaEM",
+    "section": "O que a ferramenta faz",
+    "text": "O que a ferramenta faz\n\nBusca: por título, autoria, assunto, DOI ou expressão booleana\nFiltros: revista, idioma e ano de publicação\nFonte: periódicos OJS coletados por OAI-PMH\nCatálogo: páginas estáticas, sem servidor de aplicação"
+  },
+  {
+    "objectID": "projetos/ferramentas/margem/index.html",
+    "href": "projetos/ferramentas/margem/index.html",
+    "title": "Margem",
+    "section": "",
+    "text": "Leitor de PDF acadêmico com chat e fichamento.\nO Margem é um leitor de PDF acadêmico com um assistente de chat que cita a página e o trecho usados na resposta, além de um quadro de fichamento organizado por colunas. Foi desenvolvido em Tauri 2, com React e Rust, e funciona de forma local, com foco em leitura e anotação de textos científicos."
+  },
+  {
+    "objectID": "projetos/ferramentas/margem/index.html#acesso-à-ferramenta",
+    "href": "projetos/ferramentas/margem/index.html#acesso-à-ferramenta",
+    "title": "Margem",
+    "section": "Acesso à ferramenta",
+    "text": "Acesso à ferramenta\n\nCódigo-fonte e instaladores — github.com/gerlansilva/margem"
+  },
+  {
+    "objectID": "projetos/ferramentas/margem/index.html#o-que-a-ferramenta-faz",
+    "href": "projetos/ferramentas/margem/index.html#o-que-a-ferramenta-faz",
+    "title": "Margem",
+    "section": "O que a ferramenta faz",
+    "text": "O que a ferramenta faz\n\nLeitura: PDF acadêmico com anotações\nChat: respostas com citação de página e trecho\nFichamento: quadro com colunas configuráveis\nDados: leitura e notas mantidas na máquina do pesquisador"
   },
   {
     "objectID": "projetos/index.html",
     "href": "projetos/index.html",
     "title": "Projetos",
     "section": "",
-    "text": "Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo digital do Encontro de Investigação em Educação Matemática, em Portugal.\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistória, encontros e produção científica do GT 19 da ANPEd.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo dos anais do Seminário Internacional de Pesquisa em Educação Matemática.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeses e dissertações brasileiras em Educação Estatística.\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo digital do Encontro de Investigação em Educação Matemática, em Portugal.\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistória, encontros e produção científica do GT 19 da ANPEd.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo dos anais do Seminário Internacional de Pesquisa em Educação Matemática.\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "projetos/index.html#projetos-de-memória-científica",
     "href": "projetos/index.html#projetos-de-memória-científica",
     "title": "Projetos",
     "section": "",
-    "text": "Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo digital do Encontro de Investigação em Educação Matemática, em Portugal.\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistória, encontros e produção científica do GT 19 da ANPEd.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo dos anais do Seminário Internacional de Pesquisa em Educação Matemática.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTeses e dissertações brasileiras em Educação Estatística.\n\n\n\n\n\nSem itens correspondentes"
+    "text": "Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo digital do Encontro de Investigação em Educação Matemática, em Portugal.\n\n\n\n\n\n\n\n\n\n\n\n\n\nHistória, encontros e produção científica do GT 19 da ANPEd.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAcervo dos anais do Seminário Internacional de Pesquisa em Educação Matemática.\n\n\n\n\n\nSem itens correspondentes"
   },
   {
     "objectID": "projetos/index.html#ferramentas-para-pesquisa-qualitativa",
@@ -119,102 +217,46 @@
     "text": "Sobre os projetos\nAo consultar a produção científica de eventos, percebo como os anais, os trabalhos e outros registros podem se dispersar ou se tornar difíceis de encontrar com o passar dos anos. Muitas vezes, a disponibilização dos documentos termina junto com o evento, sem um trabalho continuado de organização, descrição, curadoria e preservação. Isso compromete não apenas o acesso aos textos, mas também a possibilidade de reconstruir a trajetória das discussões e das comunidades de pesquisa.\nFoi dessa inquietação, associada ao meu interesse pela Ciência da Informação e pelos estudos métricos, que comecei a desenvolver, por iniciativa própria, acervos digitais voltados à memória científica. Não se trata de um único projeto nem de etapas da minha tese: cada iniciativa possui um objeto, um conjunto documental e desafios específicos. O propósito comum é tornar os registros mais acessíveis, contextualizados e menos vulneráveis ao esquecimento e à perda de referências.\nEm paralelo, desenvolvo ferramentas de código aberto para o trabalho qualitativo — leitura e fichamento de textos, codificação de dados e gestão de referências — pensadas para rodar localmente, com os dados sob controle do pesquisador."
   },
   {
-    "objectID": "projetos/ferramentas/margem/index.html",
-    "href": "projetos/ferramentas/margem/index.html",
-    "title": "Margem",
+    "objectID": "projetos/memoria/gt19/index.html",
+    "href": "projetos/memoria/gt19/index.html",
+    "title": "Memória do GT 19",
     "section": "",
-    "text": "Ver o repositório  Código"
+    "text": "História, encontros e produção científica do GT 19 da ANPEd.\nAcervo dedicado à continuidade do acesso aos trabalhos e registros do Grupo de Trabalho 19 — Educação Matemática, da ANPEd. O projeto identifica, organiza e dá visibilidade a esses registros, contribuindo para que pesquisadores possam consultar a produção do grupo em diferentes momentos e acompanhar suas discussões ao longo do tempo."
   },
   {
-    "objectID": "projetos/ferramentas/margem/index.html#sobre-o-projeto",
-    "href": "projetos/ferramentas/margem/index.html#sobre-o-projeto",
-    "title": "Margem",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nLeitor de PDF acadêmico com chat que cita a página e o trecho usados na resposta, além de fichamento organizado por colunas. Desenvolvido em Tauri 2, React e Rust, com foco em leitura e anotação de textos científicos.\n\nLeitura: chat com citação de página e trecho\nFichamento: colunas configuráveis"
+    "objectID": "projetos/memoria/gt19/index.html#acesso-ao-acervo",
+    "href": "projetos/memoria/gt19/index.html#acesso-ao-acervo",
+    "title": "Memória do GT 19",
+    "section": "Acesso ao acervo",
+    "text": "Acesso ao acervo\n\nAcervo digital — gt19anped.pages.dev\nCódigo-fonte — github.com/gerlansilva/GT19-Anped"
   },
   {
-    "objectID": "projetos/ferramentas/buscaem/index.html",
-    "href": "projetos/ferramentas/buscaem/index.html",
-    "title": "BuscaEM",
-    "section": "",
-    "text": "Acessar a ferramenta  Código"
-  },
-  {
-    "objectID": "projetos/ferramentas/buscaem/index.html#sobre-o-projeto",
-    "href": "projetos/ferramentas/buscaem/index.html#sobre-o-projeto",
-    "title": "BuscaEM",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nBuscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano.\n\nFonte: periódicos OJS/OAI-PMH\nUso: busca por título, autoria, assunto, DOI ou booleana"
-  },
-  {
-    "objectID": "projetos/ferramentas/cite/index.html",
-    "href": "projetos/ferramentas/cite/index.html",
-    "title": "Cite",
-    "section": "",
-    "text": "Ver o repositório  Código"
-  },
-  {
-    "objectID": "projetos/ferramentas/cite/index.html#sobre-o-projeto",
-    "href": "projetos/ferramentas/cite/index.html#sobre-o-projeto",
-    "title": "Cite",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nGerenciador de referências local para macOS e Windows. Organiza a biblioteca pessoal, permite anotar e exportar referências, sem depender de conta ou serviço externo.\n\nPlataformas: macOS e Windows\nDados: biblioteca local"
-  },
-  {
-    "objectID": "projetos/ferramentas/codificando/index.html",
-    "href": "projetos/ferramentas/codificando/index.html",
-    "title": "Codificando",
-    "section": "",
-    "text": "Baixar a versão mais recente  Código"
-  },
-  {
-    "objectID": "projetos/ferramentas/codificando/index.html#sobre-o-projeto",
-    "href": "projetos/ferramentas/codificando/index.html#sobre-o-projeto",
-    "title": "Codificando",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nAmbiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.\n\nPlataformas: macOS e Windows\nDados: armazenados localmente"
-  },
-  {
-    "objectID": "projetos/memoria/sipem/index.html",
-    "href": "projetos/memoria/sipem/index.html",
-    "title": "Memória do SIPEM",
-    "section": "",
-    "text": "Explorar o acervo  Código"
-  },
-  {
-    "objectID": "projetos/memoria/sipem/index.html#sobre-o-projeto",
-    "href": "projetos/memoria/sipem/index.html#sobre-o-projeto",
-    "title": "Memória do SIPEM",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nO Memória do SIPEM nasceu da dificuldade de localizar e consultar, em um mesmo lugar, os registros das diferentes edições do Seminário Internacional de Pesquisa em Educação Matemática. A iniciativa reúne e organiza anais, trabalhos e informações sobre as edições, com atenção à recuperação dos documentos e à preservação da trajetória das pesquisas e dos debates do seminário.\n\nEdições: 9 realizadas\nRegistros indexados: 1.645\nPeríodo documentado: 2000–2024"
-  },
-  {
-    "objectID": "projetos/memoria/conferencia-1999/index.html",
-    "href": "projetos/memoria/conferencia-1999/index.html",
-    "title": "Acervo da Conferência de 1999",
-    "section": "",
-    "text": "Explorar o acervo  Código"
-  },
-  {
-    "objectID": "projetos/memoria/conferencia-1999/index.html#sobre-o-projeto",
-    "href": "projetos/memoria/conferencia-1999/index.html#sobre-o-projeto",
-    "title": "Acervo da Conferência de 1999",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nAcervo dedicado à conferência Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI, realizada em Florianópolis, em 1999. Reúne e contextualiza os registros localizados, evitando que documentos e informações sobre essa experiência permaneçam dispersos ou pouco conhecidos.\n\nTrabalhos: 61\nAutores: 126\nPaíses: 9"
+    "objectID": "projetos/memoria/gt19/index.html#o-que-o-acervo-reúne",
+    "href": "projetos/memoria/gt19/index.html#o-que-o-acervo-reúne",
+    "title": "Memória do GT 19",
+    "section": "O que o acervo reúne",
+    "text": "O que o acervo reúne\n\nÂmbito: Reuniões Nacionais da ANPEd\nConteúdo: trabalhos apresentados, coordenação e dados das edições\nOrganização: uma página por reunião, com a identidade visual de cada edição"
   },
   {
     "objectID": "projetos/memoria/eiem/index.html",
     "href": "projetos/memoria/eiem/index.html",
     "title": "Memória do EIEM",
     "section": "",
-    "text": "Explorar o acervo  Código"
+    "text": "Acervo digital do Encontro de Investigação em Educação Matemática, em Portugal.\nO acervo reúne e organiza os registros das diferentes edições do Encontro de Investigação em Educação Matemática (EIEM), realizado em Portugal, em especial os trabalhos publicados nos anais. A iniciativa favorece a consulta à produção científica do encontro e a preservação da história das discussões do campo."
   },
   {
-    "objectID": "projetos/memoria/eiem/index.html#sobre-o-projeto",
-    "href": "projetos/memoria/eiem/index.html#sobre-o-projeto",
+    "objectID": "projetos/memoria/eiem/index.html#acesso-ao-acervo",
+    "href": "projetos/memoria/eiem/index.html#acesso-ao-acervo",
     "title": "Memória do EIEM",
-    "section": "Sobre o projeto",
-    "text": "Sobre o projeto\nAcervo digital dedicado à memória do Encontro de Investigação em Educação Matemática (EIEM), realizado em Portugal. A iniciativa reúne e organiza registros das diferentes edições do encontro, em especial os trabalhos publicados nos anais, favorecendo a consulta à produção científica e a preservação da história das discussões do campo.\n\nEdições catalogadas: 21\nTrabalhos: 613\nPeríodo: 2006–2024"
+    "section": "Acesso ao acervo",
+    "text": "Acesso ao acervo\n\nAcervo digital — eiememoria.pages.dev\nCódigo-fonte — github.com/gerlansilva/Memoria-EIEM"
+  },
+  {
+    "objectID": "projetos/memoria/eiem/index.html#o-acervo-em-números",
+    "href": "projetos/memoria/eiem/index.html#o-acervo-em-números",
+    "title": "Memória do EIEM",
+    "section": "O acervo em números",
+    "text": "O acervo em números\n\nEdições catalogadas: 21\nTrabalhos: 613\nPeríodo documentado: 2006–2024"
   },
   {
     "objectID": "apresentacoes/index.html",
