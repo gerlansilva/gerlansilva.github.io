@@ -5,12 +5,30 @@ image: cover.jpg
 categories: ["Ferramentas para pesquisa qualitativa"]
 ---
 
-<a href="https://github.com/gerlansilva/cite-desktop" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Ver o repositório</a>
-<a href="https://github.com/gerlansilva/cite-desktop" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+<style>
+#title-block-header { display: none; }
+</style>
 
-## Sobre o projeto
+```{=html}
+<div class="proj-hero">
+  <img class="proj-logo" src="logo.png" alt="">
+  <div>
+    <h1 class="proj-title">Cite</h1>
+    <p class="proj-subtitle">Gerenciador de referências local para macOS e Windows.</p>
+  </div>
+</div>
+```
 
-Gerenciador de referências local para macOS e Windows. Organiza a biblioteca pessoal, permite anotar e exportar referências, sem depender de conta ou serviço externo.
+O Cite organiza a biblioteca pessoal, importa metadados, pesquisa artigos online, abre PDFs com anotações e publica a bibliografia em um repositório GitHub. O aplicativo funciona de forma local, sem depender de conta ou serviço externo, e se integra ao Word por meio de um add-in próprio.
 
+## Acesso à ferramenta
+
+- **Código-fonte e instaladores** — [github.com/gerlansilva/cite-desktop](https://github.com/gerlansilva/cite-desktop)
+
+## O que a ferramenta faz
+
+- **Biblioteca:** referências, metadados e PDFs em um só lugar
+- **Leitura:** anotações em PDF e tradução de trechos
+- **Escrita:** add-in do Word com citações e bibliografia vinculadas
+- **Publicação:** bibliografia versionada em repositório GitHub
 - **Plataformas:** macOS e Windows
-- **Dados:** biblioteca local

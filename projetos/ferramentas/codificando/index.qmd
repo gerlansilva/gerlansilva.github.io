@@ -5,12 +5,31 @@ image: cover.jpg
 categories: ["Ferramentas para pesquisa qualitativa"]
 ---
 
-<a href="https://github.com/gerlansilva/codificando/releases/latest" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Baixar a versão mais recente</a>
-<a href="https://github.com/gerlansilva/codificando" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+<style>
+#title-block-header { display: none; }
+</style>
 
-## Sobre o projeto
+```{=html}
+<div class="proj-hero">
+  <img class="proj-logo" src="logo.png" alt="">
+  <div>
+    <h1 class="proj-title">Codificando</h1>
+    <p class="proj-subtitle">CAQDAS local para análise qualitativa de dados.</p>
+  </div>
+</div>
+```
 
-Ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.
+O Codificando é um ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.
 
-- **Plataformas:** macOS e Windows
+## Acesso à ferramenta
+
+- **Baixar a versão mais recente** — [github.com/gerlansilva/codificando/releases/latest](https://github.com/gerlansilva/codificando/releases/latest)
+- **Código-fonte** — [github.com/gerlansilva/codificando](https://github.com/gerlansilva/codificando)
+
+## O que a ferramenta faz
+
+- **Importação:** PDF, DOCX, TXT e RTF
+- **Codificação:** direto na página do documento, com codebook hierárquico
+- **Análise:** trechos, consultas, comentários e relatórios
+- **Plataformas:** macOS (Apple Silicon) e Windows (x64)
 - **Dados:** armazenados localmente

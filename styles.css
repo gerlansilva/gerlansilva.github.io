@@ -492,8 +492,7 @@ body.quarto-dark .about-link:hover {
 }
 
 /* Botão de apresentação (Google Slides) */
-.btn-slides,
-.btn-projeto {
+.btn-slides {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
@@ -508,26 +507,66 @@ body.quarto-dark .about-link:hover {
   border: 1px solid #1e7a4f;
 }
 
-.btn-slides:hover,
-.btn-projeto:hover {
+.btn-slides:hover {
   background-color: #15603d;
   border-color: #15603d;
   color: #ffffff !important;
   text-decoration: none;
 }
 
-.btn-projeto {
-  margin-right: 0.5rem;
+/* Cabeçalho das páginas de projeto */
+.proj-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  margin: 0 0 1.4rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid #e6ece8;
 }
 
-.btn-projeto-outline {
-  background-color: transparent;
-  color: #1e7a4f !important;
+.proj-logo {
+  flex: none;
+  height: 58px;
+  width: auto;
+  max-width: 96px;
+  object-fit: contain;
 }
 
-.btn-projeto-outline:hover {
-  background-color: #1e7a4f;
-  color: #ffffff !important;
+.proj-logo-wide {
+  height: 42px;
+  max-width: 300px;
+}
+
+.proj-hero-logo {
+  display: block;
+}
+
+.proj-hero-logo .proj-subtitle {
+  margin-top: 0.55rem;
+}
+
+.proj-title {
+  font-size: 2.1rem;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.proj-subtitle {
+  margin: 0.3rem 0 0;
+  color: #5a6b63;
+  font-size: 1.02rem;
+}
+
+@media (max-width: 576px) {
+  .proj-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .proj-title {
+    font-size: 1.7rem;
+  }
 }
 
 /* Grade de projetos: três cartões por linha */

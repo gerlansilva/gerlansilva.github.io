@@ -5,12 +5,29 @@ image: cover.jpg
 categories: ["Memória científica"]
 ---
 
-<a href="https://gt19anped.pages.dev" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Explorar o acervo</a>
-<a href="https://github.com/gerlansilva/GT19-Anped" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+<style>
+#title-block-header { display: none; }
+</style>
 
-## Sobre o projeto
+```{=html}
+<div class="proj-hero">
+  <img class="proj-logo" src="logo.png" alt="">
+  <div>
+    <h1 class="proj-title">Memória do GT 19</h1>
+    <p class="proj-subtitle">História, encontros e produção científica do GT 19 da ANPEd.</p>
+  </div>
+</div>
+```
 
 Acervo dedicado à continuidade do acesso aos trabalhos e registros do Grupo de Trabalho 19 — Educação Matemática, da ANPEd. O projeto identifica, organiza e dá visibilidade a esses registros, contribuindo para que pesquisadores possam consultar a produção do grupo em diferentes momentos e acompanhar suas discussões ao longo do tempo.
 
+## Acesso ao acervo
+
+- **Acervo digital** — [gt19anped.pages.dev](https://gt19anped.pages.dev)
+- **Código-fonte** — [github.com/gerlansilva/GT19-Anped](https://github.com/gerlansilva/GT19-Anped)
+
+## O que o acervo reúne
+
 - **Âmbito:** Reuniões Nacionais da ANPEd
-- **Conteúdo:** trabalhos, coordenação e dados das edições
+- **Conteúdo:** trabalhos apresentados, coordenação e dados das edições
+- **Organização:** uma página por reunião, com a identidade visual de cada edição
