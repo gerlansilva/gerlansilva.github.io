@@ -335,7 +335,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link active" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link active" data-scroll-target="#o-que-é">O que é</a></li>
+  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">Como funciona</a></li>
+  <li><a href="#recursos-principais" id="toc-recursos-principais" class="nav-link" data-scroll-target="#recursos-principais">Recursos principais</a></li>
+  <li><a href="#integração-com-o-word" id="toc-integração-com-o-word" class="nav-link" data-scroll-target="#integração-com-o-word">Integração com o Word</a></li>
+  <li><a href="#requisitos-e-instalação" id="toc-requisitos-e-instalação" class="nav-link" data-scroll-target="#requisitos-e-instalação">Requisitos e instalação</a></li>
+  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
   </ul>
 </nav>
     </div>
@@ -372,16 +377,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="proj-intro">
 <p><img src="logo-cite-v3.png" align="right" width="30%" class="proj-featured" alt="Cite"></p>
-<p>O Cite organiza a biblioteca pessoal, importa metadados, pesquisa artigos online, abre PDFs com anotações e publica a bibliografia em um repositório GitHub. O aplicativo funciona de forma local, sem depender de conta ou serviço externo, e se integra ao Word por meio de um add-in próprio.</p>
-<p><strong>Principais características:</strong></p>
+<p>O Cite é um gerenciador de referências que funciona inteiramente na máquina do pesquisador. A biblioteca fica em uma pasta local, sem conta, assinatura ou servidor intermediário, e o aplicativo cobre o percurso completo: coletar a referência, ler e anotar o PDF, citar no texto e publicar a bibliografia.</p>
+</div>
+<section id="o-que-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é">O que é</h2>
+<p>Inspirado no fluxo do Paperpile, o Cite reúne biblioteca, leitor de PDF e integração com o Word em uma única aplicação desktop. A versão atual é a <strong>0.3.9</strong>, disponível para macOS e Windows.</p>
+</section>
+<section id="como-funciona" class="level2">
+<h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<p>Na primeira execução, o Cite cria a biblioteca em <code>~/Documents/Cite</code> e abre a tela inicial, com o resumo do acervo, as referências recentes e os atalhos para criar uma referência, buscar artigos ou importar um PDF. O caminho da biblioteca fica registrado nas preferências do sistema, e o aplicativo abre uma tela de recuperação caso a pasta tenha sido movida ou perdido a permissão de escrita.</p>
+</section>
+<section id="recursos-principais" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-principais">Recursos principais</h2>
 <ul>
-<li><strong>Biblioteca:</strong> referências, metadados e PDFs em um só lugar</li>
-<li><strong>Leitura:</strong> anotações em PDF e tradução de trechos</li>
-<li><strong>Escrita:</strong> add-in do Word com citações e bibliografia vinculadas</li>
-<li><strong>Publicação:</strong> bibliografia versionada em repositório GitHub</li>
-<li><strong>Plataformas:</strong> macOS e Windows</li>
+<li><strong>Biblioteca local</strong> com favoritos, lixeira, coleções, etiquetas e busca;</li>
+<li><strong>Importação</strong> de BibTeX e RIS; <strong>exportação</strong> em BibTeX, RIS, Markdown e CSV;</li>
+<li><strong>Estilos de citação</strong> ABNT, APA, MLA, Harvard, Vancouver e Chicago;</li>
+<li><strong>Busca online</strong> em Crossref, arXiv, PubMed e Google Acadêmico, com paginação por “Carregar mais”;</li>
+<li><strong>Download de PDFs</strong> de acesso aberto via OpenAlex;</li>
+<li><strong>Leitor de PDF</strong> com destaque, sublinhado, tachado, comentários por página, busca, zoom, rotação e tema claro ou escuro;</li>
+<li><strong>Tradução de trechos</strong> para português, inglês, espanhol e Tetum Dili.</li>
 </ul>
+</section>
+<section id="integração-com-o-word" class="level2">
+<h2 class="anchored" data-anchor-id="integração-com-o-word">Integração com o Word</h2>
+<p>O add-in cria uma aba <strong>Cite</strong> na faixa de opções do Word, com os botões para inserir citação, inserir bibliografia e abrir o painel. As citações são gravadas como campos vinculados, o que permite combinar referências, definir página, prefixo, sufixo, apud, citação narrativa e omissão de autor ou ano.</p>
+<p>A bibliografia acompanha o texto: ao remover uma citação, a referência sai da lista, e <strong>Atualizar citações</strong> reformata o documento quando o estilo ou a biblioteca muda. <strong>Desvincular citações</strong> converte os campos em texto comum. O painel é servido localmente em <code>https://localhost:23120</code>, com certificado instalado no sistema, e funciona offline enquanto o aplicativo está aberto.</p>
+</section>
+<section id="requisitos-e-instalação" class="level2">
+<h2 class="anchored" data-anchor-id="requisitos-e-instalação">Requisitos e instalação</h2>
+<p>Os instaladores estão na página de releases. No macOS, o aplicativo é um <code>.dmg</code>; no Windows, um instalador NSIS por usuário, que não exige administrador. O build não tem certificado de desenvolvedor, então o sistema pode exibir aviso na primeira abertura — é só confirmar em <strong>Abrir mesmo assim</strong> ou <strong>Executar assim mesmo</strong>.</p>
+</section>
 <section id="acesso-à-ferramenta" class="level2">
 <h2 class="anchored" data-anchor-id="acesso-à-ferramenta">Acesso à ferramenta</h2>
 <ul>

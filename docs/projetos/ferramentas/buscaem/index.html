@@ -335,7 +335,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link active" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link active" data-scroll-target="#o-que-é">O que é</a></li>
+  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">Como funciona</a></li>
+  <li><a href="#recursos-principais" id="toc-recursos-principais" class="nav-link" data-scroll-target="#recursos-principais">Recursos principais</a></li>
+  <li><a href="#política-de-metadados" id="toc-política-de-metadados" class="nav-link" data-scroll-target="#política-de-metadados">Política de metadados</a></li>
+  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
   </ul>
 </nav>
     </div>
@@ -372,15 +376,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="proj-intro">
 <p><img src="logo.png" align="right" width="30%" class="proj-featured" alt="BuscaEM"></p>
-<p>O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano.</p>
-<p><strong>Principais características:</strong></p>
+<p>O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Em vez de consultar revista por revista, o pesquisador pesquisa em um catálogo único de metadados, com filtros por periódico, idioma e ano, e chega ao artigo na fonte original.</p>
+</div>
+<section id="o-que-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é">O que é</h2>
+<p>O catálogo é estático: as páginas são geradas a partir de um índice de metadados, sem banco de dados nem servidor de aplicação. Cada registro guarda o vínculo com a revista e com o texto completo na fonte oficial.</p>
+</section>
+<section id="como-funciona" class="level2">
+<h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<p>A coleta usa o protocolo <strong>OAI-PMH</strong>, que os periódicos em Open Journal Systems expõem para interoperabilidade. Um script audita as fontes, identifica as que respondem ao protocolo e coleta os registros; um segundo script reúne o catálogo principal com o backfile do Crossref e publica os índices que o site consome. A rotina roda em GitHub Actions e pode ser refeita manualmente.</p>
+</section>
+<section id="recursos-principais" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-principais">Recursos principais</h2>
 <ul>
-<li><strong>Busca:</strong> por título, autoria, assunto, DOI ou expressão booleana</li>
-<li><strong>Filtros:</strong> revista, idioma e ano de publicação</li>
-<li><strong>Fonte:</strong> periódicos OJS coletados por OAI-PMH</li>
-<li><strong>Catálogo:</strong> páginas estáticas, sem servidor de aplicação</li>
+<li><strong>Busca por</strong> título, autoria, assunto, DOI e expressão booleana (<code>AND</code>, <code>OR</code>, <code>NOT</code>, frase exata);</li>
+<li><strong>Filtros</strong> por revista, idioma e intervalo de anos;</li>
+<li><strong>Ordenação</strong> por relevância, título ou ano;</li>
+<li><strong>Catálogo estático</strong>, que carrega rápido e não depende de backend;</li>
+<li><strong>Metadados rastreáveis</strong>, sempre vinculados à fonte original.</li>
 </ul>
+</section>
+<section id="política-de-metadados" class="level2">
+<h2 class="anchored" data-anchor-id="política-de-metadados">Política de metadados</h2>
+<p>A fonte preferencial é o OAI/OJS do próprio periódico ou a SciELO oficial; o Crossref entra como alternativa. O título e o resumo em inglês só são preenchidos quando a própria fonte fornece a variante — o buscador não traduz nem completa campos por conta própria.</p>
+</section>
 <section id="acesso-à-ferramenta" class="level2">
 <h2 class="anchored" data-anchor-id="acesso-à-ferramenta">Acesso à ferramenta</h2>
 <ul>

@@ -74,7 +74,35 @@
     "href": "projetos/ferramentas/margem/index.html",
     "title": "Margem",
     "section": "",
-    "text": "O Margem é um leitor de PDF acadêmico com um assistente de chat que cita a página e o trecho usados na resposta, além de um quadro de fichamento organizado por colunas. Foi desenvolvido em Tauri 2, com React e Rust, e funciona de forma local, com foco em leitura e anotação de textos científicos.\nPrincipais características:"
+    "text": "O Margem é um leitor de PDF acadêmico com um assistente que responde citando página e trecho, e um quadro de fichamento preenchido por colunas. A pergunta nasce na margem: você lê o artigo, anota a dúvida ao lado do parágrafo e a resposta volta apontando de onde saiu."
+  },
+  {
+    "objectID": "projetos/ferramentas/margem/index.html#o-que-é",
+    "href": "projetos/ferramentas/margem/index.html#o-que-é",
+    "title": "Margem",
+    "section": "O que é",
+    "text": "O que é\nO aplicativo é construído em Tauri 2 (Rust e React), com armazenamento local em SQLite. A versão atual é a 0.3.0, para macOS e Windows. O assistente usa a API da DeepSeek, com a chave do próprio pesquisador guardada no cofre do sistema — Keychain no macOS, Credential Manager no Windows."
+  },
+  {
+    "objectID": "projetos/ferramentas/margem/index.html#como-funciona",
+    "href": "projetos/ferramentas/margem/index.html#como-funciona",
+    "title": "Margem",
+    "section": "Como funciona",
+    "text": "Como funciona\nCada PDF é convertido em leitura Markdown com âncoras por página. Ao perguntar, o modelo responde com marcações como [D1 p.7]; clicar na citação abre o PDF na página exata e destaca as linhas usadas. É possível selecionar um trecho e perguntar só sobre ele, ou colocar um segundo documento no escopo do chat para comparar os dois."
+  },
+  {
+    "objectID": "projetos/ferramentas/margem/index.html#recursos-principais",
+    "href": "projetos/ferramentas/margem/index.html#recursos-principais",
+    "title": "Margem",
+    "section": "Recursos principais",
+    "text": "Recursos principais\n\nChat com o documento, com citação de página e trecho clicáveis;\nFichamento por colunas: você define nome e instrução, e a IA preenche cada célula com valor, trecho literal e página — sem trecho verificado, a célula fica “não encontrado”;\nExtração por conjunto de documentos, com progresso por arquivo e a opção de refazer apenas células vazias;\nExportação do fichamento em CSV (abre no Excel em português) e das conversas e notas em Markdown;\nDestaques e notas em cinco cores, salvos por documento;\nBusca no acervo, por palavras e, com embeddings configurados, também por significado;\nRelacionados via OpenAlex, com referências, citações e download de PDFs de acesso aberto;\nRespostas verificáveis: citação de página não enviada ao modelo aparece tracejada, com aviso."
+  },
+  {
+    "objectID": "projetos/ferramentas/margem/index.html#requisitos-e-instalação",
+    "href": "projetos/ferramentas/margem/index.html#requisitos-e-instalação",
+    "title": "Margem",
+    "section": "Requisitos e instalação",
+    "text": "Requisitos e instalação\nHá instalador para Windows e .dmg universal para macOS. Na primeira execução, é preciso abrir as configurações e colar a chave da DeepSeek. O aplicativo não é assinado: no macOS, clique com o botão direito no app e escolha Abrir."
   },
   {
     "objectID": "projetos/ferramentas/margem/index.html#acesso-à-ferramenta",
@@ -88,7 +116,35 @@
     "href": "projetos/ferramentas/buscaem/index.html",
     "title": "BuscaEM",
     "section": "",
-    "text": "O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano.\nPrincipais características:"
+    "text": "O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Em vez de consultar revista por revista, o pesquisador pesquisa em um catálogo único de metadados, com filtros por periódico, idioma e ano, e chega ao artigo na fonte original."
+  },
+  {
+    "objectID": "projetos/ferramentas/buscaem/index.html#o-que-é",
+    "href": "projetos/ferramentas/buscaem/index.html#o-que-é",
+    "title": "BuscaEM",
+    "section": "O que é",
+    "text": "O que é\nO catálogo é estático: as páginas são geradas a partir de um índice de metadados, sem banco de dados nem servidor de aplicação. Cada registro guarda o vínculo com a revista e com o texto completo na fonte oficial."
+  },
+  {
+    "objectID": "projetos/ferramentas/buscaem/index.html#como-funciona",
+    "href": "projetos/ferramentas/buscaem/index.html#como-funciona",
+    "title": "BuscaEM",
+    "section": "Como funciona",
+    "text": "Como funciona\nA coleta usa o protocolo OAI-PMH, que os periódicos em Open Journal Systems expõem para interoperabilidade. Um script audita as fontes, identifica as que respondem ao protocolo e coleta os registros; um segundo script reúne o catálogo principal com o backfile do Crossref e publica os índices que o site consome. A rotina roda em GitHub Actions e pode ser refeita manualmente."
+  },
+  {
+    "objectID": "projetos/ferramentas/buscaem/index.html#recursos-principais",
+    "href": "projetos/ferramentas/buscaem/index.html#recursos-principais",
+    "title": "BuscaEM",
+    "section": "Recursos principais",
+    "text": "Recursos principais\n\nBusca por título, autoria, assunto, DOI e expressão booleana (AND, OR, NOT, frase exata);\nFiltros por revista, idioma e intervalo de anos;\nOrdenação por relevância, título ou ano;\nCatálogo estático, que carrega rápido e não depende de backend;\nMetadados rastreáveis, sempre vinculados à fonte original."
+  },
+  {
+    "objectID": "projetos/ferramentas/buscaem/index.html#política-de-metadados",
+    "href": "projetos/ferramentas/buscaem/index.html#política-de-metadados",
+    "title": "BuscaEM",
+    "section": "Política de metadados",
+    "text": "Política de metadados\nA fonte preferencial é o OAI/OJS do próprio periódico ou a SciELO oficial; o Crossref entra como alternativa. O título e o resumo em inglês só são preenchidos quando a própria fonte fornece a variante — o buscador não traduz nem completa campos por conta própria."
   },
   {
     "objectID": "projetos/ferramentas/buscaem/index.html#acesso-à-ferramenta",
@@ -102,7 +158,35 @@
     "href": "projetos/memoria/eiem/index.html",
     "title": "Memória do EIEM",
     "section": "",
-    "text": "O acervo reúne e organiza os registros das diferentes edições do Encontro de Investigação em Educação Matemática (EIEM), realizado em Portugal, em especial os trabalhos publicados nos anais. A iniciativa favorece a consulta à produção científica do encontro e a preservação da história das discussões do campo.\nPrincipais características:"
+    "text": "O Encontro de Investigação em Educação Matemática (EIEM), promovido pela SPIEM, é um dos principais fóruns portugueses de discussão da pesquisa em Educação Matemática. O acervo reúne os trabalhos apresentados nas edições do encontro e permite consultá-los de forma integrada, por edição, autoria ou tema."
+  },
+  {
+    "objectID": "projetos/memoria/eiem/index.html#sobre-o-acervo",
+    "href": "projetos/memoria/eiem/index.html#sobre-o-acervo",
+    "title": "Memória do EIEM",
+    "section": "Sobre o acervo",
+    "text": "Sobre o acervo\nAs atas de cada edição são a fonte principal. Os registros foram organizados em um catálogo único, com vínculo ao PDF individual de cada trabalho, de modo que a consulta não dependa de percorrer volumes completos. A edição de 2024, realizada no Porto, foi a primeira catalogada; as demais foram incorporadas progressivamente."
+  },
+  {
+    "objectID": "projetos/memoria/eiem/index.html#o-acervo-em-números",
+    "href": "projetos/memoria/eiem/index.html#o-acervo-em-números",
+    "title": "Memória do EIEM",
+    "section": "O acervo em números",
+    "text": "O acervo em números\n\n613 trabalhos catalogados;\n21 edições do encontro;\n2006–2024 como período documentado;\ncidades-sede como Porto, Aveiro, Coimbra, Évora, Lisboa, Setúbal, Bragança, Vila Real, Póvoa de Varzim, Castelo de Vide, Santarém, Alte, Costa da Caparica, São Pedro do Sul e Vieira de Leiria."
+  },
+  {
+    "objectID": "projetos/memoria/eiem/index.html#como-consultar",
+    "href": "projetos/memoria/eiem/index.html#como-consultar",
+    "title": "Memória do EIEM",
+    "section": "Como consultar",
+    "text": "Como consultar\nA busca percorre título, resumo, palavras-chave, autoria e instituição. Há filtro por tipo de trabalho e ordenação por ano ou título. Cada resultado abre uma ficha com autor, sigla da instituição, país, resumo e palavras-chave, além do botão para o PDF."
+  },
+  {
+    "objectID": "projetos/memoria/eiem/index.html#critérios-editoriais",
+    "href": "projetos/memoria/eiem/index.html#critérios-editoriais",
+    "title": "Memória do EIEM",
+    "section": "Critérios editoriais",
+    "text": "Critérios editoriais\nOs metadados vêm das atas e não são inferidos. Titulação que não consta na fonte fica em branco; a associação entre autor e instituição só é feita quando a ordem dos elementos permite. O texto integral das afiliações é preservado no catálogo, o que permite conferir cada associação antes de usar os dados em análises bibliométricas."
   },
   {
     "objectID": "projetos/memoria/eiem/index.html#acesso-ao-acervo",
@@ -116,7 +200,28 @@
     "href": "projetos/memoria/gt19/index.html",
     "title": "Memória do GT 19",
     "section": "",
-    "text": "Acervo dedicado à continuidade do acesso aos trabalhos e registros do Grupo de Trabalho 19 — Educação Matemática, da ANPEd. O projeto identifica, organiza e dá visibilidade a esses registros, contribuindo para que pesquisadores possam consultar a produção do grupo em diferentes momentos e acompanhar suas discussões ao longo do tempo.\nPrincipais características:"
+    "text": "O Grupo de Trabalho 19 — Educação Matemática — é um dos espaços de maior continuidade da pesquisa brasileira em Educação Matemática dentro da ANPEd. O acervo reúne os trabalhos apresentados nas Reuniões Nacionais, os minicursos oferecidos e os registros que ajudam a acompanhar a trajetória do grupo."
+  },
+  {
+    "objectID": "projetos/memoria/gt19/index.html#sobre-o-acervo",
+    "href": "projetos/memoria/gt19/index.html#sobre-o-acervo",
+    "title": "Memória do GT 19",
+    "section": "Sobre o acervo",
+    "text": "Sobre o acervo\nCada edição da Reunião Nacional ganha uma página própria, com o tema do encontro, a cidade-sede, a coordenação do GT naquele período e a lista de trabalhos. A identidade visual de cada reunião é preservada, o que permite reconhecer a evolução do encontro ao longo do tempo.\nAlém dos trabalhos, o acervo mantém uma seção de artigos e produções sobre o próprio GT, as lives realizadas pelo grupo e um panorama com dados das edições."
+  },
+  {
+    "objectID": "projetos/memoria/gt19/index.html#o-que-o-acervo-reúne",
+    "href": "projetos/memoria/gt19/index.html#o-que-o-acervo-reúne",
+    "title": "Memória do GT 19",
+    "section": "O que o acervo reúne",
+    "text": "O que o acervo reúne\n\nTrabalhos e minicursos apresentados no GT 19 em cada Reunião Nacional;\n42ª Reunião Nacional (João Pessoa, 2025), com 27 trabalhos;\n41ª Reunião Nacional (Manaus, 2023), com 25 trabalhos e 2 minicursos;\n40ª Reunião Nacional (Belém, 2021), realizada em formato virtual;\nArtigos e pesquisas sobre o GT 19, com produção acadêmica a respeito do grupo;\nLives do GT 19, com os registros audiovisuais das atividades."
+  },
+  {
+    "objectID": "projetos/memoria/gt19/index.html#como-consultar",
+    "href": "projetos/memoria/gt19/index.html#como-consultar",
+    "title": "Memória do GT 19",
+    "section": "Como consultar",
+    "text": "Como consultar\nA navegação parte da lista de edições: escolhida a reunião, a página mostra o tema, a coordenação e os trabalhos, com acesso aos documentos disponíveis para download. A seção de acervo reúne os artigos sobre o GT e a seção de dados sintetiza a presença do grupo nas reuniões."
   },
   {
     "objectID": "projetos/memoria/gt19/index.html#acesso-ao-acervo",
@@ -179,7 +284,35 @@
     "href": "projetos/memoria/conferencia-1999/index.html",
     "title": "Acervo da Conferência de 1999",
     "section": "",
-    "text": "Acervo dedicado à conferência Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI, realizada em Florianópolis, entre 20 e 23 de setembro de 1999. Reúne e contextualiza os registros localizados, evitando que documentos e informações sobre essa experiência permaneçam dispersos ou pouco conhecidos.\nA conferência reuniu docentes, pesquisadores, instituições educacionais, associações de Estatística e especialistas em didática da Estatística. O acervo preserva a estrutura documental do site original, publicado em 1999, e oferece uma interface contemporânea para consultar os trabalhos.\nPrincipais características:"
+    "text": "A conferência Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI reuniu, em Florianópolis, entre 20 e 23 de setembro de 1999, docentes, pesquisadores, associações de Estatística e especialistas em didática da Estatística. O acervo preserva os registros localizados desse encontro e os devolve em uma interface contemporânea de consulta."
+  },
+  {
+    "objectID": "projetos/memoria/conferencia-1999/index.html#sobre-o-acervo",
+    "href": "projetos/memoria/conferencia-1999/index.html#sobre-o-acervo",
+    "title": "Acervo da Conferência de 1999",
+    "section": "Sobre o acervo",
+    "text": "Sobre o acervo\nO ponto de partida é o site oficial da conferência, publicado em 1999. A estrutura documental original foi mantida — eixos temáticos, fichas de trabalhos, autores, instituições e logotipos institucionais —, mas a navegação, a tipografia e a apresentação foram reconstruídas para telas atuais.\nO trabalho de recuperação não completa lacunas com informação suposta: quando um documento ou imagem não foi localizado, o acervo registra a ausência em vez de preencher o campo."
+  },
+  {
+    "objectID": "projetos/memoria/conferencia-1999/index.html#o-acervo-em-números",
+    "href": "projetos/memoria/conferencia-1999/index.html#o-acervo-em-números",
+    "title": "Acervo da Conferência de 1999",
+    "section": "O acervo em números",
+    "text": "O acervo em números\n\n61 trabalhos apresentados e catalogados;\n126 autores com afiliação registrada;\n9 países de origem das instituições;\n6 eixos temáticos que organizam a programação;\n7 logotipos institucionais preservados na identidade do evento."
+  },
+  {
+    "objectID": "projetos/memoria/conferencia-1999/index.html#como-consultar",
+    "href": "projetos/memoria/conferencia-1999/index.html#como-consultar",
+    "title": "Acervo da Conferência de 1999",
+    "section": "Como consultar",
+    "text": "Como consultar\nA página inicial concentra o catálogo completo. A busca é instantânea e percorre títulos, autores, instituições e resumos; o seletor de eixo restringe o resultado a um dos seis eixos temáticos. Cada ficha exibe título, autoria, afiliação, eixo e resumo."
+  },
+  {
+    "objectID": "projetos/memoria/conferencia-1999/index.html#preservação-e-identidade",
+    "href": "projetos/memoria/conferencia-1999/index.html#preservação-e-identidade",
+    "title": "Acervo da Conferência de 1999",
+    "section": "Preservação e identidade",
+    "text": "Preservação e identidade\nA marca do acervo retoma a ponte em perspectiva do material original, em azul institucional e tipografia seriada. Os números e a faixa de logotipos funcionam como resumo do evento e como prova da proveniência dos documentos reunidos."
   },
   {
     "objectID": "projetos/memoria/conferencia-1999/index.html#acesso-ao-acervo",
@@ -193,7 +326,35 @@
     "href": "projetos/memoria/sipem/index.html",
     "title": "Memória do SIPEM",
     "section": "",
-    "text": "O Memória do SIPEM nasceu da dificuldade de localizar e consultar, em um mesmo lugar, os registros das diferentes edições do Seminário Internacional de Pesquisa em Educação Matemática. A iniciativa reúne e organiza anais, trabalhos e informações sobre as edições, com atenção à recuperação dos documentos e à preservação da trajetória das pesquisas e dos debates do seminário.\nPrincipais características:"
+    "text": "O Seminário Internacional de Pesquisa em Educação Matemática (SIPEM) reúne, desde 2000, a pesquisa brasileira da área em edições realizadas a cada três anos. O acervo organiza os anais dessas edições em um catálogo pesquisável, preservando o vínculo de cada registro com a publicação original."
+  },
+  {
+    "objectID": "projetos/memoria/sipem/index.html#sobre-o-acervo",
+    "href": "projetos/memoria/sipem/index.html#sobre-o-acervo",
+    "title": "Memória do SIPEM",
+    "section": "Sobre o acervo",
+    "text": "Sobre o acervo\nO projeto nasceu da dificuldade de localizar, em um mesmo lugar, os trabalhos dispersos entre volumes de anais, páginas de eventos e repositórios institucionais. Em vez de reunir apenas os PDFs, o acervo reconstrói o registro bibliográfico de cada trabalho — título, autoria, resumo, palavras-chave, grupo de trabalho e paginação — e o liga à fonte oficial."
+  },
+  {
+    "objectID": "projetos/memoria/sipem/index.html#o-acervo-em-números",
+    "href": "projetos/memoria/sipem/index.html#o-acervo-em-números",
+    "title": "Memória do SIPEM",
+    "section": "O acervo em números",
+    "text": "O acervo em números\n\n9 edições realizadas entre 2000 e 2024;\n1.645 registros indexados;\ntrabalhos pesquisáveis em todas as edições;\nperíodo documentado de 2000 a 2024."
+  },
+  {
+    "objectID": "projetos/memoria/sipem/index.html#como-consultar",
+    "href": "projetos/memoria/sipem/index.html#como-consultar",
+    "title": "Memória do SIPEM",
+    "section": "Como consultar",
+    "text": "Como consultar\nA interface tem três rotas. A apresentação traz os números gerais e a linha do tempo das edições. A história de cada edição reúne tema, local, grupos de trabalho e fontes. Os anais oferecem busca local por título, autoria, instituição, resumo e palavras-chave, com filtro por GT, ordenação e paginação. Toda a busca roda no navegador, sem servidor."
+  },
+  {
+    "objectID": "projetos/memoria/sipem/index.html#critérios-de-preservação",
+    "href": "projetos/memoria/sipem/index.html#critérios-de-preservação",
+    "title": "Memória do SIPEM",
+    "section": "Critérios de preservação",
+    "text": "Critérios de preservação\nO acervo segue princípios editoriais explícitos: não inventar metadados ausentes; manter o link da fonte oficial junto de cada registro; identificar documentos incompletos; separar trabalhos, conferências, mesas, relatórios e expediente; e só disponibilizar cópia própria quando houver autorização ou base clara para redistribuição."
   },
   {
     "objectID": "projetos/memoria/sipem/index.html#acesso-ao-acervo",
@@ -207,7 +368,42 @@
     "href": "projetos/ferramentas/cite/index.html",
     "title": "Cite",
     "section": "",
-    "text": "O Cite organiza a biblioteca pessoal, importa metadados, pesquisa artigos online, abre PDFs com anotações e publica a bibliografia em um repositório GitHub. O aplicativo funciona de forma local, sem depender de conta ou serviço externo, e se integra ao Word por meio de um add-in próprio.\nPrincipais características:"
+    "text": "O Cite é um gerenciador de referências que funciona inteiramente na máquina do pesquisador. A biblioteca fica em uma pasta local, sem conta, assinatura ou servidor intermediário, e o aplicativo cobre o percurso completo: coletar a referência, ler e anotar o PDF, citar no texto e publicar a bibliografia."
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html#o-que-é",
+    "href": "projetos/ferramentas/cite/index.html#o-que-é",
+    "title": "Cite",
+    "section": "O que é",
+    "text": "O que é\nInspirado no fluxo do Paperpile, o Cite reúne biblioteca, leitor de PDF e integração com o Word em uma única aplicação desktop. A versão atual é a 0.3.9, disponível para macOS e Windows."
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html#como-funciona",
+    "href": "projetos/ferramentas/cite/index.html#como-funciona",
+    "title": "Cite",
+    "section": "Como funciona",
+    "text": "Como funciona\nNa primeira execução, o Cite cria a biblioteca em ~/Documents/Cite e abre a tela inicial, com o resumo do acervo, as referências recentes e os atalhos para criar uma referência, buscar artigos ou importar um PDF. O caminho da biblioteca fica registrado nas preferências do sistema, e o aplicativo abre uma tela de recuperação caso a pasta tenha sido movida ou perdido a permissão de escrita."
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html#recursos-principais",
+    "href": "projetos/ferramentas/cite/index.html#recursos-principais",
+    "title": "Cite",
+    "section": "Recursos principais",
+    "text": "Recursos principais\n\nBiblioteca local com favoritos, lixeira, coleções, etiquetas e busca;\nImportação de BibTeX e RIS; exportação em BibTeX, RIS, Markdown e CSV;\nEstilos de citação ABNT, APA, MLA, Harvard, Vancouver e Chicago;\nBusca online em Crossref, arXiv, PubMed e Google Acadêmico, com paginação por “Carregar mais”;\nDownload de PDFs de acesso aberto via OpenAlex;\nLeitor de PDF com destaque, sublinhado, tachado, comentários por página, busca, zoom, rotação e tema claro ou escuro;\nTradução de trechos para português, inglês, espanhol e Tetum Dili."
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html#integração-com-o-word",
+    "href": "projetos/ferramentas/cite/index.html#integração-com-o-word",
+    "title": "Cite",
+    "section": "Integração com o Word",
+    "text": "Integração com o Word\nO add-in cria uma aba Cite na faixa de opções do Word, com os botões para inserir citação, inserir bibliografia e abrir o painel. As citações são gravadas como campos vinculados, o que permite combinar referências, definir página, prefixo, sufixo, apud, citação narrativa e omissão de autor ou ano.\nA bibliografia acompanha o texto: ao remover uma citação, a referência sai da lista, e Atualizar citações reformata o documento quando o estilo ou a biblioteca muda. Desvincular citações converte os campos em texto comum. O painel é servido localmente em https://localhost:23120, com certificado instalado no sistema, e funciona offline enquanto o aplicativo está aberto."
+  },
+  {
+    "objectID": "projetos/ferramentas/cite/index.html#requisitos-e-instalação",
+    "href": "projetos/ferramentas/cite/index.html#requisitos-e-instalação",
+    "title": "Cite",
+    "section": "Requisitos e instalação",
+    "text": "Requisitos e instalação\nOs instaladores estão na página de releases. No macOS, o aplicativo é um .dmg; no Windows, um instalador NSIS por usuário, que não exige administrador. O build não tem certificado de desenvolvedor, então o sistema pode exibir aviso na primeira abertura — é só confirmar em Abrir mesmo assim ou Executar assim mesmo."
   },
   {
     "objectID": "projetos/ferramentas/cite/index.html#acesso-à-ferramenta",
@@ -221,7 +417,35 @@
     "href": "projetos/ferramentas/codificando/index.html",
     "title": "Codificando",
     "section": "",
-    "text": "O Codificando é um ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.\nPrincipais características:"
+    "text": "O Codificando é um ambiente de análise qualitativa (CAQDAS) para codificar entrevistas, documentos e notas diretamente sobre a página do PDF. Foi feito para pesquisas que precisam de codebook, trechos, consultas e relatórios sem enviar os dados para fora da máquina."
+  },
+  {
+    "objectID": "projetos/ferramentas/codificando/index.html#o-que-é",
+    "href": "projetos/ferramentas/codificando/index.html#o-que-é",
+    "title": "Codificando",
+    "section": "O que é",
+    "text": "O que é\nO aplicativo é construído em Tauri 2, com núcleo em Rust e interface em React. Toda a base — documentos, códigos, trechos e anotações — fica em arquivos locais, sem conta, servidor ou telemetria. A versão atual é a 0.2.4."
+  },
+  {
+    "objectID": "projetos/ferramentas/codificando/index.html#como-funciona",
+    "href": "projetos/ferramentas/codificando/index.html#como-funciona",
+    "title": "Codificando",
+    "section": "Como funciona",
+    "text": "Como funciona\nO pesquisador cria um projeto, importa os documentos e monta o codebook hierárquico, com cores e definições. A codificação acontece na própria página do PDF: o trecho é selecionado e recebe um ou mais códigos, formando a base para consultas, contagens e relatórios."
+  },
+  {
+    "objectID": "projetos/ferramentas/codificando/index.html#recursos-principais",
+    "href": "projetos/ferramentas/codificando/index.html#recursos-principais",
+    "title": "Codificando",
+    "section": "Recursos principais",
+    "text": "Recursos principais\n\nImportação de PDF, DOCX, TXT e RTF;\nCodificação direto na página, com trechos marcados no documento;\nCodebook hierárquico, com cores, definições e contagem por código;\nConsultas e relatórios sobre a frequência e a distribuição dos códigos;\nComentários e notas por documento e por trecho;\nBusca no projeto e nos documentos;\nDados locais, sem sincronização ou envio para serviços externos."
+  },
+  {
+    "objectID": "projetos/ferramentas/codificando/index.html#requisitos-e-instalação",
+    "href": "projetos/ferramentas/codificando/index.html#requisitos-e-instalação",
+    "title": "Codificando",
+    "section": "Requisitos e instalação",
+    "text": "Requisitos e instalação\nHá instaladores para macOS (Apple Silicon) e Windows (x64), além de um manual em PDF anexado a cada versão. O aplicativo é gratuito e não tem certificado de desenvolvedor: na primeira abertura, o macOS pede para confirmar em Abrir e o Windows em Mais informações → Executar assim mesmo. Depois disso, o aviso não volta."
   },
   {
     "objectID": "projetos/ferramentas/codificando/index.html#acesso-à-ferramenta",

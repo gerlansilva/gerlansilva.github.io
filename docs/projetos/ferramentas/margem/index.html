@@ -335,7 +335,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link active" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link active" data-scroll-target="#o-que-é">O que é</a></li>
+  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">Como funciona</a></li>
+  <li><a href="#recursos-principais" id="toc-recursos-principais" class="nav-link" data-scroll-target="#recursos-principais">Recursos principais</a></li>
+  <li><a href="#requisitos-e-instalação" id="toc-requisitos-e-instalação" class="nav-link" data-scroll-target="#requisitos-e-instalação">Requisitos e instalação</a></li>
+  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
   </ul>
 </nav>
     </div>
@@ -372,15 +376,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="proj-intro">
 <p><img src="logo.png" align="right" width="30%" class="proj-featured" alt="Margem"></p>
-<p>O Margem é um leitor de PDF acadêmico com um assistente de chat que cita a página e o trecho usados na resposta, além de um quadro de fichamento organizado por colunas. Foi desenvolvido em Tauri 2, com React e Rust, e funciona de forma local, com foco em leitura e anotação de textos científicos.</p>
-<p><strong>Principais características:</strong></p>
+<p>O Margem é um leitor de PDF acadêmico com um assistente que responde citando página e trecho, e um quadro de fichamento preenchido por colunas. A pergunta nasce na margem: você lê o artigo, anota a dúvida ao lado do parágrafo e a resposta volta apontando de onde saiu.</p>
+</div>
+<section id="o-que-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é">O que é</h2>
+<p>O aplicativo é construído em <strong>Tauri 2</strong> (Rust e React), com armazenamento local em SQLite. A versão atual é a <strong>0.3.0</strong>, para macOS e Windows. O assistente usa a API da DeepSeek, com a chave do próprio pesquisador guardada no cofre do sistema — Keychain no macOS, Credential Manager no Windows.</p>
+</section>
+<section id="como-funciona" class="level2">
+<h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<p>Cada PDF é convertido em leitura Markdown com âncoras por página. Ao perguntar, o modelo responde com marcações como <code>[D1 p.7]</code>; clicar na citação abre o PDF na página exata e destaca as linhas usadas. É possível selecionar um trecho e perguntar só sobre ele, ou colocar um segundo documento no escopo do chat para comparar os dois.</p>
+</section>
+<section id="recursos-principais" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-principais">Recursos principais</h2>
 <ul>
-<li><strong>Leitura:</strong> PDF acadêmico com anotações</li>
-<li><strong>Chat:</strong> respostas com citação de página e trecho</li>
-<li><strong>Fichamento:</strong> quadro com colunas configuráveis</li>
-<li><strong>Dados:</strong> leitura e notas mantidas na máquina do pesquisador</li>
+<li><strong>Chat com o documento</strong>, com citação de página e trecho clicáveis;</li>
+<li><strong>Fichamento por colunas</strong>: você define nome e instrução, e a IA preenche cada célula com valor, trecho literal e página — sem trecho verificado, a célula fica “não encontrado”;</li>
+<li><strong>Extração por conjunto de documentos</strong>, com progresso por arquivo e a opção de refazer apenas células vazias;</li>
+<li><strong>Exportação</strong> do fichamento em CSV (abre no Excel em português) e das conversas e notas em Markdown;</li>
+<li><strong>Destaques e notas</strong> em cinco cores, salvos por documento;</li>
+<li><strong>Busca no acervo</strong>, por palavras e, com embeddings configurados, também por significado;</li>
+<li><strong>Relacionados via OpenAlex</strong>, com referências, citações e download de PDFs de acesso aberto;</li>
+<li><strong>Respostas verificáveis</strong>: citação de página não enviada ao modelo aparece tracejada, com aviso.</li>
 </ul>
+</section>
+<section id="requisitos-e-instalação" class="level2">
+<h2 class="anchored" data-anchor-id="requisitos-e-instalação">Requisitos e instalação</h2>
+<p>Há instalador para <strong>Windows</strong> e <code>.dmg</code> universal para <strong>macOS</strong>. Na primeira execução, é preciso abrir as configurações e colar a chave da DeepSeek. O aplicativo não é assinado: no macOS, clique com o botão direito no app e escolha <strong>Abrir</strong>.</p>
+</section>
 <section id="acesso-à-ferramenta" class="level2">
 <h2 class="anchored" data-anchor-id="acesso-à-ferramenta">Acesso à ferramenta</h2>
 <ul>

@@ -335,7 +335,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link active" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
+  <li><a href="#o-que-é" id="toc-o-que-é" class="nav-link active" data-scroll-target="#o-que-é">O que é</a></li>
+  <li><a href="#como-funciona" id="toc-como-funciona" class="nav-link" data-scroll-target="#como-funciona">Como funciona</a></li>
+  <li><a href="#recursos-principais" id="toc-recursos-principais" class="nav-link" data-scroll-target="#recursos-principais">Recursos principais</a></li>
+  <li><a href="#requisitos-e-instalação" id="toc-requisitos-e-instalação" class="nav-link" data-scroll-target="#requisitos-e-instalação">Requisitos e instalação</a></li>
+  <li><a href="#acesso-à-ferramenta" id="toc-acesso-à-ferramenta" class="nav-link" data-scroll-target="#acesso-à-ferramenta">Acesso à ferramenta</a></li>
   </ul>
 </nav>
     </div>
@@ -372,16 +376,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="proj-intro">
 <p><img src="logo.png" align="right" width="30%" class="proj-featured" alt="Codificando"></p>
-<p>O Codificando é um ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.</p>
-<p><strong>Principais características:</strong></p>
+<p>O Codificando é um ambiente de análise qualitativa (CAQDAS) para codificar entrevistas, documentos e notas diretamente sobre a página do PDF. Foi feito para pesquisas que precisam de codebook, trechos, consultas e relatórios sem enviar os dados para fora da máquina.</p>
+</div>
+<section id="o-que-é" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é">O que é</h2>
+<p>O aplicativo é construído em <strong>Tauri 2</strong>, com núcleo em Rust e interface em React. Toda a base — documentos, códigos, trechos e anotações — fica em arquivos locais, sem conta, servidor ou telemetria. A versão atual é a <strong>0.2.4</strong>.</p>
+</section>
+<section id="como-funciona" class="level2">
+<h2 class="anchored" data-anchor-id="como-funciona">Como funciona</h2>
+<p>O pesquisador cria um projeto, importa os documentos e monta o codebook hierárquico, com cores e definições. A codificação acontece na própria página do PDF: o trecho é selecionado e recebe um ou mais códigos, formando a base para consultas, contagens e relatórios.</p>
+</section>
+<section id="recursos-principais" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-principais">Recursos principais</h2>
 <ul>
-<li><strong>Importação:</strong> PDF, DOCX, TXT e RTF</li>
-<li><strong>Codificação:</strong> direto na página do documento, com codebook hierárquico</li>
-<li><strong>Análise:</strong> trechos, consultas, comentários e relatórios</li>
-<li><strong>Plataformas:</strong> macOS (Apple Silicon) e Windows (x64)</li>
-<li><strong>Dados:</strong> armazenados localmente</li>
+<li><strong>Importação</strong> de PDF, DOCX, TXT e RTF;</li>
+<li><strong>Codificação direto na página</strong>, com trechos marcados no documento;</li>
+<li><strong>Codebook hierárquico</strong>, com cores, definições e contagem por código;</li>
+<li><strong>Consultas e relatórios</strong> sobre a frequência e a distribuição dos códigos;</li>
+<li><strong>Comentários e notas</strong> por documento e por trecho;</li>
+<li><strong>Busca</strong> no projeto e nos documentos;</li>
+<li><strong>Dados locais</strong>, sem sincronização ou envio para serviços externos.</li>
 </ul>
+</section>
+<section id="requisitos-e-instalação" class="level2">
+<h2 class="anchored" data-anchor-id="requisitos-e-instalação">Requisitos e instalação</h2>
+<p>Há instaladores para <strong>macOS (Apple Silicon)</strong> e <strong>Windows (x64)</strong>, além de um manual em PDF anexado a cada versão. O aplicativo é gratuito e não tem certificado de desenvolvedor: na primeira abertura, o macOS pede para confirmar em <strong>Abrir</strong> e o Windows em <strong>Mais informações → Executar assim mesmo</strong>. Depois disso, o aviso não volta.</p>
+</section>
 <section id="acesso-à-ferramenta" class="level2">
 <h2 class="anchored" data-anchor-id="acesso-à-ferramenta">Acesso à ferramenta</h2>
 <ul>
