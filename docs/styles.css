@@ -532,6 +532,28 @@ body.quarto-dark .about-link:hover {
   object-fit: contain;
 }
 
+/* Imagem de destaque das páginas de projeto (modelo Vancine) */
+.proj-featured {
+  margin: 0 0 1.1rem 1.6rem;
+  max-width: 260px;
+  height: auto;
+}
+
+/* O título do projeto já aparece no cabeçalho; a categoria fica só na listagem */
+.quarto-category {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .proj-featured {
+    float: none;
+    display: block;
+    width: 55%;
+    max-width: 220px;
+    margin: 0 auto 1.2rem;
+  }
+}
+
 .proj-logo-wide {
   height: 42px;
   max-width: 300px;
