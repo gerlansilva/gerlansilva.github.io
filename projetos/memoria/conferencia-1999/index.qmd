@@ -25,7 +25,6 @@ Acervo dedicado à conferência *Experiências e Expectativas do Ensino de Estat
 ## Acesso ao acervo
 
 - **Acervo digital** — [ciee1999.pages.dev](https://ciee1999.pages.dev)
-- **Código-fonte** — [github.com/gerlansilva/acervo-educacao-estatistica-1999](https://github.com/gerlansilva/acervo-educacao-estatistica-1999)
 
 ## O acervo em números
 
