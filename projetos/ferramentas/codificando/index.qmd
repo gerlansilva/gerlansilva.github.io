@@ -1,0 +1,16 @@
+---
+title: "Codificando"
+subtitle: "CAQDAS local para análise qualitativa de dados."
+image: cover.png
+categories: ["Ferramentas para pesquisa qualitativa"]
+---
+
+<a href="https://github.com/gerlansilva/codificando/releases/latest" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Baixar a versão mais recente</a>
+<a href="https://github.com/gerlansilva/codificando" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+
+## Sobre o projeto
+
+Ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.
+
+- **Plataformas:** macOS e Windows
+- **Dados:** armazenados localmente

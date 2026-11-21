@@ -1,0 +1,16 @@
+---
+title: "Cite"
+subtitle: "Gerenciador de referências local para macOS e Windows."
+image: cover.png
+categories: ["Ferramentas para pesquisa qualitativa"]
+---
+
+<a href="https://github.com/gerlansilva/cite-desktop" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Ver o repositório</a>
+<a href="https://github.com/gerlansilva/cite-desktop" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+
+## Sobre o projeto
+
+Gerenciador de referências local para macOS e Windows. Organiza a biblioteca pessoal, permite anotar e exportar referências, sem depender de conta ou serviço externo.
+
+- **Plataformas:** macOS e Windows
+- **Dados:** biblioteca local

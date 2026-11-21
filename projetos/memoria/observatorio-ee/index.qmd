@@ -1,0 +1,17 @@
+---
+title: "Observatório EE"
+subtitle: "Teses e dissertações brasileiras em Educação Estatística."
+image: cover.jpg
+categories: ["Memória científica"]
+---
+
+<a href="https://observatorioee.pages.dev" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Explorar o acervo</a>
+<a href="https://github.com/gerlansilva/observatorioEE" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+
+## Sobre o projeto
+
+Repositório digital de teses e dissertações brasileiras em Educação Estatística, organizado a partir da planilha de estado da arte. Reúne metadados sobre autoria, orientação, instituição, programa, nível de ensino, foco temático e conteúdo enfocado, com interface de consulta inspirada no Tainacan.
+
+- **Pesquisas catalogadas:** 880
+- **Instituições:** 137
+- **Estados:** 26

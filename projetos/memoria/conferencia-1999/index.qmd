@@ -1,0 +1,17 @@
+---
+title: "Acervo da Conferência de 1999"
+subtitle: "Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999."
+image: cover.jpg
+categories: ["Memória científica"]
+---
+
+<a href="https://cieee-acervo.netlify.app" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Explorar o acervo</a>
+<a href="https://github.com/gerlansilva/acervo-educacao-estatistica-1999" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+
+## Sobre o projeto
+
+Acervo dedicado à conferência *Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI*, realizada em Florianópolis, em 1999. Reúne e contextualiza os registros localizados, evitando que documentos e informações sobre essa experiência permaneçam dispersos ou pouco conhecidos.
+
+- **Trabalhos:** 61
+- **Autores:** 126
+- **Países:** 9

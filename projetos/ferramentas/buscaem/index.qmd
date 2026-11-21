@@ -1,0 +1,16 @@
+---
+title: "BuscaEM"
+subtitle: "Buscador de artigos de periódicos de Educação Matemática."
+image: cover.jpg
+categories: ["Ferramentas para pesquisa qualitativa"]
+---
+
+<a href="https://buscaem.pages.dev" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Acessar a ferramenta</a>
+<a href="https://github.com/gerlansilva/BucaEM" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+
+## Sobre o projeto
+
+Buscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano.
+
+- **Fonte:** periódicos OJS/OAI-PMH
+- **Uso:** busca por título, autoria, assunto, DOI ou booleana

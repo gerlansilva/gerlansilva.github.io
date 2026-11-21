@@ -1,0 +1,17 @@
+---
+title: "Memória do SIPEM"
+subtitle: "Acervo dos anais do Seminário Internacional de Pesquisa em Educação Matemática."
+image: cover.jpg
+categories: ["Memória científica"]
+---
+
+<a href="https://memoria-sipem.pages.dev" class="btn-projeto" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right" aria-hidden="true"></i> Explorar o acervo</a>
+<a href="https://github.com/gerlansilva/memoria-sipem" class="btn-projeto btn-projeto-outline" target="_blank" rel="noopener"><i class="bi bi-github" aria-hidden="true"></i> Código</a>
+
+## Sobre o projeto
+
+O Memória do SIPEM nasceu da dificuldade de localizar e consultar, em um mesmo lugar, os registros das diferentes edições do Seminário Internacional de Pesquisa em Educação Matemática. A iniciativa reúne e organiza anais, trabalhos e informações sobre as edições, com atenção à recuperação dos documentos e à preservação da trajetória das pesquisas e dos debates do seminário.
+
+- **Edições:** 9 realizadas
+- **Registros indexados:** 1.645
+- **Período documentado:** 2000–2024
