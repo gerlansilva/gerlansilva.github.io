@@ -48,5 +48,10 @@ format:
       - text: |
           <link rel="stylesheet" href="/assets/academicons/css/all.css">
           <link rel="stylesheet" href="/assets/academicons/css/size.css">
+          <style>
+            #title-block-header .quarto-title,
+            #title-block-header .quarto-title .title,
+            #title-block-header .quarto-title .subtitle { text-align: center; }
+          </style>
 
 lang: pt-BR

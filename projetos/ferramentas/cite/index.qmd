@@ -2,14 +2,14 @@
 title: "Cite"
 subtitle: "Gerenciador de referências local para macOS e Windows."
 author: "Gerlan Silva"
-image: cover-cite.jpg
+image: cover-cite-v2.jpg
 categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
 # **Cite**
 
-<img src="logo-cite.png" align="right" width="30%" class="proj-featured" alt="Cite">
+<img src="logo-cite-v2.png" align="right" width="30%" class="proj-featured" alt="Cite">
 
 O Cite organiza a biblioteca pessoal, importa metadados, pesquisa artigos online, abre PDFs com anotações e publica a bibliografia em um repositório GitHub. O aplicativo funciona de forma local, sem depender de conta ou serviço externo, e se integra ao Word por meio de um add-in próprio.
 
