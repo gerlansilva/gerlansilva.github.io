@@ -534,8 +534,9 @@ body.quarto-dark .about-link:hover {
 
 /* Imagem de destaque das páginas de projeto (modelo Vancine) */
 .proj-featured {
-  margin: 0 0 1.1rem 1.6rem;
-  max-width: 260px;
+  width: 38%;
+  max-width: 340px;
+  margin: 0 0 1.2rem 1.8rem;
   height: auto;
 }
 
