@@ -92,9 +92,17 @@ a:hover {
 
 /* Bordas e metadados */
 hr,
-.quarto-grid-item,
 .card {
   border-color: #e3e8ec;
+}
+
+/* Cartões de projeto com borda no laranja do site */
+.quarto-listing-container-grid .quarto-grid-item {
+  border: 1px solid #b87333;
+}
+
+.quarto-listing-container-grid .quarto-grid-item:hover {
+  border-color: #8f5623;
 }
 
 .quarto-title-meta-heading {
