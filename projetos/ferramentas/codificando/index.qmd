@@ -1,7 +1,7 @@
 ---
 title: "Codificando"
 subtitle: "CAQDAS local para análise qualitativa de dados."
-image: cover.png
+image: cover.jpg
 categories: ["Ferramentas para pesquisa qualitativa"]
 ---
 
