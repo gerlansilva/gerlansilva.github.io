@@ -1,0 +1,49 @@
+---
+title: "Cite"
+subtitle: "Local reference manager for macOS and Windows."
+author: "Gerlan Silva"
+image: cover-cite-v3.jpg
+categories: ["Tools for qualitative research"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo-cite-v3.png" align="right" width="30%" class="proj-featured" alt="Cite">
+
+Cite is a reference manager that works entirely on the researcher's machine. The library lives in a local folder, with no account, subscription or intermediary server, and the application covers the whole path: collecting the reference, reading and annotating the PDF, citing in the text and publishing the bibliography.
+
+:::
+
+## What it is
+
+Inspired by the Paperpile workflow, Cite brings together a library, a PDF reader and Word integration in a single desktop application. The current version is **0.3.9**, available for macOS and Windows.
+
+## How it works
+
+On first launch, Cite creates the library in `~/Documents/Cite` and opens the home screen, with an overview of the collection, recent references and shortcuts to create a reference, search for articles or import a PDF. The library path is recorded in the system preferences, and the application opens a recovery screen if the folder has been moved or has lost write permission.
+
+## Main features
+
+- **Local library** with favorites, trash, collections, tags and search;
+- **Import** of BibTeX and RIS; **export** in BibTeX, RIS, Markdown and CSV;
+- **Citation styles** ABNT, APA, MLA, Harvard, Vancouver and Chicago;
+- **Online search** in Crossref, arXiv, PubMed and Google Scholar, with pagination by "Load more";
+- **PDF downloads** of open access via OpenAlex;
+- **PDF reader** with highlight, underline, strikethrough, comments per page, search, zoom, rotation and light or dark theme;
+- **Translation of excerpts** into Portuguese, English, Spanish and Tetum Dili.
+
+## Word integration
+
+The add-in creates a **Cite** tab in the Word ribbon, with buttons to insert a citation, insert the bibliography and open the panel. Citations are recorded as linked fields, which allows combining references, setting page, prefix, suffix, apud, narrative citation and omission of author or year.
+
+The bibliography follows the text: when a citation is removed, the reference leaves the list, and **Update citations** reformats the document when the style or the library changes. **Unlink citations** converts the fields into plain text. The panel is served locally at `https://localhost:23120`, with a certificate installed in the system, and works offline while the application is open.
+
+## Requirements and installation
+
+The installers are on the releases page. On macOS, the application is a `.dmg`; on Windows, a per-user NSIS installer, which does not require an administrator. The build has no developer certificate, so the system may display a warning on first launch — just confirm with **Open Anyway** or **Run Anyway**.
+
+## Access to the tool
+
+- **Source code and installers** — [github.com/gerlansilva/cite-desktop](https://github.com/gerlansilva/cite-desktop)

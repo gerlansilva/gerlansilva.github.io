@@ -1,0 +1,26 @@
+---
+title: "Metric studies in Mathematics Education: gaps for a scientometrics of Statistical Education"
+subtitle: "Paper presentation at the 17th Regional Meeting of ANPEd Southeast, in the critical review axis of the ongoing dissertation."
+author: "Gerlan Silva da Silva"
+image: featured.png
+date: 2026-09-09
+event: "ANPEd Sudeste · São Paulo, SP"
+categories: ["Paper presentation"]
+lang: en
+---
+
+<a href="https://canva.link/cgqkftbk7z4vb47" class="btn-slides" target="_blank" rel="noopener"><i class="bi bi-easel2" aria-hidden="true"></i> Open presentation</a>
+
+<p class="nota-slides">Presentation hosted on Canva. Opens in a new tab.</p>
+
+![](featured.png)
+
+## About the presentation
+
+Presentation at the 17th Regional Meeting of ANPEd Southeast, in São Paulo, in the format of a critical review of an ongoing dissertation, under the supervision of Carmen Lúcia Brancaglion Passos and with the co-supervision of Celi Espasandin Lopes.
+
+The paper discusses the gaps of metric studies in Mathematics Education and proposes a scientometrics of Statistical Education: extraction of metadata via the OpenAlex API, standardization in a spreadsheet and construction of co-authorship, co-citation and co-occurrence networks in VOSviewer.
+
+- **Field:** Statistical Education in Brazil and Spain.
+- **Method:** scientometric study supported by Python, OpenAlex and VOSviewer.
+- **Complement:** narrative interviews with researchers in the field.

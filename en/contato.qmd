@@ -1,0 +1,27 @@
+---
+title: "Contact"
+subtitle: "Let's talk about research, archives and mathematics education"
+lang: en
+---
+
+## Where to find me
+
+**E-mail:** [gerlanmatfis@gmail.com](mailto:gerlanmatfis@gmail.com)
+
+**Institution:** Graduate Program in Education  
+Federal University of São Carlos (UFSCar)  
+Rodovia Washington Luís, km 235 — São Carlos, SP
+
+## Profiles and curricula
+
+- <i class="ai ai-orcid" aria-hidden="true"></i> [ORCID](https://orcid.org/0000-0002-9996-9983)
+- <i class="ai ai-lattes" aria-hidden="true"></i> [Lattes CV](http://lattes.cnpq.br/2364822008221312)
+- <i class="ai ai-google-scholar" aria-hidden="true"></i> [Google Scholar](https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR)
+- <i class="bi bi-github" aria-hidden="true"></i> [GitHub](https://github.com/gerlansilva)
+
+## Digital archives
+
+- [Memory of SIPEM](https://gerlansilva.github.io/memoria-sipem/)
+- [Memory of GT 19](https://gt19anped.pages.dev/)
+- [Archive of the First Conference on Statistical Education](https://cieee-acervo.netlify.app/)
+- [Memory of EIEM](https://eiememoria.pages.dev/#sobre)

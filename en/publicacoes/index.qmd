@@ -1,0 +1,99 @@
+---
+title: "Publications"
+subtitle: "Journal articles and academic papers"
+lang: en
+toc: true
+toc-depth: 2
+toc-location: right
+---
+
+The academic production is organized by type of document. See also the <a href="https://orcid.org/0000-0002-9996-9983"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a> and the <a href="http://lattes.cnpq.br/2364822008221312"><i class="ai ai-lattes" aria-hidden="true"></i> Lattes CV</a>.
+
+## Journal articles
+
+::: {.publication-entry}
+### Between possibilities and gaps: a look at the theses on Probabilistic Education in Basic Education
+
+SILVA, Gerlan Silva da; GRANDO, Regina Célia. *Boletim GEPEM*, n. 85, p. 182–204, 2024. [DOI](https://doi.org/10.69906/GEPEM.2176-2988.2024.969)
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+This article aims to present a research study that sought to map, describe and systematize the Brazilian theses on the teaching and learning of probability in Basic Education. Theses produced from May 1994 to June 2021 in Stricto Sensu graduate programs recognized by CAPES, in the areas of Education and Teaching, were analyzed. Through a bibliographic review of the state of the art type, we identified 332 theses and dissertations, of which 21 were selected. The analysis revealed a multiplicity of pedagogical approaches and proposals, with emphasis on research involving the use of technologies. The conclusions indicate the importance of simulators, statistical software, learning objects and educational games as auxiliary tools for the teaching of probability and statistics, capable of facilitating the understanding of complex concepts, expanding interactivity and student motivation, and favoring problem solving.
+:::
+:::
+
+::: {.publication-entry}
+### A brief historical overview of Probability Theory and the connections with its teaching
+
+SILVA, Gerlan; GRANDO, Regina Célia. *Revista Internacional de Pesquisa em Educação Matemática*, v. 14, n. 3, p. 1–15, 2024. [DOI](https://doi.org/10.37001/ripem.v14i3.3821)
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+This article presents a brief historical frame of Probability Theory, covering the period from antiquity to the mid-twentieth century, in order to understand which theoretical constructs need to be privileged in its teaching. Using a timeline organized into four periods (prehistory of probability, emergence of the concept, development of Classical Probability and modern period), we highlight the contributions of the main mathematicians to the Probability Calculus. We note that probability theory has been shaped by diverse contributions from mathematicians, philosophers, statisticians and scientists from different eras and contexts. This conceptual and epistemological evolution has had a significant impact on the development of the theory over the centuries and has influenced teaching and learning processes.
+:::
+:::
+
+::: {.publication-entry}
+### Articulations between (Auto)Biographical Narrative Research and Creative Insubordinations: a happy encounter
+
+WAGNER, Guilherme; SILVA, Carla Mariana Rocha Brittes da; LUBAVEM, Edivaldo; SILVA, Gerlan Silva da; JACOMELLI-ALVES, Karina Zolia; GRANDO, Regina Célia; BUEHRING, Roberta Schnorr. *Revista Catarinense de Educação Matemática*, v. 2, n. 3, p. 1–22, 2023. [DOI](https://doi.org/10.37001/recem.v2i3.3627)
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+The research groups GEPPROFEM and ICEM, linked to PPGECT/UFSC, have situated their production at the interface between (auto)biographical narrative research and creative insubordinations in Mathematics Education. In this article, we aim to understand how narrative research in Mathematics Education generates creative insubordinations on the part of the different actors who produce and co-participate in it. We start from the hypothesis that (auto)biographical narrative research makes room for teachers to tell their life and professional stories and represents, above all, a creative insubordination against positivist modes of research production. The results indicate that the studies developed by the group's participants seek to transcend traditional ways of evaluating scientific production and embrace values such as respect for the researcher's identity and subjectivity, social responsibility in the production of research, the valorization of silenced voices and the pursuit of investigations that contribute to reducing inequalities and to social justice.
+:::
+:::
+
+::: {.publication-entry}
+### Mapping of Brazilian theses and dissertations on Probabilistic Education in Basic Education
+
+SILVA, Gerlan Silva da; GRANDO, Regina Célia. *Revista de Educação PUC-Campinas*, v. 28, e238479, 2023. [DOI](https://doi.org/10.24220/2318-0870v28e2023a8479)
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+This article presents a mapping of the physical aspects of Brazilian research on the teaching and learning of Probability in Basic Education produced within stricto sensu graduate programs in the area of Education and Teaching. The search was carried out digitally, in the CAPES Catalog of Theses and Dissertations, in the Brazilian Digital Library of Theses and Dissertations and in CV collections of the Lattes platform. We found 99 theses and dissertations, defended in Brazil between May 1994 and June 2021. The studies were organized and coded with information such as year of defense, authorship, degree, advising, institution, graduate program and examining committee. From the 78 dissertations and 21 theses it was possible to observe a significant increase in interest in the theme since 2007, with research in all five regions of Brazil, an emphasis on the Southeast Region and a concentration in São Paulo. We identified 31 universities, with emphasis on the Pontifical Catholic University of São Paulo, and the Mathematics Education program presented the highest number of defended works.
+:::
+:::
+
+::: {.publication-entry}
+### Teacher education/practice of teachers who teach statistics, probability and combinatorics: a study based on Brazilian scientific journals
+
+SILVA, Gerlan Silva da; SANTOS, Rodrigo Medeiros dos. *REAMEC — Rede Amazônica de Educação em Ciências e Matemática*, v. 10, n. 2, e22040, 2022. [DOI](https://doi.org/10.26571/reamec.v10i2.13454)
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+This paper aims to inventory, systematize and describe the scientific production on the education and practice of teachers who teach Statistics, Probability and Combinatorics, published in Brazilian scientific journals. Methodologically, this is a state-of-knowledge research of an analytical-descriptive character, having 34 articles as material for analysis. The studies were categorized into four thematic axes: understanding, conceptions and teacher knowledge; initial and continuing education and professional development; education and practice mediated by collaborative groups; and teaching practice and work. The results indicate that many of the analyzed articles converge on the idea that the teachers studied have difficulties in understanding statistical, probabilistic and combinatorial concepts, which raises questions about the way these subjects are treated in initial education. An emphasis on research about initial and continuing education and professional development was also observed (47.1% of the articles).
+:::
+:::
+
+## Academic papers
+
+### Master's dissertation
+
+**The state of the art of research on probabilistic education in basic education**  
+Gerlan Silva da Silva · Federal University of Santa Catarina (UFSC) · 2023  
+Graduate Program in Science and Technological Education · Advisor: Regina Célia Grando  
+Funding: FAPESC and CAPES/PROEX
+
+::: {.callout-note collapse="true"}
+## Abstract
+
+Our objective in this research is to inventory, systematize, describe and analyze the Brazilian academic research on the teaching and learning of Probability in Basic Education, produced within graduate programs in the area of Education and Teaching, highlighting its main thematic trends and theoretical-methodological aspects. This investigation is methodologically characterized as qualitative in its approach, exploratory in nature with regard to its objectives, and bibliographic considering its data production and analysis procedures. The mapping of the studies, as a data source, was carried out entirely digitally, through the CAPES Catalog of Theses and Dissertations, the Brazilian Digital Library of Theses and Dissertations (BDTD), and CV collections of the Lattes platform. These searches returned a total of 99 theses and dissertations, defended in Brazil from May 1994 to June 2021, which relate and articulate Probabilistic Education in Basic Education as an object of study.
+
+The study organized 78 dissertations and 21 theses and identified seven thematic nuclei, with emphasis on didactic resources and methodologies for teaching Probability. The studies were coded in MAXQDA, covering theoretical-methodological aspects and results of the investigations.
+:::
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consult the dissertation and full record](https://repositorio.ufsc.br/handle/123456789/251185?show=full){.icon-link}
+
+### Undergraduate final paper
+
+**Teacher education/practice of teachers who teach statistics, probability and combinatorics: a study based on Brazilian scientific journals**  
+Gerlan Silva da Silva · Federal University of Western Pará (UFOPA) · 2021  
+Advisor: Rodrigo Medeiros dos Santos
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consult the final paper](https://repositorio.ufopa.edu.br/items/a36d5724-8fb4-4eb7-8faa-6722ab0fc56c){.icon-link}

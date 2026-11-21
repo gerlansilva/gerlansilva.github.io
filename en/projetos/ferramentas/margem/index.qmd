@@ -1,0 +1,44 @@
+---
+title: "Margem"
+subtitle: "Academic PDF reader with chat and reading notes."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Tools for qualitative research"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Margem">
+
+Margem is an academic PDF reader with an assistant that answers by citing page and excerpt, and a reading-notes board filled in by columns. The question is born in the margin: you read the article, note the doubt beside the paragraph, and the answer comes back pointing to where it came from.
+
+:::
+
+## What it is
+
+The application is built in **Tauri 2** (Rust and React), with local storage in SQLite. The current version is **0.3.0**, for macOS and Windows. The assistant uses the DeepSeek API, with the researcher's own key stored in the system vault — Keychain on macOS, Credential Manager on Windows.
+
+## How it works
+
+Each PDF is converted into a Markdown reading with anchors per page. When you ask, the model answers with markers such as `[D1 p.7]`; clicking the citation opens the PDF at the exact page and highlights the lines used. It is possible to select an excerpt and ask only about it, or to place a second document in the chat scope to compare the two.
+
+## Main features
+
+- **Chat with the document**, with clickable page and excerpt citations;
+- **Reading notes by columns**: you define name and instruction, and the AI fills each cell with value, literal excerpt and page — without a verified excerpt, the cell remains "not found";
+- **Extraction across a set of documents**, with progress per file and the option to redo only empty cells;
+- **Export** of the reading notes in CSV (opens in Excel in Portuguese) and of the conversations and notes in Markdown;
+- **Highlights and notes** in five colors, saved per document;
+- **Search in the collection**, by words and, with embeddings configured, also by meaning;
+- **Related items via OpenAlex**, with references, citations and download of open access PDFs;
+- **Verifiable answers**: a page citation not sent to the model appears dashed, with a warning.
+
+## Requirements and installation
+
+There is an installer for **Windows** and a universal `.dmg` for **macOS**. On first run, you must open the settings and paste the DeepSeek key. The application is not signed: on macOS, right-click the app and choose **Open**.
+
+## Access to the tool
+
+- **Source code and installers** — [github.com/gerlansilva/margem](https://github.com/gerlansilva/margem)

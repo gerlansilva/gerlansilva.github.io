@@ -13,7 +13,7 @@ website:
   open-graph: true
 
   navbar:
-    background: "#1e7a4f"
+    background: "#14335A"
     foreground: "#ffffff"
     title: "Gerlan Silva"
     search: true
@@ -32,6 +32,12 @@ website:
         href: apresentacoes/index.qmd
       - text: CV
         href: http://lattes.cnpq.br/2364822008221312
+      - text: "PT"
+        href: /
+      - text: "EN"
+        href: /en/
+      - text: "ES"
+        href: /es/
       - icon: github
         href: https://github.com/gerlansilva
 

@@ -1,0 +1,50 @@
+---
+title: "Gerlan Silva"
+subtitle: "Doctoral student in Education · UFSCar"
+image: avatar.png
+lang: en
+about:
+  template: trestles
+  image-width: 16em
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-9996-9983
+    - text: "{{< ai lattes >}}"
+      href: http://lattes.cnpq.br/2364822008221312
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR
+    - icon: github
+      href: https://github.com/gerlansilva
+---
+
+Hello! Welcome.
+
+I am a doctoral student in Education, in the **Science and Mathematics Education** research line of the Graduate Program in Education at the Federal University of São Carlos (UFSCar), in São Carlos, São Paulo, under the supervision of professor Cármen Lúcia Brancaglion Passos. My initial degree is an Integrated Teaching Degree in Mathematics and Physics from the Federal University of Western Pará (UFOPA), and I hold a master's degree in Science and Technological Education from the Federal University of Santa Catarina (UFSC).
+
+You can reach me by sending a [message](../contato.qmd).
+
+### Education
+
+::: {.formacao}
+<i class="bi bi-mortarboard" aria-hidden="true"></i> **Doctoral degree in Education** · Federal University of São Carlos (UFSCar) — in progress, 2024–2028 (expected). Advisor: Cármen Lúcia Brancaglion Passos.
+
+<i class="bi bi-mortarboard" aria-hidden="true"></i> **Master's degree in Science and Technological Education** · Federal University of Santa Catarina (UFSC) — 2023. Advisor: Regina Célia Grando. Dissertation: [The state of the art of research on probabilistic education in basic education](https://repositorio.ufsc.br/handle/123456789/251185).
+
+<i class="bi bi-mortarboard" aria-hidden="true"></i> **Integrated Teaching Degree in Mathematics and Physics** · Federal University of Western Pará (UFOPA) — 2021.
+:::
+
+## About me
+
+My research trajectory unfolds in the field of Mathematics Education, especially in Statistical Education and Probabilistic Education. I currently investigate the constitution and development of the field of Statistical Education in Brazil and Spain, articulating scientific production, collaboration networks and narrative interviews with researchers who contributed to its construction.
+
+My proximity to Information Science and to metric studies awakened an interest in the systematization, preservation and circulation of scientific memory. From this movement, I develop independent digital archives aimed at organizing records of events and of research communities in Mathematics Education. I am also currently developing open-source tools using artificial intelligence to support qualitative research.
+
+## Research interests
+
+- Statistical Education
+- Probabilistic Education
+- Systematic reviews and state of the art
+- Metric studies: bibliometrics and scientometrics
+- Digital archives and scientific memory
+- Open-source tools and AI for qualitative research

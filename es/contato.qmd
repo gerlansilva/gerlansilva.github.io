@@ -1,0 +1,27 @@
+---
+title: "Contacto"
+subtitle: "Hablemos de investigación, acervos y educación matemática"
+lang: es
+---
+
+## Dónde encontrarme
+
+**Correo electrónico:** [gerlanmatfis@gmail.com](mailto:gerlanmatfis@gmail.com)
+
+**Institución:** Programa de Posgrado en Educación  
+Universidad Federal de São Carlos (UFSCar)  
+Rodovia Washington Luís, km 235 — São Carlos, SP
+
+## Perfiles y currículos
+
+- <i class="ai ai-orcid" aria-hidden="true"></i> [ORCID](https://orcid.org/0000-0002-9996-9983)
+- <i class="ai ai-lattes" aria-hidden="true"></i> [Currículo Lattes](http://lattes.cnpq.br/2364822008221312)
+- <i class="ai ai-google-scholar" aria-hidden="true"></i> [Google Scholar](https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR)
+- <i class="bi bi-github" aria-hidden="true"></i> [GitHub](https://github.com/gerlansilva)
+
+## Acervos digitales
+
+- [Memoria del SIPEM](https://gerlansilva.github.io/memoria-sipem/)
+- [Memoria del GT 19](https://gt19anped.pages.dev/)
+- [Acervo de la Primera Conferencia de Educación Estadística](https://cieee-acervo.netlify.app/)
+- [Memoria del EIEM](https://eiememoria.pages.dev/#sobre)

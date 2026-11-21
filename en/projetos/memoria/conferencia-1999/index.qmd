@@ -1,0 +1,43 @@
+---
+title: "Acervo da Conferência de 1999"
+subtitle: "Experiences and Expectations in the Teaching of Statistics, Florianópolis, 1999."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Scientific memory"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="CIEEE 1999">
+
+The conference *Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI* (Experiences and Expectations in the Teaching of Statistics: Challenges for the 21st Century) gathered, in Florianópolis, between 20 and 23 September 1999, faculty, researchers, Statistics associations and specialists in the didactics of Statistics. The archive preserves the located records of that meeting and returns them in a contemporary consultation interface.
+
+:::
+
+## About the archive
+
+The starting point is the official website of the conference, published in 1999. The original documentary structure was maintained — thematic axes, paper records, authors, institutions and institutional logos — but navigation, typography and presentation were rebuilt for current screens.
+
+The recovery work does not fill gaps with supposed information: when a document or image was not located, the archive records the absence instead of filling in the field.
+
+## The archive in numbers
+
+- **61 papers** presented and cataloged;
+- **126 authors** with a registered affiliation;
+- **9 countries** of origin of the institutions;
+- **6 thematic axes** that organize the program;
+- **7 institutional logos** preserved in the identity of the event.
+
+## How to consult
+
+The home page concentrates the complete catalog. The search is instantaneous and covers titles, authors, institutions and abstracts; the axis selector restricts the result to one of the six thematic axes. Each record displays title, authorship, affiliation, axis and abstract.
+
+## Preservation and identity
+
+The archive's brand takes up the bridge in perspective from the original material, in institutional blue and serif typography. The numbers and the row of logos work as a summary of the event and as proof of the provenance of the documents gathered.
+
+## Access to the archive
+
+- **Digital archive** — [ciee1999.pages.dev](https://ciee1999.pages.dev)

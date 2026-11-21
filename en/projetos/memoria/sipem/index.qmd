@@ -1,0 +1,41 @@
+---
+title: "Memória do SIPEM"
+subtitle: "Archive of the proceedings of the Seminário Internacional de Pesquisa em Educação Matemática."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Scientific memory"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do SIPEM">
+
+The Seminário Internacional de Pesquisa em Educação Matemática (SIPEM) has gathered, since 2000, the Brazilian research of the area in editions held every three years. The archive organizes the proceedings of these editions into a searchable catalog, preserving the link of each record to the original publication.
+
+:::
+
+## About the archive
+
+The project was born from the difficulty of locating, in a single place, papers dispersed among proceedings volumes, event pages and institutional repositories. Instead of gathering only the PDFs, the archive reconstructs the bibliographic record of each paper — title, authorship, abstract, keywords, working group and pagination — and links it to the official source.
+
+## The archive in numbers
+
+- **9 editions** held between 2000 and 2024;
+- **1,645 records** indexed;
+- searchable papers in all editions;
+- documented period from **2000 to 2024**.
+
+## How to consult
+
+The interface has three routes. The presentation brings the general numbers and the timeline of the editions. The history of each edition gathers theme, place, working groups and sources. The proceedings offer a local search by title, authorship, institution, abstract and keywords, with a filter by GT, sorting and pagination. The entire search runs in the browser, without a server.
+
+## Preservation criteria
+
+The archive follows explicit editorial principles: not inventing missing metadata; keeping the link to the official source alongside each record; identifying incomplete documents; separating papers, conferences, round tables, reports and front matter; and making its own copy available only when there is authorization or a clear basis for redistribution.
+
+## Access to the archive
+
+- **Digital archive** — [memoria-sipem.pages.dev](https://memoria-sipem.pages.dev)
+- **Source code** — [github.com/gerlansilva/memoria-sipem](https://github.com/gerlansilva/memoria-sipem)

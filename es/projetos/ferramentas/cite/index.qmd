@@ -1,0 +1,49 @@
+---
+title: "Cite"
+subtitle: "Gestor de referencias local para macOS y Windows."
+author: "Gerlan Silva"
+image: cover-cite-v3.jpg
+categories: ["Herramientas para la investigación cualitativa"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo-cite-v3.png" align="right" width="30%" class="proj-featured" alt="Cite">
+
+Cite es un gestor de referencias que funciona íntegramente en la máquina del investigador. La biblioteca reside en una carpeta local, sin cuenta, suscripción ni servidor intermediario, y la aplicación cubre el recorrido completo: recolectar la referencia, leer y anotar el PDF, citar en el texto y publicar la bibliografía.
+
+:::
+
+## Qué es
+
+Inspirado en el flujo de Paperpile, Cite reúne biblioteca, lector de PDF e integración con Word en una única aplicación de escritorio. La versión actual es la **0.3.9**, disponible para macOS y Windows.
+
+## Cómo funciona
+
+En la primera ejecución, Cite crea la biblioteca en `~/Documents/Cite` y abre la pantalla inicial, con el resumen del acervo, las referencias recientes y los accesos directos para crear una referencia, buscar artículos o importar un PDF. La ruta de la biblioteca queda registrada en las preferencias del sistema, y la aplicación abre una pantalla de recuperación en caso de que la carpeta se haya movido o haya perdido el permiso de escritura.
+
+## Recursos principales
+
+- **Biblioteca local** con favoritos, papelera, colecciones, etiquetas y búsqueda;
+- **Importación** de BibTeX y RIS; **exportación** en BibTeX, RIS, Markdown y CSV;
+- **Estilos de cita** ABNT, APA, MLA, Harvard, Vancouver y Chicago;
+- **Búsqueda en línea** en Crossref, arXiv, PubMed y Google Académico, con paginación por «Cargar más»;
+- **Descarga de PDF** de acceso abierto vía OpenAlex;
+- **Lector de PDF** con resaltado, subrayado, tachado, comentarios por página, búsqueda, zoom, rotación y tema claro u oscuro;
+- **Traducción de fragmentos** al portugués, inglés, español y Tetum Dili.
+
+## Integración con Word
+
+El complemento crea una pestaña **Cite** en la cinta de opciones de Word, con los botones para insertar cita, insertar bibliografía y abrir el panel. Las citas se guardan como campos vinculados, lo que permite combinar referencias, definir página, prefijo, sufijo, apud, cita narrativa y omisión de autor o año.
+
+La bibliografía acompaña el texto: al eliminar una cita, la referencia sale de la lista, y **Actualizar citas** reformatea el documento cuando cambian el estilo o la biblioteca. **Desvincular citas** convierte los campos en texto común. El panel se sirve localmente en `https://localhost:23120`, con un certificado instalado en el sistema, y funciona sin conexión mientras la aplicación está abierta.
+
+## Requisitos e instalación
+
+Los instaladores están en la página de releases. En macOS, la aplicación es un `.dmg`; en Windows, un instalador NSIS por usuario, que no exige administrador. La compilación no tiene certificado de desarrollador, por lo que el sistema puede mostrar un aviso en la primera apertura: basta con confirmar en **Abrir de todos modos** o **Ejecutar de todos modos**.
+
+## Acceso a la herramienta
+
+- **Código fuente e instaladores** — [github.com/gerlansilva/cite-desktop](https://github.com/gerlansilva/cite-desktop)

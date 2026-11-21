@@ -1,0 +1,41 @@
+---
+title: "Memória do EIEM"
+subtitle: "Acervo digital del Encuentro de Investigación en Educación Matemática, en Portugal."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Memoria científica"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do EIEM">
+
+El Encuentro de Investigación en Educación Matemática (EIEM), promovido por la SPIEM, es uno de los principales foros portugueses de discusión de la investigación en Educación Matemática. El acervo reúne las ponencias presentadas en las ediciones del encuentro y permite consultarlas de forma integrada, por edición, autoría o tema.
+
+:::
+
+## Sobre el acervo
+
+Las actas de cada edición son la fuente principal. Los registros fueron organizados en un catálogo único, con vínculo al PDF individual de cada ponencia, de modo que la consulta no dependa de recorrer volúmenes completos. La edición de 2024, realizada en Porto, fue la primera catalogada; las demás fueron incorporadas progresivamente.
+
+## El acervo en cifras
+
+- **613 ponencias** catalogadas;
+- **21 ediciones** del encuentro;
+- **2006–2024** como período documentado;
+- ciudades sede como Porto, Aveiro, Coimbra, Évora, Lisboa, Setúbal, Bragança, Vila Real, Póvoa de Varzim, Castelo de Vide, Santarém, Alte, Costa da Caparica, São Pedro do Sul y Vieira de Leiria.
+
+## Cómo consultar
+
+La búsqueda recorre título, resumen, palabras clave, autoría e institución. Hay filtro por tipo de ponencia y ordenación por año o título. Cada resultado abre una ficha con autor, sigla de la institución, país, resumen y palabras clave, además del botón para el PDF.
+
+## Criterios editoriales
+
+Los metadatos provienen de las actas y no son inferidos. La titulación que no consta en la fuente queda en blanco; la asociación entre autor e institución solo se hace cuando el orden de los elementos lo permite. El texto integral de las afiliaciones se preserva en el catálogo, lo que permite comprobar cada asociación antes de usar los datos en análisis bibliométricos.
+
+## Acceso al acervo
+
+- **Acervo digital** — [eiememoria.pages.dev](https://eiememoria.pages.dev)
+- **Código fuente** — [github.com/gerlansilva/Memoria-EIEM](https://github.com/gerlansilva/Memoria-EIEM)

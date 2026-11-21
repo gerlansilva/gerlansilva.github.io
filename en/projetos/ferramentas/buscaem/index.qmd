@@ -1,0 +1,42 @@
+---
+title: "BuscaEM"
+subtitle: "Search engine for articles in Mathematics Education journals."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Tools for qualitative research"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="BuscaEM">
+
+BuscaEM is a search engine specialized in Mathematics Education journals. Instead of consulting journal by journal, the researcher searches a single metadata catalog, with filters by journal, language and year, and reaches the article at its original source.
+
+:::
+
+## What it is
+
+The catalog is static: the pages are generated from a metadata index, with no database and no application server. Each record keeps the link to the journal and to the full text at the official source.
+
+## How it works
+
+The collection uses the **OAI-PMH** protocol, which journals on Open Journal Systems expose for interoperability. One script audits the sources, identifies those that respond to the protocol and collects the records; a second script assembles the main catalog with the Crossref backfile and publishes the indexes that the site consumes. The routine runs on GitHub Actions and can be run again manually.
+
+## Main features
+
+- **Search by** title, authorship, subject, DOI and Boolean expression (`AND`, `OR`, `NOT`, exact phrase);
+- **Filters** by journal, language and year range;
+- **Sorting** by relevance, title or year;
+- **Static catalog** that loads quickly and does not depend on a backend;
+- **Traceable metadata**, always linked to the original source.
+
+## Metadata policy
+
+The preferred source is the journal's own OAI/OJS or the official SciELO; Crossref is used as an alternative. The English title and abstract are filled in only when the source itself provides the variant — the search engine neither translates nor completes fields on its own.
+
+## Access to the tool
+
+- **BuscaEM** — [buscaem.pages.dev](https://buscaem.pages.dev)
+- **Source code** — [github.com/gerlansilva/BucaEM](https://github.com/gerlansilva/BucaEM)

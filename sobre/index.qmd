@@ -4,8 +4,8 @@ subtitle: "Doutorando em Educação · UFSCar"
 image: avatar.png
 about:
   template: trestles
-  image-width: 14em
-  image-shape: rounded
+  image-width: 16em
+  image-shape: round
   links:
     - text: "{{< ai orcid >}}"
       href: https://orcid.org/0000-0002-9996-9983

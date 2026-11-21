@@ -1,0 +1,41 @@
+---
+title: "Memória do EIEM"
+subtitle: "Digital archive of the Encontro de Investigação em Educação Matemática, in Portugal."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Scientific memory"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do EIEM">
+
+The Encontro de Investigação em Educação Matemática (EIEM), promoted by SPIEM, is one of the main Portuguese forums for discussing research in Mathematics Education. The archive gathers the papers presented in the editions of the meeting and allows them to be consulted in an integrated way, by edition, authorship or theme.
+
+:::
+
+## About the archive
+
+The proceedings of each edition are the main source. The records were organized into a single catalog, linked to the individual PDF of each paper, so that consultation does not depend on going through complete volumes. The 2024 edition, held in Porto, was the first to be cataloged; the others were incorporated progressively.
+
+## The archive in numbers
+
+- **613 papers** cataloged;
+- **21 editions** of the meeting;
+- **2006–2024** as the documented period;
+- host cities such as Porto, Aveiro, Coimbra, Évora, Lisboa, Setúbal, Bragança, Vila Real, Póvoa de Varzim, Castelo de Vide, Santarém, Alte, Costa da Caparica, São Pedro do Sul and Vieira de Leiria.
+
+## How to consult
+
+The search covers title, abstract, keywords, authorship and institution. There is a filter by type of paper and sorting by year or title. Each result opens a record with author, institution acronym, country, abstract and keywords, as well as a button to the PDF.
+
+## Editorial criteria
+
+The metadata come from the proceedings and are not inferred. A degree that does not appear in the source is left blank; the association between author and institution is made only when the order of the elements allows it. The full text of the affiliations is preserved in the catalog, which makes it possible to check each association before using the data in bibliometric analyses.
+
+## Access to the archive
+
+- **Digital archive** — [eiememoria.pages.dev](https://eiememoria.pages.dev)
+- **Source code** — [github.com/gerlansilva/Memoria-EIEM](https://github.com/gerlansilva/Memoria-EIEM)

@@ -1,0 +1,31 @@
+---
+title: "Presentaciones"
+subtitle: "Conferencias, comunicaciones y exámenes de cualificación en eventos científicos."
+lang: es
+listing:
+  - id: talks
+    contents: "**/*/index.qmd"
+    type: default
+    fields: [image, date, title, event]
+    sort: "date desc"
+    page-size: 10
+    field-display-names:
+      event: "Evento"
+---
+
+::: {#talks}
+:::
+
+<style>
+#title-block-header {
+  text-align: center;
+}
+
+#title-block-header .subtitle {
+  margin-bottom: 3rem;
+}
+
+.quarto-listing {
+  margin-top: 1.5rem;
+}
+</style>

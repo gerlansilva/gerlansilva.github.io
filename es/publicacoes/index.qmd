@@ -1,0 +1,99 @@
+---
+title: "Publicaciones"
+subtitle: "Artículos en revistas y trabajos académicos"
+lang: es
+toc: true
+toc-depth: 2
+toc-location: right
+---
+
+La producción académica está organizada por tipo de documento. Consulte también el <a href="https://orcid.org/0000-0002-9996-9983"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a> y el <a href="http://lattes.cnpq.br/2364822008221312"><i class="ai ai-lattes" aria-hidden="true"></i> Currículo Lattes</a>.
+
+## Artículos en revistas
+
+::: {.publication-entry}
+### Entre posibilidades y vacíos: una mirada a las tesis en Educación Probabilística en la Escuela Básica
+
+SILVA, Gerlan Silva da; GRANDO, Regina Célia. *Boletim GEPEM*, n. 85, p. 182–204, 2024. [DOI](https://doi.org/10.69906/GEPEM.2176-2988.2024.969)
+
+::: {.callout-note collapse="true"}
+## Resumen
+
+Este artículo tiene por objetivo presentar una investigación que buscó mapear, describir y sistematizar las tesis brasileñas sobre la enseñanza y el aprendizaje de probabilidad en la Educación Básica. Se analizaron tesis producidas entre mayo de 1994 y junio de 2021 en programas de posgrado Stricto Sensu reconocidos por la CAPES, de las áreas de Educación y Enseñanza. Por medio de una revisión bibliográfica del tipo estado del arte, identificamos 332 tesis y disertaciones, de las cuales 21 fueron seleccionadas. El análisis reveló una multiplicidad de enfoques y propuestas pedagógicas, con énfasis en investigaciones que involucran el uso de tecnologías. Las conclusiones indican la importancia de simuladores, softwares estadísticos, objetos de aprendizaje y juegos pedagógicos como herramientas auxiliares para la enseñanza de probabilidad y estadística, capaces de facilitar la comprensión de conceptos complejos, ampliar la interactividad y la motivación de los estudiantes y favorecer la resolución de problemas.
+:::
+:::
+
+::: {.publication-entry}
+### Un breve panorama histórico de la Teoría de la Probabilidad y sus conexiones con su enseñanza
+
+SILVA, Gerlan; GRANDO, Regina Célia. *Revista Internacional de Pesquisa em Educação Matemática*, v. 14, n. 3, p. 1–15, 2024. [DOI](https://doi.org/10.37001/ripem.v14i3.3821)
+
+::: {.callout-note collapse="true"}
+## Resumen
+
+Este artículo presenta un breve marco histórico de la Teoría de la Probabilidad, que abarca el período desde la antigüedad hasta mediados del siglo XX, con el fin de comprender qué constructos teóricos deben privilegiarse en su enseñanza. Mediante una línea de tiempo organizada en cuatro períodos (prehistoria de la probabilidad, surgimiento del concepto, desarrollo de la Probabilidad Clásica y período moderno), destacamos las contribuciones de los principales matemáticos al Cálculo de Probabilidades. Observamos que la teoría de la probabilidad ha sido configurada por contribuciones diversas de matemáticos, filósofos, estadísticos y científicos de diferentes épocas y contextos. Esta evolución conceptual y epistemológica ha tenido un impacto significativo en el desarrollo de la teoría a lo largo de los siglos y ha influido en los procesos de enseñanza y aprendizaje.
+:::
+:::
+
+::: {.publication-entry}
+### Articulaciones entre la Investigación Narrativa (Auto)Biográfica y las Insubordinaciones Creativas: un encuentro feliz
+
+WAGNER, Guilherme; SILVA, Carla Mariana Rocha Brittes da; LUBAVEM, Edivaldo; SILVA, Gerlan Silva da; JACOMELLI-ALVES, Karina Zolia; GRANDO, Regina Célia; BUEHRING, Roberta Schnorr. *Revista Catarinense de Educação Matemática*, v. 2, n. 3, p. 1–22, 2023. [DOI](https://doi.org/10.37001/recem.v2i3.3627)
+
+::: {.callout-note collapse="true"}
+## Resumen
+
+Los grupos de investigación GEPPROFEM e ICEM, vinculados al PPGECT/UFSC, han situado sus producciones en la interfaz entre la investigación narrativa (auto)biográfica y las insubordinaciones creativas en Educación Matemática. En este artículo, objetivamos comprender cómo la investigación narrativa en Educación Matemática genera insubordinaciones creativas de los diferentes actores que la producen y coparticipan de ella. Partimos de la hipótesis de que la investigación narrativa (auto)biográfica posibilita espacios para que los profesores cuenten sus historias de vida y de profesión y representa, sobre todo, una insubordinación creativa a los modos positivistas de producción de investigación. Los resultados indican que los estudios desarrollados por los participantes del grupo buscan trascender los modos tradicionales de evaluar la producción científica y abrazan valores como el respeto a la identidad y a la subjetividad del investigador, la responsabilidad social en la producción de investigaciones, la valorización de voces silenciadas y la búsqueda de investigaciones que contribuyan a la disminución de las desigualdades y a la justicia social.
+:::
+:::
+
+::: {.publication-entry}
+### Mapeo de tesis y disertaciones brasileñas sobre Educación Probabilística en la Escuela Básica
+
+SILVA, Gerlan Silva da; GRANDO, Regina Célia. *Revista de Educação PUC-Campinas*, v. 28, e238479, 2023. [DOI](https://doi.org/10.24220/2318-0870v28e2023a8479)
+
+::: {.callout-note collapse="true"}
+## Resumen
+
+Este artículo presenta un mapeo de los aspectos físicos de las investigaciones brasileñas sobre la enseñanza y el aprendizaje de Probabilidad en la Educación Básica producidas en el ámbito de los programas de posgrado stricto sensu en el área de Educación y Enseñanza. La búsqueda se realizó en medio digital, en el Catálogo de Tesis y Disertaciones de la CAPES, en la Biblioteca Digital Brasileña de Tesis y Disertaciones y en acervos de currículos de la plataforma Lattes. Se encontraron 99 tesis y disertaciones, defendidas en Brasil entre mayo de 1994 y junio de 2021. Las investigaciones fueron organizadas y codificadas con informaciones como año de defensa, autoría, titulación, dirección, institución, programa de posgrado y tribunal examinador. A partir de las 78 disertaciones y 21 tesis fue posible observar un aumento significativo del interés por el tema desde 2007, con investigaciones en las cinco regiones de Brasil, énfasis en la Región Sudeste y concentración en São Paulo. Se identificaron 31 universidades, con destaque para la Pontificia Universidad Católica de São Paulo, y el programa de Educación Matemática presentó el mayor número de trabajos defendidos.
+:::
+:::
+
+::: {.publication-entry}
+### Formación/práctica de profesores que enseñan estadística, probabilidad y combinatoria: un estudio basado en revistas científicas brasileñas
+
+SILVA, Gerlan Silva da; SANTOS, Rodrigo Medeiros dos. *REAMEC — Rede Amazônica de Educação em Ciências e Matemática*, v. 10, n. 2, e22040, 2022. [DOI](https://doi.org/10.26571/reamec.v10i2.13454)
+
+::: {.callout-note collapse="true"}
+## Resumen
+
+Este trabajo tiene como objetivo inventariar, sistematizar y describir la producción científica sobre la formación y la práctica de profesores que enseñan Estadística, Probabilidad y Combinatoria, publicada en revistas científicas brasileñas. Metodológicamente, se trata de una investigación del tipo estado del conocimiento, de carácter analítico-descriptivo, que tuvo como material de análisis 34 artículos. Las investigaciones fueron categorizadas en cuatro ejes temáticos: comprensión, concepción y saberes docentes; formación inicial, continua y desarrollo profesional; formación y práctica mediadas por grupos colaborativos; y práctica y trabajo docente. Los resultados apuntan que muchos de los artículos analizados convergen en la idea de que los profesores investigados presentan dificultades para comprender conceptos estadísticos, probabilísticos y combinatorios, lo que plantea cuestionamientos sobre la forma en que esos asuntos son tratados en la formación inicial. También se observó énfasis en investigaciones sobre formación inicial, continua y desarrollo profesional (47,1% de los artículos).
+:::
+:::
+
+## Trabajos académicos
+
+### Disertación de maestría
+
+**El estado del arte de la investigación en educación probabilística en la escuela básica**  
+Gerlan Silva da Silva · Universidad Federal de Santa Catarina (UFSC) · 2023  
+Programa de Posgrado en Educación Científica y Tecnológica · Directora: Regina Célia Grando  
+Financiación: FAPESC y CAPES/PROEX
+
+::: {.callout-note collapse="true"}
+## Resumen
+
+Nuestro objetivo en esta investigación es inventariar, sistematizar, describir y analizar la investigación académica brasileña sobre la enseñanza y el aprendizaje de Probabilidad en la Educación Básica, producida en el ámbito de los programas de posgrado, en el área de Educación y Enseñanza, evidenciando sus principales tendencias temáticas y aspectos teórico-metodológicos. Esta investigación se caracteriza metodológicamente como cualitativa en cuanto al enfoque, de naturaleza exploratoria en cuanto a sus objetivos, y bibliográfica, considerando sus procedimientos de producción y análisis de los datos. El mapeo de las investigaciones, como fuente de datos, se realizó de forma totalmente digital, a través del Catálogo de tesis y disertaciones de la CAPES, de la Biblioteca Digital Brasileña de Tesis y Disertaciones (BDTD) y de acervos de currículos de la plataforma Lattes. Esas búsquedas nos retornaron un total de 99 tesis y disertaciones, defendidas en Brasil en el período de mayo de 1994 a junio de 2021, que relacionan y articulan la Educación Probabilística en la Escuela Básica como objeto de estudio.
+
+El estudio organizó 78 disertaciones y 21 tesis e identificó siete núcleos temáticos, destacándose los recursos didácticos y las metodologías de enseñanza de la Probabilidad. Las investigaciones fueron codificadas en el MAXQDA, contemplando aspectos teórico-metodológicos y resultados de las investigaciones.
+:::
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consultar disertación y registro completo](https://repositorio.ufsc.br/handle/123456789/251185?show=full){.icon-link}
+
+### Trabajo de fin de grado
+
+**Formación/práctica de profesores que enseñan estadística, probabilidad y combinatoria: un estudio basado en revistas científicas brasileñas**  
+Gerlan Silva da Silva · Universidad Federal del Oeste de Pará (UFOPA) · 2021  
+Director: Rodrigo Medeiros dos Santos
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consultar TFG](https://repositorio.ufopa.edu.br/items/a36d5724-8fb4-4eb7-8faa-6722ab0fc56c){.icon-link}

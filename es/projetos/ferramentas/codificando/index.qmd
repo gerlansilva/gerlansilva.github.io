@@ -1,0 +1,44 @@
+---
+title: "Codificando"
+subtitle: "CAQDAS local para el análisis cualitativo de datos."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Herramientas para la investigación cualitativa"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Codificando">
+
+Codificando es un entorno de análisis cualitativo (CAQDAS) para codificar entrevistas, documentos y notas directamente sobre la página del PDF. Fue creado para investigaciones que necesitan un codebook, fragmentos, consultas e informes sin enviar los datos fuera de la máquina.
+
+:::
+
+## Qué es
+
+La aplicación está construida en **Tauri 2**, con núcleo en Rust e interfaz en React. Toda la base —documentos, códigos, fragmentos y anotaciones— reside en archivos locales, sin cuenta, servidor ni telemetría. La versión actual es la **0.2.4**.
+
+## Cómo funciona
+
+El investigador crea un proyecto, importa los documentos y arma el codebook jerárquico, con colores y definiciones. La codificación ocurre en la propia página del PDF: se selecciona el fragmento y se le asignan uno o más códigos, lo que forma la base para consultas, recuentos e informes.
+
+## Recursos principales
+
+- **Importación** de PDF, DOCX, TXT y RTF;
+- **Codificación directamente en la página**, con fragmentos marcados en el documento;
+- **Codebook jerárquico**, con colores, definiciones y recuento por código;
+- **Consultas e informes** sobre la frecuencia y la distribución de los códigos;
+- **Comentarios y notas** por documento y por fragmento;
+- **Búsqueda** en el proyecto y en los documentos;
+- **Datos locales**, sin sincronización ni envío a servicios externos.
+
+## Requisitos e instalación
+
+Hay instaladores para **macOS (Apple Silicon)** y **Windows (x64)**, además de un manual en PDF adjunto a cada versión. La aplicación es gratuita y no tiene certificado de desarrollador: en la primera apertura, macOS pide confirmar en **Abrir** y Windows en **Más información → Ejecutar de todos modos**. Después de eso, el aviso no vuelve.
+
+## Acceso a la herramienta
+
+- **Descargar la versión más reciente** — [github.com/gerlansilva/codificando/releases/latest](https://github.com/gerlansilva/codificando/releases/latest)
+- **Código fuente** — [github.com/gerlansilva/codificando](https://github.com/gerlansilva/codificando)

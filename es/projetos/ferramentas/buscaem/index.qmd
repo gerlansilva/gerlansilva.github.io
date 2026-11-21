@@ -1,0 +1,42 @@
+---
+title: "BuscaEM"
+subtitle: "Buscador de artículos de revistas de Educación Matemática."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Herramientas para la investigación cualitativa"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="BuscaEM">
+
+BuscaEM es un buscador especializado en revistas de Educación Matemática. En lugar de consultar revista por revista, el investigador busca en un catálogo único de metadatos, con filtros por revista, idioma y año, y llega al artículo en la fuente original.
+
+:::
+
+## Qué es
+
+El catálogo es estático: las páginas se generan a partir de un índice de metadatos, sin base de datos ni servidor de aplicación. Cada registro guarda el vínculo con la revista y con el texto completo en la fuente oficial.
+
+## Cómo funciona
+
+La recolección usa el protocolo **OAI-PMH**, que las revistas en Open Journal Systems exponen para la interoperabilidad. Un script audita las fuentes, identifica las que responden al protocolo y recolecta los registros; un segundo script reúne el catálogo principal con el backfile de Crossref y publica los índices que consume el sitio. La rutina se ejecuta en GitHub Actions y puede rehacerse manualmente.
+
+## Recursos principales
+
+- **Búsqueda por** título, autoría, asunto, DOI y expresión booleana (`AND`, `OR`, `NOT`, frase exacta);
+- **Filtros** por revista, idioma e intervalo de años;
+- **Ordenación** por relevancia, título o año;
+- **Catálogo estático**, que carga rápido y no depende de un backend;
+- **Metadatos rastreables**, siempre vinculados a la fuente original.
+
+## Política de metadatos
+
+La fuente preferente es el OAI/OJS de la propia revista o la SciELO oficial; Crossref entra como alternativa. El título y el resumen en inglés solo se completan cuando la propia fuente proporciona la variante: el buscador no traduce ni completa campos por cuenta propia.
+
+## Acceso a la herramienta
+
+- **BuscaEM** — [buscaem.pages.dev](https://buscaem.pages.dev)
+- **Código fuente** — [github.com/gerlansilva/BucaEM](https://github.com/gerlansilva/BucaEM)

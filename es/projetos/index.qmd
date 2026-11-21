@@ -1,0 +1,36 @@
+---
+title: "Proyectos"
+subtitle: "Acervos digitales de memoria científica y herramientas para la investigación cualitativa."
+lang: es
+listing:
+  - id: memoria
+    contents: "memoria/*/index.qmd"
+    type: grid
+    fields: [image, title, subtitle]
+    sort: "title"
+  - id: ferramentas
+    contents: "ferramentas/*/index.qmd"
+    type: grid
+    fields: [image, title, subtitle]
+    sort: "title"
+page-layout: full
+toc: false
+---
+
+## Proyectos de memoria científica
+
+::: {#memoria}
+:::
+
+## Herramientas para la investigación cualitativa
+
+::: {#ferramentas}
+:::
+
+## Sobre los proyectos
+
+Al consultar la producción científica de eventos, percibo cómo las actas, las ponencias y otros registros pueden dispersarse o volverse difíciles de encontrar con el paso de los años. Muchas veces, la disponibilidad de los documentos termina junto con el evento, sin un trabajo continuado de organización, descripción, curaduría y preservación. Esto compromete no solo el acceso a los textos, sino también la posibilidad de reconstruir la trayectoria de las discusiones y de las comunidades de investigación.
+
+Fue de esa inquietud, asociada a mi interés por la Ciencia de la Información y por los estudios métricos, que comencé a desarrollar, por iniciativa propia, acervos digitales orientados a la memoria científica. No se trata de un único proyecto ni de etapas de mi tesis: cada iniciativa posee un objeto, un conjunto documental y desafíos específicos. El propósito común es tornar los registros más accesibles, contextualizados y menos vulnerables al olvido y a la pérdida de referencias.
+
+En paralelo, desarrollo herramientas de código abierto para el trabajo cualitativo — lectura y fichas de lectura de textos, codificación de datos y gestión de referencias — pensadas para funcionar localmente, con los datos bajo control del investigador.

@@ -1,0 +1,33 @@
+---
+title: "Research"
+subtitle: "Investigations in Mathematics, Statistical and Probabilistic Education"
+lang: en
+---
+
+## Doctoral degree in Education
+
+::: {.research-item}
+### Networks that tell stories: a scientometric study of the field of Statistical Education in Brazil and Spain
+
+::: {.research-meta}
+Federal University of São Carlos (UFSCar) · 2024–2028 (expected)  
+Advisor: Cármen Lúcia Brancaglion Passos
+:::
+
+Study of the constitution and development of the field of Statistical Education, articulating scientific production, collaboration networks and narrative interviews with researchers who contributed to the construction of the field in both countries.
+:::
+
+## Master's degree in Science and Technological Education
+
+::: {.research-item}
+### The state of the art of research on probabilistic education in basic education
+
+::: {.research-meta}
+Federal University of Santa Catarina (UFSC) · 2023  
+Advisor: Regina Célia Grando
+:::
+
+State of the art of the Brazilian academic production on the teaching and learning of Probability in Basic Education, with a corpus of 99 dissertations and theses defended between 1994 and 2021.
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Access the dissertation](https://repositorio.ufsc.br/handle/123456789/251185){.icon-link}
+:::

@@ -1,0 +1,44 @@
+---
+title: "Margem"
+subtitle: "Lector de PDF académico con chat y fichas de lectura."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Herramientas para la investigación cualitativa"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Margem">
+
+Margem es un lector de PDF académico con un asistente que responde citando página y fragmento, y un cuadro de fichas de lectura que se completa por columnas. La pregunta nace en el margen: lees el artículo, anotas la duda junto al párrafo y la respuesta vuelve señalando de dónde salió.
+
+:::
+
+## Qué es
+
+La aplicación está construida en **Tauri 2** (Rust y React), con almacenamiento local en SQLite. La versión actual es la **0.3.0**, para macOS y Windows. El asistente usa la API de DeepSeek, con la clave del propio investigador guardada en la bóveda del sistema: Llavero en macOS, Administrador de credenciales en Windows.
+
+## Cómo funciona
+
+Cada PDF se convierte en una lectura Markdown con anclas por página. Al preguntar, el modelo responde con marcas como `[D1 p.7]`; al hacer clic en la cita, se abre el PDF en la página exacta y se resaltan las líneas utilizadas. Es posible seleccionar un fragmento y preguntar solo sobre él, o incluir un segundo documento en el alcance del chat para comparar ambos.
+
+## Recursos principales
+
+- **Chat con el documento**, con cita de página y fragmento clicables;
+- **Fichas de lectura por columnas**: defines nombre e instrucción, y la IA completa cada celda con valor, fragmento literal y página; sin fragmento verificado, la celda queda como «no encontrado»;
+- **Extracción por conjunto de documentos**, con progreso por archivo y la opción de rehacer solo las celdas vacías;
+- **Exportación** de las fichas de lectura en CSV (se abre en Excel en español) y de las conversaciones y notas en Markdown;
+- **Resaltados y notas** en cinco colores, guardados por documento;
+- **Búsqueda en el acervo**, por palabras y, con embeddings configurados, también por significado;
+- **Relacionados vía OpenAlex**, con referencias, citas y descarga de PDF de acceso abierto;
+- **Respuestas verificables**: la cita de página no enviada al modelo aparece punteada, con advertencia.
+
+## Requisitos e instalación
+
+Hay instalador para **Windows** y `.dmg` universal para **macOS**. En la primera ejecución, es necesario abrir la configuración y pegar la clave de DeepSeek. La aplicación no está firmada: en macOS, haz clic con el botón derecho en la app y elige **Abrir**.
+
+## Acceso a la herramienta
+
+- **Código fuente e instaladores** — [github.com/gerlansilva/margem](https://github.com/gerlansilva/margem)

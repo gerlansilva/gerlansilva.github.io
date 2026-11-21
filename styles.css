@@ -4,10 +4,14 @@
    ========================= */
 
 :root {
-  --bs-link-color: #1e7a4f;
-  --bs-link-hover-color: #15603d;
-  --gs-cor: #1e7a4f;
-  --gs-cor-escura: #15603d;
+  --bs-link-color: #2f5f8f;
+  --bs-link-hover-color: #24496e;
+  --gs-cor: #2f5f8f;
+  --gs-cor-escura: #24496e;
+  --gs-azul: #14335a;
+  --gs-texto: #1e2a36;
+  --gs-suave: #5b6b7a;
+  --gs-linha: #e3e8ec;
   --gs-cinza: #aeafb3;
   --bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -23,7 +27,7 @@ h1, h2, h3, h4, h5, h6,
 
 body {
   background-color: #ffffff;
-  color: #343a40;
+  color: #1e2a36;
   line-height: 1.5;
 }
 
@@ -47,8 +51,22 @@ a:hover {
 
 /* Navbar */
 .navbar {
-  background-color: var(--gs-cor) !important;
+  background-color: var(--gs-azul) !important;
   padding: 0.5rem 1rem;
+}
+
+.navbar .nav-link {
+  color: #e8eff6 !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link.active {
+  box-shadow: inset 0 -3px 0 #b87333;
 }
 
 .navbar a,
@@ -72,18 +90,29 @@ a:hover {
   letter-spacing: normal;
 }
 
+/* Bordas e metadados */
+hr,
+.quarto-grid-item,
+.card {
+  border-color: #e3e8ec;
+}
+
+.quarto-title-meta-heading {
+  color: #5b6b7a;
+}
+
 /* Título de página */
 .title {
   font-size: 50px;
   font-weight: 700;
   letter-spacing: normal;
-  color: #343a40;
+  color: #14335a;
 }
 
 .subtitle.lead {
   font-size: 1.25rem;
   font-weight: 300;
-  color: #343a40;
+  color: #5b6b7a;
 }
 
 /* Blocos de apresentação (about: solana / trestles) */
@@ -156,7 +185,7 @@ main.content {
 }
 
 .callout-note .callout-header {
-  background-color: #eef7f2 !important;
+  background-color: #f5f7f9 !important;
 }
 
 .callout-note .callout-icon::before {
@@ -166,7 +195,7 @@ main.content {
 h2 {
   margin-top: 2.4rem;
   padding-bottom: 0.35rem;
-  border-bottom: 1px solid #e6edf5;
+  border-bottom: 1px solid #e3e8ec;
   font-weight: 600;
   font-size: 1.6rem;
 }
@@ -179,7 +208,7 @@ h3 {
 
 p,
 li {
-  color: #343a40;
+  color: #1e2a36;
 }
 
 /* Formação */
@@ -287,13 +316,13 @@ li {
 
 .research-meta {
   font-size: 0.9rem;
-  color: #5b6b7d;
+  color: #5b6b7a;
 }
 
 /* Rodapé */
 .gs-footer {
-  background-color: #f4faf7;
-  border-top: 1px solid #e6edf5;
+  background-color: #ffffff;
+  border-top: 1px solid #e3e8ec;
   padding: 1.1rem 2rem;
   font-size: 1rem;
   color: #5b6b7d;
@@ -358,7 +387,7 @@ li {
 }
 
 .gs-footer-center a[href*="mailto"] i {
-  color: #1e7a4f;
+  color: #2f5f8f;
 }
 
 .gs-footer-right {
@@ -368,7 +397,7 @@ li {
 }
 
 .gs-footer a {
-  color: #1e7a4f;
+  color: #2f5f8f;
   text-decoration: none;
 }
 
@@ -467,7 +496,7 @@ body.quarto-dark .about-link {
 }
 
 body.quarto-dark .about-link:hover {
-  background-color: #1e7a4f;
+  background-color: #2f5f8f;
   color: #ffffff;
 }
 
@@ -506,17 +535,17 @@ body.quarto-dark .about-link:hover {
   margin-top: 0.9rem;
   padding: 0.5rem 1.1rem;
   border-radius: 6px;
-  background-color: #1e7a4f;
+  background-color: #14335a;
   color: #ffffff !important;
   font-size: 0.95rem;
   font-weight: 500;
   text-decoration: none;
-  border: 1px solid #1e7a4f;
+  border: 1px solid #14335a;
 }
 
 .btn-slides:hover {
-  background-color: #15603d;
-  border-color: #15603d;
+  background-color: #0f2745;
+  border-color: #0f2745;
   color: #ffffff !important;
   text-decoration: none;
 }
@@ -649,7 +678,7 @@ h2.anchored { margin-top: 2.2rem; }
 
 .quarto-listing-container-grid p.listing-subtitle {
   font-size: 0.84rem;
-  color: #6c757d;
+  color: #5b6b7a;
   line-height: 1.35;
   margin-bottom: 0;
 }
@@ -669,7 +698,7 @@ h2.anchored { margin-top: 2.2rem; }
 .nota-slides {
   margin-top: 0.6rem;
   font-size: 0.85rem;
-  color: #6c757d;
+  color: #5b6b7a;
 }
 
 /* Ícones de marca na página inicial */
@@ -704,4 +733,112 @@ div.quarto-about-solana .about-entity .about-link {
 div.quarto-about-solana .about-entity .about-link:hover {
   border: 0;
   background: none;
+}
+
+/* Página Sobre: mesmos ícones da página inicial */
+.quarto-about-trestles .about-links .about-link,
+.quarto-about-trestles .about-links .about-link:hover {
+  border: 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  border-radius: 0;
+  margin-right: 0.65rem;
+}
+
+.quarto-about-trestles .about-links .about-link i {
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.quarto-about-trestles .about-links .about-link i.ai-orcid { color: #a6ce39; }
+.quarto-about-trestles .about-links .about-link i.ai-lattes { color: #1c3f94; }
+.quarto-about-trestles .about-links .about-link i.ai-google-scholar { color: #4285f4; }
+.quarto-about-trestles .about-links .about-link i.bi-github { color: #24292f; }
+
+.quarto-about-trestles .about-links {
+  gap: 0;
+  justify-content: center;
+}
+
+/* Coluna da página Sobre: foto, nome, subtítulo e ícones próximos */
+div.quarto-about-trestles .about-entity {
+  gap: 0.6rem;
+  flex: 0 0 46%;
+}
+
+.quarto-about-trestles .about-entity .about-image {
+  margin-bottom: 0 !important;
+}
+
+.quarto-about-trestles #title-block-header {
+  margin-bottom: 0.35rem;
+}
+
+.quarto-about-trestles #title-block-header .subtitle {
+  font-size: 1.15rem;
+}
+
+.quarto-about-trestles .about-entity .about-image {
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+/* Seletor de idioma na navbar: um retângulo com os três idiomas */
+.navbar li.lang-nav-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a.nav-link[data-lang-toggle] {
+  margin: 0;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-left-width: 0;
+  border-radius: 0;
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  line-height: 1.55;
+  transition: background-color 0.15s ease;
+}
+
+.navbar a.nav-link[data-lang-toggle][data-lang-first] {
+  margin-left: 0.45rem;
+  border-left-width: 1px;
+  border-radius: 6px 0 0 6px;
+}
+
+.navbar a.nav-link[data-lang-toggle][data-lang-last] {
+  border-radius: 0 6px 6px 0;
+}
+
+.navbar a.nav-link[data-lang-toggle]:hover,
+.navbar a.nav-link[data-lang-toggle]:focus {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #fff !important;
+}
+
+.navbar a.nav-link[data-lang-toggle][data-lang-active] {
+  background-color: transparent;
+  color: #d1a47a !important;
+  box-shadow: inset 0 -2px 0 #b87333;
+}
+
+/* Ênfase no texto: laranja do site em vez de negrito */
+main.content strong,
+main.content b,
+.about-contents strong,
+.about-contents b {
+  font-weight: 400;
+  color: #a8611f;
+}
+
+body.quarto-dark main.content strong,
+body.quarto-dark main.content b,
+body.quarto-dark .about-contents strong,
+body.quarto-dark .about-contents b {
+  color: #d1a47a;
 }

@@ -1,0 +1,44 @@
+---
+title: "Codificando"
+subtitle: "Local CAQDAS for qualitative data analysis."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Tools for qualitative research"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Codificando">
+
+Codificando is a qualitative analysis environment (CAQDAS) for coding interviews, documents and notes directly on the PDF page. It was made for research that needs a codebook, excerpts, queries and reports without sending the data off the machine.
+
+:::
+
+## What it is
+
+The application is built in **Tauri 2**, with a core in Rust and an interface in React. The entire base — documents, codes, excerpts and notes — lives in local files, with no account, server or telemetry. The current version is **0.2.4**.
+
+## How it works
+
+The researcher creates a project, imports the documents and builds the hierarchical codebook, with colors and definitions. Coding happens on the PDF page itself: the excerpt is selected and receives one or more codes, forming the basis for queries, counts and reports.
+
+## Main features
+
+- **Import** of PDF, DOCX, TXT and RTF;
+- **Coding directly on the page**, with excerpts marked in the document;
+- **Hierarchical codebook**, with colors, definitions and count per code;
+- **Queries and reports** on the frequency and distribution of codes;
+- **Comments and notes** per document and per excerpt;
+- **Search** in the project and in the documents;
+- **Local data**, with no synchronization or sending to external services.
+
+## Requirements and installation
+
+There are installers for **macOS (Apple Silicon)** and **Windows (x64)**, as well as a PDF manual attached to each version. The application is free and has no developer certificate: on first launch, macOS asks you to confirm with **Open** and Windows with **More info → Run anyway**. After that, the warning does not return.
+
+## Access to the tool
+
+- **Download the latest version** — [github.com/gerlansilva/codificando/releases/latest](https://github.com/gerlansilva/codificando/releases/latest)
+- **Source code** — [github.com/gerlansilva/codificando](https://github.com/gerlansilva/codificando)

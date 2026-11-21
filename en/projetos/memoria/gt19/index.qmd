@@ -1,0 +1,41 @@
+---
+title: "Memória do GT 19"
+subtitle: "History, meetings and scientific production of GT 19 of ANPEd."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Scientific memory"]
+toc: true
+lang: en
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do GT 19">
+
+Working Group 19 — Mathematics Education — is one of the spaces of greatest continuity of Brazilian research in Mathematics Education within ANPEd. The archive gathers the papers presented at the National Meetings, the short courses offered and the records that help to follow the trajectory of the group.
+
+:::
+
+## About the archive
+
+Each edition of the National Meeting receives its own page, with the theme of the meeting, the host city, the coordination of the GT in that period and the list of papers. The visual identity of each meeting is preserved, which makes it possible to recognize the evolution of the meeting over time.
+
+Besides the papers, the archive keeps a section of articles and productions about the GT itself, the lives held by the group and an overview with data from the editions.
+
+## What the archive gathers
+
+- **Papers and short courses** presented in GT 19 at each National Meeting;
+- **42nd National Meeting** (João Pessoa, 2025), with 27 papers;
+- **41st National Meeting** (Manaus, 2023), with 25 papers and 2 short courses;
+- **40th National Meeting** (Belém, 2021), held in a virtual format;
+- **Articles and research about GT 19**, with academic production on the group;
+- **Lives of GT 19**, with the audiovisual records of the activities.
+
+## How to consult
+
+Navigation starts from the list of editions: once the meeting is chosen, the page shows the theme, the coordination and the papers, with access to the documents available for download. The archive section gathers the articles about the GT and the data section synthesizes the presence of the group in the meetings.
+
+## Access to the archive
+
+- **Digital archive** — [gt19anped.pages.dev](https://gt19anped.pages.dev)
+- **Source code** — [github.com/gerlansilva/GT19-Anped](https://github.com/gerlansilva/GT19-Anped)

@@ -1,0 +1,26 @@
+---
+title: "Gerlan Silva"
+subtitle: "Doctorando en Educación · Educación en Ciencias y Matemática · UFSCar"
+image: ../assets/images/photos/avatar.png
+lang: es
+about:
+  template: solana
+  image-width: 18em
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-9996-9983
+    - text: "{{< ai lattes >}}"
+      href: http://lattes.cnpq.br/2364822008221312
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR
+    - icon: github
+      href: https://github.com/gerlansilva
+page-layout: full
+---
+
+Soy **doctorando en Educación** en la línea de investigación Educación en Ciencias y Matemática, del Programa de Posgrado en Educación de la Universidad Federal de São Carlos (UFSCar).
+
+Tengo experiencia en **revisiones sistemáticas** y en **estudios métricos** (bibliométricos y cienciométricos) en el campo de la **Educación Estadística**, donde investigo la constitución y el desarrollo del campo en Brasil y en España. Actualmente, vengo desarrollando **herramientas de código abierto con uso de IA** que puedan auxiliar en investigaciones cualitativas.
+
+<a href="sobre/" class="about-links subtitle">Saber más →</a>

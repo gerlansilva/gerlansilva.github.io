@@ -1,0 +1,36 @@
+---
+title: "Projects"
+subtitle: "Digital archives of scientific memory and tools for qualitative research."
+lang: en
+listing:
+  - id: memoria
+    contents: "memoria/*/index.qmd"
+    type: grid
+    fields: [image, title, subtitle]
+    sort: "title"
+  - id: ferramentas
+    contents: "ferramentas/*/index.qmd"
+    type: grid
+    fields: [image, title, subtitle]
+    sort: "title"
+page-layout: full
+toc: false
+---
+
+## Scientific memory projects
+
+::: {#memoria}
+:::
+
+## Tools for qualitative research
+
+::: {#ferramentas}
+:::
+
+## About the projects
+
+When I consult the scientific production of events, I notice how proceedings, papers and other records can become dispersed or difficult to find over the years. Often, the availability of the documents ends together with the event, without continued work of organization, description, curation and preservation. This compromises not only access to the texts, but also the possibility of reconstructing the trajectory of discussions and research communities.
+
+It was from this concern, associated with my interest in Information Science and metric studies, that I began to develop, on my own initiative, digital archives dedicated to scientific memory. This is neither a single project nor stages of my doctoral dissertation: each initiative has its own object, documentary set and specific challenges. The common purpose is to make the records more accessible, contextualized and less vulnerable to oblivion and to the loss of references.
+
+In parallel, I develop open-source tools for qualitative work — reading and annotating texts, coding data and managing references — designed to run locally, with the data under the researcher's control.

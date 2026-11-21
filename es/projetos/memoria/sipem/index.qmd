@@ -1,0 +1,41 @@
+---
+title: "Memória do SIPEM"
+subtitle: "Acervo de las actas del Seminario Internacional de Investigación en Educación Matemática."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Memoria científica"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do SIPEM">
+
+El Seminario Internacional de Investigación en Educación Matemática (SIPEM) reúne, desde 2000, la investigación brasileña del área en ediciones realizadas cada tres años. El acervo organiza las actas de esas ediciones en un catálogo consultable, preservando el vínculo de cada registro con la publicación original.
+
+:::
+
+## Sobre el acervo
+
+El proyecto nació de la dificultad de localizar, en un mismo lugar, las ponencias dispersas entre volúmenes de actas, páginas de eventos y repositorios institucionales. En lugar de reunir solo los PDF, el acervo reconstruye el registro bibliográfico de cada ponencia —título, autoría, resumen, palabras clave, grupo de trabajo y paginación— y lo enlaza con la fuente oficial.
+
+## El acervo en cifras
+
+- **9 ediciones** realizadas entre 2000 y 2024;
+- **1.645 registros** indexados;
+- ponencias consultables en todas las ediciones;
+- período documentado de **2000 a 2024**.
+
+## Cómo consultar
+
+La interfaz tiene tres rutas. La presentación trae las cifras generales y la línea de tiempo de las ediciones. La historia de cada edición reúne tema, lugar, grupos de trabajo y fuentes. Las actas ofrecen búsqueda local por título, autoría, institución, resumen y palabras clave, con filtro por GT, ordenación y paginación. Toda la búsqueda se ejecuta en el navegador, sin servidor.
+
+## Criterios de preservación
+
+El acervo sigue principios editoriales explícitos: no inventar metadatos ausentes; mantener el enlace de la fuente oficial junto a cada registro; identificar documentos incompletos; separar ponencias, conferencias, mesas, informes y expediente; y solo poner a disposición una copia propia cuando exista autorización o una base clara para la redistribución.
+
+## Acceso al acervo
+
+- **Acervo digital** — [memoria-sipem.pages.dev](https://memoria-sipem.pages.dev)
+- **Código fuente** — [github.com/gerlansilva/memoria-sipem](https://github.com/gerlansilva/memoria-sipem)

@@ -1,0 +1,33 @@
+---
+title: "Investigaciones"
+subtitle: "Investigaciones en Educación Matemática, Estadística y Probabilística"
+lang: es
+---
+
+## Doctorado en Educación
+
+::: {.research-item}
+### Redes que cuentan historias: un estudio cienciométrico del campo de la Educación Estadística en Brasil y en España
+
+::: {.research-meta}
+Universidad Federal de São Carlos (UFSCar) · 2024–2028 (previsión)  
+Directora: Cármen Lúcia Brancaglion Passos
+:::
+
+Estudio de la constitución y el desarrollo del campo de la Educación Estadística, articulando producción científica, redes de colaboración y entrevistas narrativas con investigadoras que contribuyeron a la construcción del campo en los dos países.
+:::
+
+## Maestría en Educación Científica y Tecnológica
+
+::: {.research-item}
+### El estado del arte de la investigación en educación probabilística en la escuela básica
+
+::: {.research-meta}
+Universidad Federal de Santa Catarina (UFSC) · 2023  
+Directora: Regina Célia Grando
+:::
+
+Estado del arte de la producción académica brasileña sobre la enseñanza y el aprendizaje de Probabilidad en la Educación Básica, con un corpus de 99 tesis y disertaciones defendidas entre 1994 y 2021.
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Acceder a la disertación](https://repositorio.ufsc.br/handle/123456789/251185){.icon-link}
+:::

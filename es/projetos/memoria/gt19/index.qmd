@@ -1,0 +1,41 @@
+---
+title: "Memória do GT 19"
+subtitle: "Historia, encuentros y producción científica del GT 19 de la ANPEd."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Memoria científica"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do GT 19">
+
+El Grupo de Trabajo 19 — Educación Matemática — es uno de los espacios de mayor continuidad de la investigación brasileña en Educación Matemática dentro de la ANPEd. El acervo reúne las ponencias presentadas en las Reuniones Nacionales, los minicursos ofrecidos y los registros que ayudan a seguir la trayectoria del grupo.
+
+:::
+
+## Sobre el acervo
+
+Cada edición de la Reunión Nacional recibe una página propia, con el tema del encuentro, la ciudad sede, la coordinación del GT en ese período y la lista de ponencias. Se preserva la identidad visual de cada reunión, lo que permite reconocer la evolución del encuentro a lo largo del tiempo.
+
+Además de las ponencias, el acervo mantiene una sección de artículos y producciones sobre el propio GT, las lives realizadas por el grupo y un panorama con datos de las ediciones.
+
+## Qué reúne el acervo
+
+- **Ponencias y minicursos** presentados en el GT 19 en cada Reunión Nacional;
+- **42ª Reunión Nacional** (João Pessoa, 2025), con 27 ponencias;
+- **41ª Reunión Nacional** (Manaus, 2023), con 25 ponencias y 2 minicursos;
+- **40ª Reunión Nacional** (Belém, 2021), realizada en formato virtual;
+- **Artículos e investigaciones sobre el GT 19**, con producción académica acerca del grupo;
+- **Lives del GT 19**, con los registros audiovisuales de las actividades.
+
+## Cómo consultar
+
+La navegación parte de la lista de ediciones: elegida la reunión, la página muestra el tema, la coordinación y las ponencias, con acceso a los documentos disponibles para descarga. La sección de acervo reúne los artículos sobre el GT y la sección de datos sintetiza la presencia del grupo en las reuniones.
+
+## Acceso al acervo
+
+- **Acervo digital** — [gt19anped.pages.dev](https://gt19anped.pages.dev)
+- **Código fuente** — [github.com/gerlansilva/GT19-Anped](https://github.com/gerlansilva/GT19-Anped)

@@ -1,0 +1,50 @@
+---
+title: "Gerlan Silva"
+subtitle: "Doctorando en Educación · UFSCar"
+image: avatar.png
+lang: es
+about:
+  template: trestles
+  image-width: 16em
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-9996-9983
+    - text: "{{< ai lattes >}}"
+      href: http://lattes.cnpq.br/2364822008221312
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR
+    - icon: github
+      href: https://github.com/gerlansilva
+---
+
+¡Hola! Bienvenido.
+
+Soy doctorando en Educación, en la línea de investigación **Educación en Ciencias y Matemática**, del Programa de Posgrado en Educación de la Universidad Federal de São Carlos (UFSCar), en São Carlos, São Paulo, bajo la dirección de la profesora Cármen Lúcia Brancaglion Passos. Mi formación inicial es en Licenciatura Integrada en Matemática y Física, por la Universidad Federal del Oeste de Pará (UFOPA), y soy magíster en Educación Científica y Tecnológica por la Universidad Federal de Santa Catarina (UFSC).
+
+Ponte en contacto conmigo enviando un [mensaje](../contato.qmd).
+
+### Formación
+
+::: {.formacao}
+<i class="bi bi-mortarboard" aria-hidden="true"></i> **Doctorado en Educación** · Universidad Federal de São Carlos (UFSCar) — en curso, 2024–2028 (previsión). Directora: Cármen Lúcia Brancaglion Passos.
+
+<i class="bi bi-mortarboard" aria-hidden="true"></i> **Maestría en Educación Científica y Tecnológica** · Universidad Federal de Santa Catarina (UFSC) — 2023. Directora: Regina Célia Grando. Disertación: [El estado del arte de la investigación en educación probabilística en la escuela básica](https://repositorio.ufsc.br/handle/123456789/251185).
+
+<i class="bi bi-mortarboard" aria-hidden="true"></i> **Licenciatura Integrada en Matemática y Física** · Universidad Federal del Oeste de Pará (UFOPA) — 2021.
+:::
+
+## Sobre mí
+
+Mi trayectoria de investigación se desarrolla en el campo de la Educación Matemática, especialmente en la Educación Estadística y en la Educación Probabilística. Actualmente, investigo la constitución y el desarrollo del campo de la Educación Estadística en Brasil y en España, articulando producción científica, redes de colaboración y entrevistas narrativas con investigadoras que contribuyeron a su construcción.
+
+Mi acercamiento a la Ciencia de la Información y a los estudios métricos despertó el interés por la sistematización, la preservación y la circulación de la memoria científica. A partir de ese movimiento, desarrollo acervos digitales independientes orientados a la organización de registros de eventos y de comunidades de investigación en Educación Matemática. Actualmente, también vengo desarrollando herramientas de código abierto con uso de inteligencia artificial para apoyar investigaciones cualitativas.
+
+## Intereses de investigación
+
+- Educación Estadística
+- Educación Probabilística
+- Revisiones sistemáticas y estado del arte
+- Estudios métricos: bibliometría y cienciometría
+- Acervos digitales y memoria científica
+- Herramientas de código abierto e IA para investigación cualitativa

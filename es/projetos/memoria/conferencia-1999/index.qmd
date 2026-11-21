@@ -1,0 +1,43 @@
+---
+title: "Acervo da Conferência de 1999"
+subtitle: "Experiencias y Expectativas de la Enseñanza de Estadística, Florianópolis, 1999."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Memoria científica"]
+toc: true
+lang: es
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="CIEEE 1999">
+
+La conferencia *Experiencias y Expectativas de la Enseñanza de Estadística: Desafíos para el Siglo XXI* reunió, en Florianópolis, entre el 20 y el 23 de septiembre de 1999, a docentes, investigadores, asociaciones de Estadística y especialistas en didáctica de la Estadística. El acervo preserva los registros localizados de ese encuentro y los devuelve en una interfaz contemporánea de consulta.
+
+:::
+
+## Sobre el acervo
+
+El punto de partida es el sitio oficial de la conferencia, publicado en 1999. Se mantuvo la estructura documental original —ejes temáticos, fichas de ponencias, autores, instituciones y logotipos institucionales—, pero la navegación, la tipografía y la presentación fueron reconstruidas para pantallas actuales.
+
+El trabajo de recuperación no completa vacíos con información supuesta: cuando un documento o una imagen no fue localizado, el acervo registra la ausencia en lugar de rellenar el campo.
+
+## El acervo en cifras
+
+- **61 ponencias** presentadas y catalogadas;
+- **126 autores** con afiliación registrada;
+- **9 países** de origen de las instituciones;
+- **6 ejes temáticos** que organizan la programación;
+- **7 logotipos institucionales** preservados en la identidad del evento.
+
+## Cómo consultar
+
+La página inicial concentra el catálogo completo. La búsqueda es instantánea y recorre títulos, autores, instituciones y resúmenes; el selector de eje restringe el resultado a uno de los seis ejes temáticos. Cada ficha exhibe título, autoría, afiliación, eje y resumen.
+
+## Preservación e identidad
+
+La marca del acervo retoma el puente en perspectiva del material original, en azul institucional y tipografía seriada. Las cifras y la franja de logotipos funcionan como resumen del evento y como prueba de la procedencia de los documentos reunidos.
+
+## Acceso al acervo
+
+- **Acervo digital** — [ciee1999.pages.dev](https://ciee1999.pages.dev)

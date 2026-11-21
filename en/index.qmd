@@ -1,0 +1,26 @@
+---
+title: "Gerlan Silva"
+subtitle: "Doctoral student in Education · Science and Mathematics Education · UFSCar"
+image: ../assets/images/photos/avatar.png
+lang: en
+about:
+  template: solana
+  image-width: 18em
+  image-shape: round
+  links:
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-9996-9983
+    - text: "{{< ai lattes >}}"
+      href: http://lattes.cnpq.br/2364822008221312
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR
+    - icon: github
+      href: https://github.com/gerlansilva
+page-layout: full
+---
+
+I am a **doctoral student in Education** in the Science and Mathematics Education research line of the Graduate Program in Education at the Federal University of São Carlos (UFSCar).
+
+I have experience in **systematic reviews** and in **metric studies** (bibliometric and scientometric) in the field of **Statistical Education**, where I investigate the constitution and development of the field in Brazil and Spain. I am currently developing **open-source tools using AI** that can support qualitative research.
+
+<a href="sobre/" class="about-links subtitle">Learn more →</a>
