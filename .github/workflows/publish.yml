@@ -10,6 +10,11 @@ on:
       - 'footer.html'
       - 'assets/**'
       - 'img/**'
+      - '**/*.jpg'
+      - '**/*.jpeg'
+      - '**/*.png'
+      - '**/*.svg'
+      - '**/*.webp'
       - '.github/workflows/publish.yml'
   workflow_dispatch:
 permissions:
