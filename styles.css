@@ -99,6 +99,8 @@ hr,
 /* Cartões de projeto com borda no laranja do site */
 .quarto-listing-container-grid .quarto-grid-item {
   border: 1px solid #b87333;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .quarto-listing-container-grid .quarto-grid-item:hover {
