@@ -27,6 +27,13 @@ body {
   line-height: 1.5;
 }
 
+/* Título e subtítulo centralizados em todas as páginas */
+#title-block-header .quarto-title,
+#title-block-header .quarto-title .title,
+#title-block-header .quarto-title .subtitle {
+  text-align: center;
+}
+
 /* Links */
 a {
   color: var(--gs-cor);
