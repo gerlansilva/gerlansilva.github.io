@@ -11,7 +11,7 @@ categories: ["Memória científica"]
 
 ```{=html}
 <div class="proj-hero">
-  <img class="proj-logo" src="logo.png" alt="">
+  <img class="proj-logo proj-logo-wide" src="logo.png" alt="CIEEE 1999">
   <div>
     <h1 class="proj-title">Acervo da Conferência de 1999</h1>
     <p class="proj-subtitle">Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999.</p>
