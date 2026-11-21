@@ -1,42 +1,25 @@
 ---
 title: "Gerlan Silva"
-subtitle: "Doutorando em Educação — Universidade Federal de São Carlos (UFSCar)"
-image: https://avatars.githubusercontent.com/u/50636844?v=4
+subtitle: "Doutorando em Educação · Educação em Ciências e Matemática · UFSCar"
+image: assets/images/photos/avatar.png
 about:
   template: solana
-  image-width: 19em
+  image-width: 18em
+  image-shape: round
   links:
-    - text: ORCID
+    - text: "{{< ai orcid >}}"
       href: https://orcid.org/0000-0002-9996-9983
-    - text: Lattes
+    - text: "{{< ai lattes >}}"
       href: http://lattes.cnpq.br/2364822008221312
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=-EJ3_m8AAAAJ&hl=pt-BR
     - icon: github
       href: https://github.com/gerlansilva
 page-layout: full
 ---
 
-Sou doutorando em Educação, na linha **Educação em Ciências e Matemática**, do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (UFSCar), em São Carlos (SP).
+Sou **doutorando em Educação** na linha de pesquisa Educação em Ciências e Matemática, do Programa de Pós-Graduação em Educação da Universidade Federal de São Carlos (UFSCar).
 
-Minha trajetória de pesquisa se desenvolve no campo da **Educação Matemática**, especialmente na **Educação Estatística** e na **Educação Probabilística**. Também me interesso por revisões sistemáticas, estudos métricos, acervos digitais e memória científica.
+Tenho experiência em **revisões sistemáticas** e em **estudos métricos** (bibliométricos e cienciométricos) no campo da **Educação Estatística**, onde investigo a constituição e o desenvolvimento do campo no Brasil e na Espanha. Atualmente, venho desenvolvendo **ferramentas de código aberto com uso de IA** que possam auxiliar em pesquisas qualitativas.
 
-<a class="about-links icon-link" href="sobre.qmd"><i class="bi bi-person-vcard" aria-hidden="true"></i> Conheça minha trajetória</a>
-
-## Projetos em destaque
-
-::: {.grid}
-::: {.g-col-12 .g-col-md-4}
-### <i class="bi bi-archive" aria-hidden="true"></i> [Memória do SIPEM](https://gerlansilva.github.io/memoria-sipem/)
-
-Acervo de registros dos Seminários Internacionais de Pesquisa em Educação Matemática.
-:::
-::: {.g-col-12 .g-col-md-4}
-### <i class="bi bi-journal-bookmark" aria-hidden="true"></i> [Memória do GT 19](https://gt19anped.pages.dev/)
-
-Organização de registros do GT 19 — Educação Matemática, da ANPEd.
-:::
-::: {.g-col-12 .g-col-md-4}
-### <i class="bi bi-collection" aria-hidden="true"></i> [Primeira Conferência de Educação Estatística](https://cieee-acervo.netlify.app/)
-
-Acervo histórico de documentos da conferência realizada em Florianópolis, em 1999.
-:::
-:::
+<a href="sobre/" class="about-links subtitle">Saiba mais →</a>

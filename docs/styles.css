@@ -1,0 +1,555 @@
+/* =========================
+   ESTILO PRINCIPAL (Quarto)
+   Modelo acadêmico inspirado em everasilveira.pages.dev
+   ========================= */
+
+:root {
+  --bs-link-color: #1e7a4f;
+  --bs-link-hover-color: #15603d;
+  --gs-cor: #1e7a4f;
+  --gs-cor-escura: #15603d;
+  --gs-cinza: #aeafb3;
+  --bs-body-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Tipografia */
+body,
+h1, h2, h3, h4, h5, h6,
+.navbar,
+.title,
+.subtitle {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #343a40;
+  line-height: 1.5;
+}
+
+/* Links */
+a {
+  color: var(--gs-cor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--gs-cor-escura);
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--gs-cor) !important;
+  padding: 0.5rem 1rem;
+}
+
+.navbar a,
+.navbar-brand {
+  color: #ffffff !important;
+}
+
+.navbar a:hover {
+  color: #e8f0fa !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: normal;
+}
+
+/* Título de página */
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: normal;
+  color: #343a40;
+}
+
+.subtitle.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #343a40;
+}
+
+/* Blocos de apresentação (about: solana / trestles) */
+div.quarto-about-solana .about-entity {
+  align-items: center;
+}
+
+.quarto-about-solana .about-contents main.content {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.quarto-about-solana .about-image {
+  margin-bottom: 0 !important;
+}
+
+.quarto-about-solana .about-contents p:last-child {
+  margin-bottom: 0;
+}
+
+.quarto-about-solana .entity-contents {
+  max-width: 720px;
+}
+
+.about-contents p {
+  max-width: 72ch;
+  text-align: justify;
+}
+
+.quarto-about-solana.column-page {
+  padding-top: 10.5em !important;
+}
+
+@media (max-width: 767px) {
+  .quarto-about-solana.column-page {
+    padding-top: 3em !important;
+  }
+}
+
+.quarto-about-solana .about-entity,
+.quarto-about-trestles .about-entity {
+  gap: 3rem;
+}
+
+a.about-links.subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.about-links.subtitle:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo */
+main.content {
+  padding-bottom: 2rem;
+}
+
+/* Sumário lateral ativo */
+#quarto-margin-sidebar .nav-link.active,
+.sidebar nav[role="doc-toc"] .nav-link.active {
+  color: var(--gs-cor) !important;
+  border-left-color: var(--gs-cor) !important;
+}
+
+/* Callouts na cor do site */
+.callout-note {
+  border-left-color: var(--gs-cor) !important;
+}
+
+.callout-note .callout-header {
+  background-color: #eef7f2 !important;
+}
+
+.callout-note .callout-icon::before {
+  color: var(--gs-cor) !important;
+}
+
+h2 {
+  margin-top: 2.4rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e6edf5;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+h3 {
+  margin-top: 1.8rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+p,
+li {
+  color: #343a40;
+}
+
+/* Formação */
+.formacao p {
+  margin-bottom: 0.6rem;
+}
+
+.formacao .bi,
+.formacao .ai {
+  color: var(--gs-cor);
+  margin-right: 0.35rem;
+}
+
+/* Lista de publicações */
+.publication-list {
+  padding-left: 1.4rem;
+}
+
+.publication-list li {
+  margin-bottom: 1rem;
+  padding-left: 0.25rem;
+}
+
+.publication-list li::marker {
+  color: var(--gs-cor);
+  font-weight: 600;
+}
+
+/* Cartões de projetos */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e3ebf4;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: #ffffff;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(30, 122, 79, 0.14);
+}
+
+.project-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  padding: 0.9rem 1.2rem;
+  background-color: #f8fafd;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.project-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.1rem 1.2rem 1.2rem;
+}
+
+.project-card-body h3 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+}
+
+.project-card-body p {
+  font-size: 0.95rem;
+  color: #4b5e73;
+  flex: 1;
+}
+
+.project-card-body .btn {
+  align-self: flex-start;
+  border-radius: 999px;
+  background-color: var(--gs-cor);
+  border-color: var(--gs-cor);
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.project-card-body .btn:hover {
+  background-color: var(--gs-cor-escura);
+  border-color: var(--gs-cor-escura);
+  color: #ffffff;
+}
+
+/* Pesquisas */
+.research-item {
+  border-left: 3px solid var(--gs-cor);
+  padding-left: 1rem;
+  margin-bottom: 1.8rem;
+}
+
+.research-item h3 {
+  margin-top: 0.25rem;
+}
+
+.research-meta {
+  font-size: 0.9rem;
+  color: #5b6b7d;
+}
+
+/* Rodapé */
+.gs-footer {
+  background-color: #f4faf7;
+  border-top: 1px solid #e6edf5;
+  padding: 1.1rem 2rem;
+  font-size: 1rem;
+  color: #5b6b7d;
+}
+
+.gs-footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+}
+
+.gs-footer-left,
+.gs-footer-right {
+  flex: 1 1 0;
+}
+
+.gs-footer-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  flex: 0 0 auto;
+}
+
+.gs-footer-center a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  color: #5b6b7d;
+  transition: background-color 0.15s ease;
+}
+
+.gs-footer-center a:hover {
+  background-color: #e4f2ea;
+  text-decoration: none;
+}
+
+.gs-footer-center i {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.gs-footer-center a[href*="orcid.org"] i {
+  color: #a6ce39;
+}
+
+.gs-footer-center a[href*="lattes"] i {
+  color: #1c3f94;
+}
+
+.gs-footer-center a[href*="scholar.google"] i {
+  color: #4285f4;
+}
+
+.gs-footer-center a[href*="github.com"] i {
+  color: #181717;
+}
+
+.gs-footer-center a[href*="mailto"] i {
+  color: #1e7a4f;
+}
+
+.gs-footer-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.1rem;
+}
+
+.gs-footer a {
+  color: #1e7a4f;
+  text-decoration: none;
+}
+
+.gs-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 767px) {
+  .quarto-about-solana .about-entity,
+  .quarto-about-trestles .about-entity {
+    gap: 1.5rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .gs-footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .gs-footer-right {
+    justify-content: center;
+  }
+}
+
+/* =========================
+   MODO ESCURO
+   ========================= */
+
+body.quarto-dark {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+body.quarto-dark .title {
+  color: var(--bs-body-color);
+}
+
+body.quarto-dark .subtitle.lead {
+  color: var(--bs-secondary-color);
+}
+
+body.quarto-dark p,
+body.quarto-dark li,
+body.quarto-dark .project-card-body p {
+  color: var(--bs-body-color);
+}
+
+body.quarto-dark h2 {
+  border-bottom-color: var(--bs-border-color);
+}
+
+body.quarto-dark .project-card {
+  background: var(--bs-body-bg);
+  border-color: var(--bs-border-color);
+}
+
+body.quarto-dark .project-card img {
+  border-bottom-color: var(--bs-border-color);
+}
+
+body.quarto-dark .gs-footer {
+  background-color: #1b2330;
+  border-top-color: var(--bs-border-color);
+  color: var(--bs-body-color);
+}
+
+body.quarto-dark .gs-footer-center a {
+  color: var(--bs-body-color);
+}
+
+body.quarto-dark .gs-footer-center a:hover {
+  background-color: #27313f;
+}
+
+body.quarto-dark .gs-footer-center a[href*="github.com"] i {
+  color: #ffffff;
+}
+
+body.quarto-dark a,
+body.quarto-dark .gs-footer a {
+  color: #6cb0f5;
+}
+
+body.quarto-dark a:hover,
+body.quarto-dark .gs-footer a:hover {
+  color: #a9cef8;
+}
+
+body.quarto-dark .about-link {
+  color: #6cb0f5;
+  border-color: rgba(108, 176, 245, 0.35);
+}
+
+body.quarto-dark .about-link:hover {
+  background-color: #1e7a4f;
+  color: #ffffff;
+}
+
+/* Entradas de publicação com resumo */
+.publication-entry {
+  margin-bottom: 1.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.publication-entry h3 {
+  margin-top: 1.4rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+.publication-entry p {
+  font-size: 0.97rem;
+  color: #33475e;
+}
+
+.publication-entry .callout {
+  margin-top: 0.7rem;
+}
+
+.publication-entry .callout-body p,
+.callout-body p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Botão de apresentação (Google Slides) */
+.btn-slides {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.9rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  background-color: #1e7a4f;
+  color: #ffffff !important;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #1e7a4f;
+}
+
+.btn-slides:hover {
+  background-color: #15603d;
+  border-color: #15603d;
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.nota-slides {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+/* Ícones de marca na página inicial */
+.about-links .about-link i {
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.about-links .about-link i.ai-orcid { color: #a6ce39; }
+.about-links .about-link i.ai-lattes { color: #1c3f94; }
+.about-links .about-link i.ai-google-scholar { color: #4285f4; }
+.about-links .about-link i.bi-github { color: #24292f; }
+
+.about-links .about-link {
+  border: 0;
+  padding: 0;
+  background: none;
+  margin-right: 0.65rem;
+}
+
+.about-links .about-link:hover {
+  background: none;
+  border: 0;
+}
+
+div.quarto-about-solana .about-entity .about-link {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+div.quarto-about-solana .about-entity .about-link:hover {
+  border: 0;
+  background: none;
+}

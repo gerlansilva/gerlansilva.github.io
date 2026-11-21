@@ -3,9 +3,13 @@ on:
   push:
     branches: [main]
     paths:
-      - '*.qmd'
-      - '_quarto.yml'
-      - 'quarto-custom.css'
+      - '**/*.qmd'
+      - '**/*.scss'
+      - '*.yml'
+      - 'styles.css'
+      - 'footer.html'
+      - 'assets/**'
+      - 'img/**'
       - '.github/workflows/publish.yml'
   workflow_dispatch:
 permissions:
@@ -21,14 +25,16 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
       - name: Renderizar Quarto
         run: |
+          rm -rf docs
           quarto render
           test -f docs/index.html
+          touch docs/.nojekyll
           if grep -q 'Error resolving header-includes' docs/index.html; then exit 1; fi
       - name: Publicar pasta docs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+gerlansilva@users.noreply.github.com"
-          git add -f docs
+          git add -f -A docs
           if ! git diff --cached --quiet; then
             git commit -m "Build Quarto site"
             for attempt in 1 2 3 4 5; do

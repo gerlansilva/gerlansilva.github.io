@@ -1,37 +1,52 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - assets/**
+
 website:
   title: "Gerlan Silva"
   site-url: https://gerlansilva.github.io
+  description: "Portfólio acadêmico de Gerlan Silva: Educação Matemática, Educação Estatística, Educação Probabilística e acervos digitais."
+  favicon: img/favicon.ico
+
+  open-graph: true
+
   navbar:
-    background: "#ffffff"
-    foreground: "#25354a"
-    left:
+    background: "#1e7a4f"
+    foreground: "#ffffff"
+    title: "Gerlan Silva"
+    search: true
+    right:
       - text: Início
         href: index.qmd
-      - text: Quem sou eu?
-        href: sobre.qmd
+      - text: Sobre
+        href: sobre/index.qmd
       - text: Pesquisas
-        href: pesquisas.qmd
+        href: pesquisas/index.qmd
       - text: Publicações
-        href: publicacoes.qmd
+        href: publicacoes/index.qmd
       - text: Projetos
-        href: projetos.qmd
-    right:
+        href: projetos/index.qmd
+      - text: Apresentações
+        href: apresentacoes/index.qmd
+      - text: CV
+        href: http://lattes.cnpq.br/2364822008221312
       - icon: github
         href: https://github.com/gerlansilva
-  page-footer:
-    left: "© 2026 Gerlan Silva"
-    right:
-      - text: ORCID
-        href: https://orcid.org/0000-0002-9996-9983
-      - text: Lattes
-        href: http://lattes.cnpq.br/2364822008221312
+
 format:
   html:
-    theme: cosmo
-    css: quarto-custom.css
+    theme:
+      light: cosmo
+      dark: cosmo
+    css: styles.css
+    include-after-body: footer.html
     toc: false
     link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="/assets/academicons/css/all.css">
+          <link rel="stylesheet" href="/assets/academicons/css/size.css">
+
 lang: pt-BR

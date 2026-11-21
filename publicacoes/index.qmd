@@ -1,0 +1,98 @@
+---
+title: "Publicações"
+subtitle: "Artigos em periódicos e trabalhos acadêmicos"
+toc: true
+toc-depth: 2
+toc-location: right
+---
+
+A produção acadêmica está organizada por tipo de documento. Consulte também o <a href="https://orcid.org/0000-0002-9996-9983"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a> e o <a href="http://lattes.cnpq.br/2364822008221312"><i class="ai ai-lattes" aria-hidden="true"></i> Currículo Lattes</a>.
+
+## Artigos em periódicos
+
+::: {.publication-entry}
+### Entre possibilidades e lacunas: um olhar sobre as teses em Educação Probabilística na Escola Básica
+
+SILVA, Gerlan Silva da; GRANDO, Regina Célia. *Boletim GEPEM*, n. 85, p. 182–204, 2024. [DOI](https://doi.org/10.69906/GEPEM.2176-2988.2024.969)
+
+::: {.callout-note collapse="true"}
+## Resumo
+
+Este artigo tem por objetivo apresentar uma pesquisa que buscou mapear, descrever e sistematizar as teses brasileiras sobre o ensino e a aprendizagem de probabilidade na Educação Básica. Foram analisadas teses produzidas de maio de 1994 a junho de 2021 em programas de pós-graduação Stricto Sensu reconhecidos pela CAPES, das áreas de Educação e Ensino. Por meio de uma revisão bibliográfica do tipo estado da arte, identificamos 332 teses e dissertações, das quais 21 foram selecionadas. A análise revelou uma multiplicidade de encaminhamentos e propostas pedagógicas, com destaque para pesquisas envolvendo o uso de tecnologias. As conclusões indicam a importância de simuladores, softwares estatísticos, objetos de aprendizagem e jogos pedagógicos como ferramentas auxiliares para o ensino de probabilidade e estatística, capazes de facilitar a compreensão de conceitos complexos, ampliar a interatividade e a motivação dos alunos e favorecer a resolução de problemas.
+:::
+:::
+
+::: {.publication-entry}
+### A brief historical overview of Probability Theory and the connections with its teaching
+
+SILVA, Gerlan; GRANDO, Regina Célia. *Revista Internacional de Pesquisa em Educação Matemática*, v. 14, n. 3, p. 1–15, 2024. [DOI](https://doi.org/10.37001/ripem.v14i3.3821)
+
+::: {.callout-note collapse="true"}
+## Resumo
+
+This article presents a brief historical frame of Probability Theory, covering the period from antiquity to the mid-twentieth century, in order to understand which theoretical constructs need to be privileged in its teaching. Using a timeline organized into four periods (prehistory of probability, emergence of the concept, development of Classical Probability and modern period), we highlight the contributions of the main mathematicians to the Probability Calculus. We note that probability theory has been shaped by diverse contributions from mathematicians, philosophers, statisticians and scientists from different eras and contexts. This conceptual and epistemological evolution has had a significant impact on the development of the theory over the centuries and has influenced teaching and learning processes.
+:::
+:::
+
+::: {.publication-entry}
+### Articulações entre a Pesquisa Narrativa (Auto)Biográfica e as Insubordinações Criativas: um feliz encontro
+
+WAGNER, Guilherme; SILVA, Carla Mariana Rocha Brittes da; LUBAVEM, Edivaldo; SILVA, Gerlan Silva da; JACOMELLI-ALVES, Karina Zolia; GRANDO, Regina Célia; BUEHRING, Roberta Schnorr. *Revista Catarinense de Educação Matemática*, v. 2, n. 3, p. 1–22, 2023. [DOI](https://doi.org/10.37001/recem.v2i3.3627)
+
+::: {.callout-note collapse="true"}
+## Resumo
+
+Os grupos de pesquisa GEPPROFEM e ICEM, vinculados ao PPGECT/UFSC, têm situado suas produções na interface entre a pesquisa narrativa (auto)biográfica e as insubordinações criativas em Educação Matemática. Neste artigo, objetivamos compreender como a pesquisa narrativa em Educação Matemática gera insubordinações criativas dos diferentes atores que produzem e coparticipam da mesma. Partimos da hipótese de que a pesquisa narrativa (auto)biográfica possibilita espaços para que os professores contem suas histórias de vida e de profissão e representa, acima de tudo, uma insubordinação criativa aos modos positivistas de produção de pesquisa. Os resultados indicam que os estudos desenvolvidos pelos participantes do grupo buscam transcender os modos tradicionais de avaliar a produção científica e abraçam valores como o respeito à identidade e à subjetividade do pesquisador, a responsabilidade social na produção de pesquisas, a valorização de vozes silenciadas e a busca por investigações que contribuam para a diminuição das desigualdades e para a justiça social.
+:::
+:::
+
+::: {.publication-entry}
+### Mapeamento de teses e dissertações brasileiras sobre Educação Probabilística na Escola Básica
+
+SILVA, Gerlan Silva da; GRANDO, Regina Célia. *Revista de Educação PUC-Campinas*, v. 28, e238479, 2023. [DOI](https://doi.org/10.24220/2318-0870v28e2023a8479)
+
+::: {.callout-note collapse="true"}
+## Resumo
+
+Este artigo apresenta um mapeamento dos aspectos físicos das pesquisas brasileiras sobre o ensino e a aprendizagem de Probabilidade na Educação Básica produzidas no âmbito dos programas de pós-graduação stricto sensu na área de Educação e Ensino. A busca foi realizada em meio digital, no Catálogo de Teses e Dissertações da CAPES, na Biblioteca Digital Brasileira de Teses e Dissertações e em acervos de currículos da plataforma Lattes. Foram encontradas 99 teses e dissertações, defendidas no Brasil entre maio de 1994 e junho de 2021. As pesquisas foram organizadas e codificadas com informações como ano de defesa, autoria, titulação, orientação, instituição, programa de pós-graduação e banca examinadora. A partir das 78 dissertações e 21 teses foi possível observar um aumento significativo do interesse pelo tema desde 2007, com pesquisas em todas as cinco regiões do Brasil, ênfase na Região Sudeste e concentração em São Paulo. Foram identificadas 31 universidades, com destaque para a Pontifícia Universidade Católica de São Paulo, e o programa de Educação Matemática apresentou o maior número de trabalhos defendidos.
+:::
+:::
+
+::: {.publication-entry}
+### Formação/prática de professores que ensinam estatística, probabilidade e combinatória: um estudo baseado em periódicos científicos brasileiros
+
+SILVA, Gerlan Silva da; SANTOS, Rodrigo Medeiros dos. *REAMEC — Rede Amazônica de Educação em Ciências e Matemática*, v. 10, n. 2, e22040, 2022. [DOI](https://doi.org/10.26571/reamec.v10i2.13454)
+
+::: {.callout-note collapse="true"}
+## Resumo
+
+Este trabalho tem como objetivo inventariar, sistematizar e descrever a produção científica sobre a formação e a prática de professores que ensinam Estatística, Probabilidade e Combinatória, publicada em periódicos científicos brasileiros. Metodologicamente, trata-se de uma pesquisa do tipo estado do conhecimento, de caráter analítico-descritivo, tendo como material de análise 34 artigos. As pesquisas foram categorizadas em quatro eixos temáticos: compreensão, concepção e saberes docentes; formação inicial, continuada e desenvolvimento profissional; formação e prática mediadas por grupos colaborativos; e prática e trabalho docente. Os resultados apontam que muitos dos artigos analisados convergem para a ideia de que os professores pesquisados apresentam dificuldades em compreender conceitos estatísticos, probabilísticos e combinatórios, o que levanta questionamentos sobre a forma como esses assuntos são tratados na formação inicial. Também foi observada ênfase em pesquisas sobre formação inicial, continuada e desenvolvimento profissional (47,1% dos artigos).
+:::
+:::
+
+## Trabalhos acadêmicos
+
+### Dissertação de mestrado
+
+**O estado da arte da pesquisa em educação probabilística na escola básica**  
+Gerlan Silva da Silva · Universidade Federal de Santa Catarina (UFSC) · 2023  
+Programa de Pós-Graduação em Educação Científica e Tecnológica · Orientadora: Regina Célia Grando  
+Financiamento: FAPESC e CAPES/PROEX
+
+::: {.callout-note collapse="true"}
+## Resumo
+
+Nosso objetivo nesta pesquisa é inventariar, sistematizar, descrever e analisar a pesquisa acadêmica brasileira sobre o ensino e a aprendizagem de Probabilidade na Educação Básica, produzida no âmbito dos programas de pós-graduação, na área de Educação e Ensino, evidenciando suas principais tendências temáticas e aspectos teórico-metodológicos. Essa investigação se caracteriza metodologicamente como qualitativa quanto à abordagem, de natureza exploratória, quanto aos seus objetivos, e bibliográfica, considerando os seus procedimentos de produção e análise dos dados. O mapeamento das pesquisas, como fonte de dados, foi realizado de forma totalmente digital, através do Catálogo de teses e dissertações da CAPES, da Biblioteca Digital Brasileira de Teses e Dissertações (BDTD), e de acervos de currículos da plataforma Lattes. Essas buscas nos retornaram um total de 99 teses e dissertações, defendidas no Brasil no período de maio de 1994 a junho de 2021, que relacionam e articulam a Educação Probabilística na Escola Básica como objeto de estudo.
+
+O estudo organizou 78 dissertações e 21 teses e identificou sete núcleos temáticos, destacando-se os recursos didáticos e as metodologias de ensino da Probabilidade. As pesquisas foram codificadas no MAXQDA, contemplando aspectos teórico-metodológicos e resultados das investigações.
+:::
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consultar dissertação e registro completo](https://repositorio.ufsc.br/handle/123456789/251185?show=full){.icon-link}
+
+### Trabalho de conclusão de curso
+
+**Formação/prática de professores que ensinam estatística, probabilidade e combinatória: um estudo baseado em periódicos científicos brasileiros**  
+Gerlan Silva da Silva · Universidade Federal do Oeste do Pará (UFOPA) · 2021  
+Orientador: Rodrigo Medeiros dos Santos
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Consultar TCC](https://repositorio.ufopa.edu.br/items/a36d5724-8fb4-4eb7-8faa-6722ab0fc56c){.icon-link}

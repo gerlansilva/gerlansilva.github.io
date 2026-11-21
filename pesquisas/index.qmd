@@ -1,0 +1,32 @@
+---
+title: "Pesquisas"
+subtitle: "Investigações em Educação Matemática, Estatística e Probabilística"
+---
+
+## Doutorado em Educação
+
+::: {.research-item}
+### Redes que contam histórias: um estudo cienciométrico do campo da Educação Estatística no Brasil e na Espanha
+
+::: {.research-meta}
+Universidade Federal de São Carlos (UFSCar) · 2024–2028 (previsão)  
+Orientadora: Cármen Lúcia Brancaglion Passos
+:::
+
+Estudo da constituição e do desenvolvimento do campo da Educação Estatística, articulando produção científica, redes de colaboração e entrevistas narrativas com pesquisadoras que contribuíram para a construção do campo nos dois países.
+:::
+
+## Mestrado em Educação Científica e Tecnológica
+
+::: {.research-item}
+### O estado da arte da pesquisa em educação probabilística na escola básica
+
+::: {.research-meta}
+Universidade Federal de Santa Catarina (UFSC) · 2023  
+Orientadora: Regina Célia Grando
+:::
+
+Estado da arte da produção acadêmica brasileira sobre o ensino e a aprendizagem de Probabilidade na Educação Básica, com corpus de 99 teses e dissertações defendidas entre 1994 e 2021.
+
+[<i class="bi bi-file-earmark-text" aria-hidden="true"></i> Acessar dissertação](https://repositorio.ufsc.br/handle/123456789/251185){.icon-link}
+:::

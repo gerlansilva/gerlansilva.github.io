@@ -1,0 +1,16 @@
+---
+title: "Apresentações"
+subtitle: "Palestras, comunicações e qualificações em eventos científicos."
+listing:
+  - id: talks
+    contents: "**/*/index.qmd"
+    type: default
+    fields: [image, date, title, event]
+    sort: "date desc"
+    page-size: 10
+    field-display-names:
+      event: "Evento"
+---
+
+::: {#talks}
+:::
