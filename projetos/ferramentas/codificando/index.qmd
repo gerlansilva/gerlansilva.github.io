@@ -7,17 +7,35 @@ categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
+::: {.proj-intro}
+
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Codificando">
 
-O Codificando é um ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.
+O Codificando é um ambiente de análise qualitativa (CAQDAS) para codificar entrevistas, documentos e notas diretamente sobre a página do PDF. Foi feito para pesquisas que precisam de codebook, trechos, consultas e relatórios sem enviar os dados para fora da máquina.
 
-**Principais características:**
+:::
 
-- **Importação:** PDF, DOCX, TXT e RTF
-- **Codificação:** direto na página do documento, com codebook hierárquico
-- **Análise:** trechos, consultas, comentários e relatórios
-- **Plataformas:** macOS (Apple Silicon) e Windows (x64)
-- **Dados:** armazenados localmente
+## O que é
+
+O aplicativo é construído em **Tauri 2**, com núcleo em Rust e interface em React. Toda a base — documentos, códigos, trechos e anotações — fica em arquivos locais, sem conta, servidor ou telemetria. A versão atual é a **0.2.4**.
+
+## Como funciona
+
+O pesquisador cria um projeto, importa os documentos e monta o codebook hierárquico, com cores e definições. A codificação acontece na própria página do PDF: o trecho é selecionado e recebe um ou mais códigos, formando a base para consultas, contagens e relatórios.
+
+## Recursos principais
+
+- **Importação** de PDF, DOCX, TXT e RTF;
+- **Codificação direto na página**, com trechos marcados no documento;
+- **Codebook hierárquico**, com cores, definições e contagem por código;
+- **Consultas e relatórios** sobre a frequência e a distribuição dos códigos;
+- **Comentários e notas** por documento e por trecho;
+- **Busca** no projeto e nos documentos;
+- **Dados locais**, sem sincronização ou envio para serviços externos.
+
+## Requisitos e instalação
+
+Há instaladores para **macOS (Apple Silicon)** e **Windows (x64)**, além de um manual em PDF anexado a cada versão. O aplicativo é gratuito e não tem certificado de desenvolvedor: na primeira abertura, o macOS pede para confirmar em **Abrir** e o Windows em **Mais informações → Executar assim mesmo**. Depois disso, o aviso não volta.
 
 ## Acesso à ferramenta
 

@@ -7,15 +7,32 @@ categories: ["Memória científica"]
 toc: true
 ---
 
+::: {.proj-intro}
+
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do EIEM">
 
-O acervo reúne e organiza os registros das diferentes edições do Encontro de Investigação em Educação Matemática (EIEM), realizado em Portugal, em especial os trabalhos publicados nos anais. A iniciativa favorece a consulta à produção científica do encontro e a preservação da história das discussões do campo.
+O Encontro de Investigação em Educação Matemática (EIEM), promovido pela SPIEM, é um dos principais fóruns portugueses de discussão da pesquisa em Educação Matemática. O acervo reúne os trabalhos apresentados nas edições do encontro e permite consultá-los de forma integrada, por edição, autoria ou tema.
 
-**Principais características:**
+:::
 
-- **Edições catalogadas:** 21
-- **Trabalhos:** 613
-- **Período documentado:** 2006–2024
+## Sobre o acervo
+
+As atas de cada edição são a fonte principal. Os registros foram organizados em um catálogo único, com vínculo ao PDF individual de cada trabalho, de modo que a consulta não dependa de percorrer volumes completos. A edição de 2024, realizada no Porto, foi a primeira catalogada; as demais foram incorporadas progressivamente.
+
+## O acervo em números
+
+- **613 trabalhos** catalogados;
+- **21 edições** do encontro;
+- **2006–2024** como período documentado;
+- cidades-sede como Porto, Aveiro, Coimbra, Évora, Lisboa, Setúbal, Bragança, Vila Real, Póvoa de Varzim, Castelo de Vide, Santarém, Alte, Costa da Caparica, São Pedro do Sul e Vieira de Leiria.
+
+## Como consultar
+
+A busca percorre título, resumo, palavras-chave, autoria e instituição. Há filtro por tipo de trabalho e ordenação por ano ou título. Cada resultado abre uma ficha com autor, sigla da instituição, país, resumo e palavras-chave, além do botão para o PDF.
+
+## Critérios editoriais
+
+Os metadados vêm das atas e não são inferidos. Titulação que não consta na fonte fica em branco; a associação entre autor e instituição só é feita quando a ordem dos elementos permite. O texto integral das afiliações é preservado no catálogo, o que permite conferir cada associação antes de usar os dados em análises bibliométricas.
 
 ## Acesso ao acervo
 

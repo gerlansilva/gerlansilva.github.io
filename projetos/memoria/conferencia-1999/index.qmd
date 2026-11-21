@@ -7,18 +7,35 @@ categories: ["Memória científica"]
 toc: true
 ---
 
-<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Acervo da Conferência de 1999">
+::: {.proj-intro}
 
-Acervo dedicado à conferência *Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI*, realizada em Florianópolis, entre 20 e 23 de setembro de 1999. Reúne e contextualiza os registros localizados, evitando que documentos e informações sobre essa experiência permaneçam dispersos ou pouco conhecidos.
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="CIEEE 1999">
 
-A conferência reuniu docentes, pesquisadores, instituições educacionais, associações de Estatística e especialistas em didática da Estatística. O acervo preserva a estrutura documental do site original, publicado em 1999, e oferece uma interface contemporânea para consultar os trabalhos.
+A conferência *Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI* reuniu, em Florianópolis, entre 20 e 23 de setembro de 1999, docentes, pesquisadores, associações de Estatística e especialistas em didática da Estatística. O acervo preserva os registros localizados desse encontro e os devolve em uma interface contemporânea de consulta.
 
-**Principais características:**
+:::
 
-- **Trabalhos:** 61
-- **Autores:** 126
-- **Países de afiliação:** 9
-- **Eixos temáticos:** 6
+## Sobre o acervo
+
+O ponto de partida é o site oficial da conferência, publicado em 1999. A estrutura documental original foi mantida — eixos temáticos, fichas de trabalhos, autores, instituições e logotipos institucionais —, mas a navegação, a tipografia e a apresentação foram reconstruídas para telas atuais.
+
+O trabalho de recuperação não completa lacunas com informação suposta: quando um documento ou imagem não foi localizado, o acervo registra a ausência em vez de preencher o campo.
+
+## O acervo em números
+
+- **61 trabalhos** apresentados e catalogados;
+- **126 autores** com afiliação registrada;
+- **9 países** de origem das instituições;
+- **6 eixos temáticos** que organizam a programação;
+- **7 logotipos institucionais** preservados na identidade do evento.
+
+## Como consultar
+
+A página inicial concentra o catálogo completo. A busca é instantânea e percorre títulos, autores, instituições e resumos; o seletor de eixo restringe o resultado a um dos seis eixos temáticos. Cada ficha exibe título, autoria, afiliação, eixo e resumo.
+
+## Preservação e identidade
+
+A marca do acervo retoma a ponte em perspectiva do material original, em azul institucional e tipografia seriada. Os números e a faixa de logotipos funcionam como resumo do evento e como prova da proveniência dos documentos reunidos.
 
 ## Acesso ao acervo
 

@@ -7,15 +7,32 @@ categories: ["Memória científica"]
 toc: true
 ---
 
+::: {.proj-intro}
+
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do SIPEM">
 
-O Memória do SIPEM nasceu da dificuldade de localizar e consultar, em um mesmo lugar, os registros das diferentes edições do Seminário Internacional de Pesquisa em Educação Matemática. A iniciativa reúne e organiza anais, trabalhos e informações sobre as edições, com atenção à recuperação dos documentos e à preservação da trajetória das pesquisas e dos debates do seminário.
+O Seminário Internacional de Pesquisa em Educação Matemática (SIPEM) reúne, desde 2000, a pesquisa brasileira da área em edições realizadas a cada três anos. O acervo organiza os anais dessas edições em um catálogo pesquisável, preservando o vínculo de cada registro com a publicação original.
 
-**Principais características:**
+:::
 
-- **Edições:** 9 realizadas
-- **Registros indexados:** 1.645
-- **Período documentado:** 2000–2024
+## Sobre o acervo
+
+O projeto nasceu da dificuldade de localizar, em um mesmo lugar, os trabalhos dispersos entre volumes de anais, páginas de eventos e repositórios institucionais. Em vez de reunir apenas os PDFs, o acervo reconstrói o registro bibliográfico de cada trabalho — título, autoria, resumo, palavras-chave, grupo de trabalho e paginação — e o liga à fonte oficial.
+
+## O acervo em números
+
+- **9 edições** realizadas entre 2000 e 2024;
+- **1.645 registros** indexados;
+- trabalhos pesquisáveis em todas as edições;
+- período documentado de **2000 a 2024**.
+
+## Como consultar
+
+A interface tem três rotas. A apresentação traz os números gerais e a linha do tempo das edições. A história de cada edição reúne tema, local, grupos de trabalho e fontes. Os anais oferecem busca local por título, autoria, instituição, resumo e palavras-chave, com filtro por GT, ordenação e paginação. Toda a busca roda no navegador, sem servidor.
+
+## Critérios de preservação
+
+O acervo segue princípios editoriais explícitos: não inventar metadados ausentes; manter o link da fonte oficial junto de cada registro; identificar documentos incompletos; separar trabalhos, conferências, mesas, relatórios e expediente; e só disponibilizar cópia própria quando houver autorização ou base clara para redistribuição.
 
 ## Acesso ao acervo
 

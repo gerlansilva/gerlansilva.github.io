@@ -7,16 +7,33 @@ categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
+::: {.proj-intro}
+
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="BuscaEM">
 
-O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano.
+O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Em vez de consultar revista por revista, o pesquisador pesquisa em um catálogo único de metadados, com filtros por periódico, idioma e ano, e chega ao artigo na fonte original.
 
-**Principais características:**
+:::
 
-- **Busca:** por título, autoria, assunto, DOI ou expressão booleana
-- **Filtros:** revista, idioma e ano de publicação
-- **Fonte:** periódicos OJS coletados por OAI-PMH
-- **Catálogo:** páginas estáticas, sem servidor de aplicação
+## O que é
+
+O catálogo é estático: as páginas são geradas a partir de um índice de metadados, sem banco de dados nem servidor de aplicação. Cada registro guarda o vínculo com a revista e com o texto completo na fonte oficial.
+
+## Como funciona
+
+A coleta usa o protocolo **OAI-PMH**, que os periódicos em Open Journal Systems expõem para interoperabilidade. Um script audita as fontes, identifica as que respondem ao protocolo e coleta os registros; um segundo script reúne o catálogo principal com o backfile do Crossref e publica os índices que o site consome. A rotina roda em GitHub Actions e pode ser refeita manualmente.
+
+## Recursos principais
+
+- **Busca por** título, autoria, assunto, DOI e expressão booleana (`AND`, `OR`, `NOT`, frase exata);
+- **Filtros** por revista, idioma e intervalo de anos;
+- **Ordenação** por relevância, título ou ano;
+- **Catálogo estático**, que carrega rápido e não depende de backend;
+- **Metadados rastreáveis**, sempre vinculados à fonte original.
+
+## Política de metadados
+
+A fonte preferencial é o OAI/OJS do próprio periódico ou a SciELO oficial; o Crossref entra como alternativa. O título e o resumo em inglês só são preenchidos quando a própria fonte fornece a variante — o buscador não traduz nem completa campos por conta própria.
 
 ## Acesso à ferramenta
 

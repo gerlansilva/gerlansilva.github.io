@@ -7,16 +7,36 @@ categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
+::: {.proj-intro}
+
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Margem">
 
-O Margem é um leitor de PDF acadêmico com um assistente de chat que cita a página e o trecho usados na resposta, além de um quadro de fichamento organizado por colunas. Foi desenvolvido em Tauri 2, com React e Rust, e funciona de forma local, com foco em leitura e anotação de textos científicos.
+O Margem é um leitor de PDF acadêmico com um assistente que responde citando página e trecho, e um quadro de fichamento preenchido por colunas. A pergunta nasce na margem: você lê o artigo, anota a dúvida ao lado do parágrafo e a resposta volta apontando de onde saiu.
 
-**Principais características:**
+:::
 
-- **Leitura:** PDF acadêmico com anotações
-- **Chat:** respostas com citação de página e trecho
-- **Fichamento:** quadro com colunas configuráveis
-- **Dados:** leitura e notas mantidas na máquina do pesquisador
+## O que é
+
+O aplicativo é construído em **Tauri 2** (Rust e React), com armazenamento local em SQLite. A versão atual é a **0.3.0**, para macOS e Windows. O assistente usa a API da DeepSeek, com a chave do próprio pesquisador guardada no cofre do sistema — Keychain no macOS, Credential Manager no Windows.
+
+## Como funciona
+
+Cada PDF é convertido em leitura Markdown com âncoras por página. Ao perguntar, o modelo responde com marcações como `[D1 p.7]`; clicar na citação abre o PDF na página exata e destaca as linhas usadas. É possível selecionar um trecho e perguntar só sobre ele, ou colocar um segundo documento no escopo do chat para comparar os dois.
+
+## Recursos principais
+
+- **Chat com o documento**, com citação de página e trecho clicáveis;
+- **Fichamento por colunas**: você define nome e instrução, e a IA preenche cada célula com valor, trecho literal e página — sem trecho verificado, a célula fica "não encontrado";
+- **Extração por conjunto de documentos**, com progresso por arquivo e a opção de refazer apenas células vazias;
+- **Exportação** do fichamento em CSV (abre no Excel em português) e das conversas e notas em Markdown;
+- **Destaques e notas** em cinco cores, salvos por documento;
+- **Busca no acervo**, por palavras e, com embeddings configurados, também por significado;
+- **Relacionados via OpenAlex**, com referências, citações e download de PDFs de acesso aberto;
+- **Respostas verificáveis**: citação de página não enviada ao modelo aparece tracejada, com aviso.
+
+## Requisitos e instalação
+
+Há instalador para **Windows** e `.dmg` universal para **macOS**. Na primeira execução, é preciso abrir as configurações e colar a chave da DeepSeek. O aplicativo não é assinado: no macOS, clique com o botão direito no app e escolha **Abrir**.
 
 ## Acesso à ferramenta
 

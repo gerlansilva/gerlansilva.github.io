@@ -7,17 +7,41 @@ categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
+::: {.proj-intro}
+
 <img src="logo-cite-v3.png" align="right" width="30%" class="proj-featured" alt="Cite">
 
-O Cite organiza a biblioteca pessoal, importa metadados, pesquisa artigos online, abre PDFs com anotações e publica a bibliografia em um repositório GitHub. O aplicativo funciona de forma local, sem depender de conta ou serviço externo, e se integra ao Word por meio de um add-in próprio.
+O Cite é um gerenciador de referências que funciona inteiramente na máquina do pesquisador. A biblioteca fica em uma pasta local, sem conta, assinatura ou servidor intermediário, e o aplicativo cobre o percurso completo: coletar a referência, ler e anotar o PDF, citar no texto e publicar a bibliografia.
 
-**Principais características:**
+:::
 
-- **Biblioteca:** referências, metadados e PDFs em um só lugar
-- **Leitura:** anotações em PDF e tradução de trechos
-- **Escrita:** add-in do Word com citações e bibliografia vinculadas
-- **Publicação:** bibliografia versionada em repositório GitHub
-- **Plataformas:** macOS e Windows
+## O que é
+
+Inspirado no fluxo do Paperpile, o Cite reúne biblioteca, leitor de PDF e integração com o Word em uma única aplicação desktop. A versão atual é a **0.3.9**, disponível para macOS e Windows.
+
+## Como funciona
+
+Na primeira execução, o Cite cria a biblioteca em `~/Documents/Cite` e abre a tela inicial, com o resumo do acervo, as referências recentes e os atalhos para criar uma referência, buscar artigos ou importar um PDF. O caminho da biblioteca fica registrado nas preferências do sistema, e o aplicativo abre uma tela de recuperação caso a pasta tenha sido movida ou perdido a permissão de escrita.
+
+## Recursos principais
+
+- **Biblioteca local** com favoritos, lixeira, coleções, etiquetas e busca;
+- **Importação** de BibTeX e RIS; **exportação** em BibTeX, RIS, Markdown e CSV;
+- **Estilos de citação** ABNT, APA, MLA, Harvard, Vancouver e Chicago;
+- **Busca online** em Crossref, arXiv, PubMed e Google Acadêmico, com paginação por "Carregar mais";
+- **Download de PDFs** de acesso aberto via OpenAlex;
+- **Leitor de PDF** com destaque, sublinhado, tachado, comentários por página, busca, zoom, rotação e tema claro ou escuro;
+- **Tradução de trechos** para português, inglês, espanhol e Tetum Dili.
+
+## Integração com o Word
+
+O add-in cria uma aba **Cite** na faixa de opções do Word, com os botões para inserir citação, inserir bibliografia e abrir o painel. As citações são gravadas como campos vinculados, o que permite combinar referências, definir página, prefixo, sufixo, apud, citação narrativa e omissão de autor ou ano.
+
+A bibliografia acompanha o texto: ao remover uma citação, a referência sai da lista, e **Atualizar citações** reformata o documento quando o estilo ou a biblioteca muda. **Desvincular citações** converte os campos em texto comum. O painel é servido localmente em `https://localhost:23120`, com certificado instalado no sistema, e funciona offline enquanto o aplicativo está aberto.
+
+## Requisitos e instalação
+
+Os instaladores estão na página de releases. No macOS, o aplicativo é um `.dmg`; no Windows, um instalador NSIS por usuário, que não exige administrador. O build não tem certificado de desenvolvedor, então o sistema pode exibir aviso na primeira abertura — é só confirmar em **Abrir mesmo assim** ou **Executar assim mesmo**.
 
 ## Acesso à ferramenta
 
