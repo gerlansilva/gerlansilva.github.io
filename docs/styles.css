@@ -492,7 +492,8 @@ body.quarto-dark .about-link:hover {
 }
 
 /* Botão de apresentação (Google Slides) */
-.btn-slides {
+.btn-slides,
+.btn-projeto {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
@@ -507,11 +508,79 @@ body.quarto-dark .about-link:hover {
   border: 1px solid #1e7a4f;
 }
 
-.btn-slides:hover {
+.btn-slides:hover,
+.btn-projeto:hover {
   background-color: #15603d;
   border-color: #15603d;
   color: #ffffff !important;
   text-decoration: none;
+}
+
+.btn-projeto {
+  margin-right: 0.5rem;
+}
+
+.btn-projeto-outline {
+  background-color: transparent;
+  color: #1e7a4f !important;
+}
+
+.btn-projeto-outline:hover {
+  background-color: #1e7a4f;
+  color: #ffffff !important;
+}
+
+/* Grade de projetos: três cartões por linha */
+.quarto-listing-container-grid .quarto-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.quarto-listing-container-grid .quarto-grid-item {
+  margin-bottom: 0;
+}
+
+.quarto-listing-container-grid .card-img-top {
+  position: relative;
+  display: block;
+  flex: none;
+  aspect-ratio: 16 / 9;
+  height: auto !important;
+  overflow: hidden;
+}
+
+.quarto-listing-container-grid .card-img-top img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.quarto-listing-container-grid .card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.quarto-listing-container-grid p.listing-subtitle {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.35;
+}
+
+@media (max-width: 992px) {
+  .quarto-listing-container-grid .quarto-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .quarto-listing-container-grid .quarto-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .nota-slides {

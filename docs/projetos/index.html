@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projetos e acervos digitais – Gerlan Silva</title>
+<title>Projetos – Gerlan Silva</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
@@ -79,20 +81,94 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-memoria .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-memoria'] = new List('listing-memoria', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ferramentas .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ferramentas'] = new List('listing-ferramentas', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+  </script>
 <link rel="stylesheet" href="../assets/academicons/css/all.css">
 <link rel="stylesheet" href="../assets/academicons/css/size.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Projetos e acervos digitais – Gerlan Silva">
-<meta property="og:description" content="Iniciativas independentes de organização e preservação da memória científica">
-<meta property="og:image" content="https://gerlansilva.github.io/assets/images/projects/sipem.png">
+<meta property="og:title" content="Projetos – Gerlan Silva">
+<meta property="og:description" content="Acervos digitais de memória científica e ferramentas para pesquisa qualitativa.">
+<meta property="og:image" content="https://gerlansilva.github.io/projetos/memoria/conferencia-1999/cover.jpg">
 <meta property="og:site_name" content="Gerlan Silva">
-<meta property="og:image:height" content="121">
-<meta property="og:image:width" content="470">
+<meta property="og:image:height" content="675">
+<meta property="og:image:width" content="1200">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Pular para o conteúdo principal</a><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Pular para o conteúdo principal</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -321,23 +397,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content" tabindex="-1">
+<main class="content column-page" id="quarto-document-content" tabindex="-1">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projetos e acervos digitais</h1>
-<p class="subtitle lead">Iniciativas independentes de organização e preservação da memória científica</p>
+<h1 class="title">Projetos</h1>
+<p class="subtitle lead">Acervos digitais de memória científica e ferramentas para pesquisa qualitativa.</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -349,44 +425,175 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="projetos-de-memória-científica" class="level2">
+<h2 class="anchored" data-anchor-id="projetos-de-memória-científica">Projetos de memória científica</h2>
+<div id="listing-memoria" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="TWVtJUMzJUIzcmlhJTIwY2llbnQlQzMlQURmaWNh" data-listing-file-modified-sort="1795288798944" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<a href="../projetos/memoria/conferencia-1999/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/memoria/conferencia-1999/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Acervo da Conferência de 1999
+</h5>
+<div class="card-subtitle listing-subtitle">
+Experiências e Expectativas do Ensino de Estatística, Florianópolis, 1999.
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="TWVtJUMzJUIzcmlhJTIwY2llbnQlQzMlQURmaWNh" data-listing-file-modified-sort="1795288798944" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<a href="../projetos/memoria/eiem/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/memoria/eiem/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Memória do EIEM
+</h5>
+<div class="card-subtitle listing-subtitle">
+Acervo digital do Encontro de Investigação em Educação Matemática, em Portugal.
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="TWVtJUMzJUIzcmlhJTIwY2llbnQlQzMlQURmaWNh" data-listing-file-modified-sort="1795288798945" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
+<a href="../projetos/memoria/gt19/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/memoria/gt19/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Memória do GT 19
+</h5>
+<div class="card-subtitle listing-subtitle">
+História, encontros e produção científica do GT 19 da ANPEd.
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="TWVtJUMzJUIzcmlhJTIwY2llbnQlQzMlQURmaWNh" data-listing-file-modified-sort="1795288798945" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
+<a href="../projetos/memoria/sipem/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/memoria/sipem/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Memória do SIPEM
+</h5>
+<div class="card-subtitle listing-subtitle">
+Acervo dos anais do Seminário Internacional de Pesquisa em Educação Matemática.
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="TWVtJUMzJUIzcmlhJTIwY2llbnQlQzMlQURmaWNh" data-listing-file-modified-sort="1795288798945" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+<a href="../projetos/memoria/observatorio-ee/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/memoria/observatorio-ee/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Observatório EE
+</h5>
+<div class="card-subtitle listing-subtitle">
+Teses e dissertações brasileiras em Educação Estatística.
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
+</section>
+<section id="ferramentas-para-pesquisa-qualitativa" class="level2">
+<h2 class="anchored" data-anchor-id="ferramentas-para-pesquisa-qualitativa">Ferramentas para pesquisa qualitativa</h2>
+<div id="listing-ferramentas" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="RmVycmFtZW50YXMlMjBwYXJhJTIwcGVzcXVpc2ElMjBxdWFsaXRhdGl2YQ==" data-listing-file-modified-sort="1795288798943" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
+<a href="../projetos/ferramentas/buscaem/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/ferramentas/buscaem/cover.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+BuscaEM
+</h5>
+<div class="card-subtitle listing-subtitle">
+Buscador de artigos de periódicos de Educação Matemática.
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RmVycmFtZW50YXMlMjBwYXJhJTIwcGVzcXVpc2ElMjBxdWFsaXRhdGl2YQ==" data-listing-file-modified-sort="1795288798943" data-listing-reading-time-sort="1" data-listing-word-count-sort="50">
+<a href="../projetos/ferramentas/cite/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/ferramentas/cite/cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cite
+</h5>
+<div class="card-subtitle listing-subtitle">
+Gerenciador de referências local para macOS e Windows.
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RmVycmFtZW50YXMlMjBwYXJhJTIwcGVzcXVpc2ElMjBxdWFsaXRhdGl2YQ==" data-listing-file-modified-sort="1795288798943" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
+<a href="../projetos/ferramentas/codificando/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/ferramentas/codificando/cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Codificando
+</h5>
+<div class="card-subtitle listing-subtitle">
+CAQDAS local para análise qualitativa de dados.
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="RmVycmFtZW50YXMlMjBwYXJhJTIwcGVzcXVpc2ElMjBxdWFsaXRhdGl2YQ==" data-listing-file-modified-sort="1795288798944" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
+<a href="../projetos/ferramentas/margem/index.html" class="quarto-grid-link no-external-icon">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../projetos/ferramentas/margem/cover.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Margem
+</h5>
+<div class="card-subtitle listing-subtitle">
+Leitor de PDF acadêmico com chat e fichamento.
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Sem itens correspondentes</div>
+</div>
+</section>
+<section id="sobre-os-projetos" class="level2">
+<h2 class="anchored" data-anchor-id="sobre-os-projetos">Sobre os projetos</h2>
 <p>Ao consultar a produção científica de eventos, percebo como os anais, os trabalhos e outros registros podem se dispersar ou se tornar difíceis de encontrar com o passar dos anos. Muitas vezes, a disponibilização dos documentos termina junto com o evento, sem um trabalho continuado de organização, descrição, curadoria e preservação. Isso compromete não apenas o acesso aos textos, mas também a possibilidade de reconstruir a trajetória das discussões e das comunidades de pesquisa.</p>
 <p>Foi dessa inquietação, associada ao meu interesse pela Ciência da Informação e pelos estudos métricos, que comecei a desenvolver, por iniciativa própria, acervos digitais voltados à memória científica. Não se trata de um único projeto nem de etapas da minha tese: cada iniciativa possui um objeto, um conjunto documental e desafios específicos. O propósito comum é tornar os registros mais acessíveis, contextualizados e menos vulneráveis ao esquecimento e à perda de referências.</p>
-<div class="project-grid">
-<div class="project-card">
-<p><img src="../assets/images/projects/sipem.png" class="img-fluid"></p>
-<section id="memória-do-sipem" class="level3 project-card-body">
-<h3 class="anchored" data-anchor-id="memória-do-sipem">Memória do SIPEM</h3>
-<p>Desenvolvo o Memória do SIPEM diante da dificuldade de localizar e consultar, em um mesmo lugar, os registros das diferentes edições dos Seminários Internacionais de Pesquisa em Educação Matemática. A iniciativa reúne e organiza anais, trabalhos e informações sobre as edições, com atenção à recuperação dos documentos e à preservação da trajetória das pesquisas e dos debates do seminário.</p>
-<p><a href="https://gerlansilva.github.io/memoria-sipem/" class="btn btn-sm">Explorar o acervo</a></p>
-</section>
-</div>
-<div class="project-card">
-<p><img src="../assets/images/projects/gt19.png" class="img-fluid"></p>
-<section id="memória-do-gt-19" class="level3 project-card-body">
-<h3 class="anchored" data-anchor-id="memória-do-gt-19">Memória do GT 19</h3>
-<p>Acervo dedicado à continuidade do acesso aos trabalhos e registros do Grupo de Trabalho 19 — Educação Matemática, da ANPEd. O projeto identifica, organiza e dá visibilidade a esses registros, contribuindo para que pesquisadores possam consultar a produção do grupo em diferentes momentos e acompanhar suas discussões ao longo do tempo.</p>
-<p><a href="https://gt19anped.pages.dev/" class="btn btn-sm">Explorar o acervo</a></p>
-</section>
-</div>
-<div class="project-card">
-<p><img src="../assets/images/projects/conferencia.png" class="img-fluid"></p>
-<section id="acervo-da-primeira-conferência-de-educação-estatística" class="level3 project-card-body">
-<h3 class="anchored" data-anchor-id="acervo-da-primeira-conferência-de-educação-estatística">Acervo da Primeira Conferência de Educação Estatística</h3>
-<p>Acervo dedicado à conferência <em>Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI</em>, realizada em Florianópolis, em 1999. Reúne e contextualiza os registros localizados, evitando que documentos e informações sobre essa experiência permaneçam dispersos ou pouco conhecidos.</p>
-<p><a href="https://cieee-acervo.netlify.app/" class="btn btn-sm">Explorar o acervo</a></p>
-</section>
-</div>
-<div class="project-card">
-<p><img src="../assets/images/projects/eiem.svg" class="img-fluid"></p>
-<section id="memória-do-eiem" class="level3 project-card-body">
-<h3 class="anchored" data-anchor-id="memória-do-eiem">Memória do EIEM</h3>
-<p>Acervo digital dedicado à memória do Encontro de Investigação em Educação Matemática (EIEM), realizado em Portugal. A iniciativa reúne e organiza registros das diferentes edições do encontro, em especial os trabalhos publicados nos anais, favorecendo a consulta à produção científica e a preservação da história das discussões do campo.</p>
-<p><a href="https://eiememoria.pages.dev/#sobre" class="btn btn-sm">Explorar o acervo</a></p>
-</section>
-</div>
-</div>
+<p>Em paralelo, desenvolvo ferramentas de código aberto para o trabalho qualitativo — leitura e fichamento de textos, codificação de dados e gestão de referências — pensadas para rodar localmente, com os dados sob controle do pesquisador.</p>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <footer class="footer gs-footer">
