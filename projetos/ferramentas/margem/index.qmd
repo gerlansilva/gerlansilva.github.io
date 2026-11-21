@@ -7,8 +7,6 @@ categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
-# **Margem**
-
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Margem">
 
 O Margem é um leitor de PDF acadêmico com um assistente de chat que cita a página e o trecho usados na resposta, além de um quadro de fichamento organizado por colunas. Foi desenvolvido em Tauri 2, com React e Rust, e funciona de forma local, com foco em leitura e anotação de textos científicos.

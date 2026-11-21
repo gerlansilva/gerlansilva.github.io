@@ -7,8 +7,6 @@ categories: ["Memória científica"]
 toc: true
 ---
 
-# **Acervo da Conferência de 1999**
-
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Acervo da Conferência de 1999">
 
 Acervo dedicado à conferência *Experiências e Expectativas do Ensino de Estatística: Desafios para o Século XXI*, realizada em Florianópolis, entre 20 e 23 de setembro de 1999. Reúne e contextualiza os registros localizados, evitando que documentos e informações sobre essa experiência permaneçam dispersos ou pouco conhecidos.

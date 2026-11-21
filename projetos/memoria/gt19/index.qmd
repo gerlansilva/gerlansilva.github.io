@@ -7,8 +7,6 @@ categories: ["Memória científica"]
 toc: true
 ---
 
-# **Memória do GT 19**
-
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do GT 19">
 
 Acervo dedicado à continuidade do acesso aos trabalhos e registros do Grupo de Trabalho 19 — Educação Matemática, da ANPEd. O projeto identifica, organiza e dá visibilidade a esses registros, contribuindo para que pesquisadores possam consultar a produção do grupo em diferentes momentos e acompanhar suas discussões ao longo do tempo.

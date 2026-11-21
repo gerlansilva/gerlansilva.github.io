@@ -7,8 +7,6 @@ categories: ["Memória científica"]
 toc: true
 ---
 
-# **Memória do SIPEM**
-
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do SIPEM">
 
 O Memória do SIPEM nasceu da dificuldade de localizar e consultar, em um mesmo lugar, os registros das diferentes edições do Seminário Internacional de Pesquisa em Educação Matemática. A iniciativa reúne e organiza anais, trabalhos e informações sobre as edições, com atenção à recuperação dos documentos e à preservação da trajetória das pesquisas e dos debates do seminário.

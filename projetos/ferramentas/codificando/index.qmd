@@ -7,8 +7,6 @@ categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
-# **Codificando**
-
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="Codificando">
 
 O Codificando é um ambiente local de análise qualitativa (CAQDAS) para codificação de entrevistas, documentos e notas. Construído em Tauri e React, funciona sem servidor e mantém os dados na máquina do pesquisador.

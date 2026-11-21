@@ -7,8 +7,6 @@ categories: ["Ferramentas para pesquisa qualitativa"]
 toc: true
 ---
 
-# **BuscaEM**
-
 <img src="logo.png" align="right" width="30%" class="proj-featured" alt="BuscaEM">
 
 O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano.
