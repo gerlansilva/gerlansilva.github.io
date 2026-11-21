@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/apresentacoes/index.html",
+    "items": [
+      "/apresentacoes/anped-sudeste-2026/index.html"
+    ]
+  },
+  {
     "listing": "/projetos/index.html",
     "items": [
       "/projetos/memoria/conferencia-1999/index.html",
@@ -10,12 +16,6 @@
       "/projetos/ferramentas/cite/index.html",
       "/projetos/ferramentas/codificando/index.html",
       "/projetos/ferramentas/margem/index.html"
-    ]
-  },
-  {
-    "listing": "/apresentacoes/index.html",
-    "items": [
-      "/apresentacoes/anped-sudeste-2026/index.html"
     ]
   }
 ]
