@@ -17,6 +17,8 @@ page-layout: full
 toc: false
 ---
 
+<p class="nota-andamento">All projects are in progress.</p>
+
 ## Scientific memory projects
 
 ::: {#memoria}

@@ -684,6 +684,7 @@ h2.anchored { margin-top: 2.2rem; }
   font-size: 0.98rem;
   font-weight: 600;
   margin-bottom: 0.25rem;
+  text-align: center;
 }
 
 .quarto-listing-container-grid p.listing-subtitle {
@@ -691,6 +692,16 @@ h2.anchored { margin-top: 2.2rem; }
   color: #5b6b7a;
   line-height: 1.35;
   margin-bottom: 0;
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Nota de andamento na listagem de projetos */
+.nota-andamento {
+  margin: 0.1rem 0 1.4rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #5b6b7a;
 }
 
 @media (max-width: 992px) {
