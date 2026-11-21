@@ -14,3 +14,17 @@ listing:
 
 ::: {#talks}
 :::
+
+<style>
+#title-block-header {
+  text-align: center;
+}
+
+#title-block-header .subtitle {
+  margin-bottom: 3rem;
+}
+
+.quarto-listing {
+  margin-top: 1.5rem;
+}
+</style>
