@@ -1,31 +1,26 @@
 ---
 title: "BuscaEM"
 subtitle: "Buscador de artigos de periódicos de Educação Matemática."
+author: "Gerlan Silva"
 image: cover.jpg
 categories: ["Ferramentas para pesquisa qualitativa"]
+toc: true
 ---
 
-<style>
-#title-block-header { display: none; }
-</style>
+# **BuscaEM**
 
-```{=html}
-<div class="proj-hero proj-hero-logo">
-  <img class="proj-logo proj-logo-wide" src="logo.png" alt="BuscaEM">
-  <p class="proj-subtitle">Buscador de artigos de periódicos de Educação Matemática.</p>
-</div>
-```
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="BuscaEM">
 
 O BuscaEM é um buscador especializado em periódicos de Educação Matemática. Reúne metadados de artigos em um catálogo estático, alimentado por um pipeline de coleta em repositórios OJS via OAI-PMH, com filtros por revista, idioma e ano.
 
-## Acesso à ferramenta
-
-- **BuscaEM** — [buscaem.pages.dev](https://buscaem.pages.dev)
-- **Código-fonte** — [github.com/gerlansilva/BucaEM](https://github.com/gerlansilva/BucaEM)
-
-## O que a ferramenta faz
+**Principais características:**
 
 - **Busca:** por título, autoria, assunto, DOI ou expressão booleana
 - **Filtros:** revista, idioma e ano de publicação
 - **Fonte:** periódicos OJS coletados por OAI-PMH
 - **Catálogo:** páginas estáticas, sem servidor de aplicação
+
+## Acesso à ferramenta
+
+- **BuscaEM** — [buscaem.pages.dev](https://buscaem.pages.dev)
+- **Código-fonte** — [github.com/gerlansilva/BucaEM](https://github.com/gerlansilva/BucaEM)

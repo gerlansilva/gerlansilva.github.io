@@ -1,33 +1,25 @@
 ---
 title: "Margem"
 subtitle: "Leitor de PDF acadêmico com chat e fichamento."
+author: "Gerlan Silva"
 image: cover.jpg
 categories: ["Ferramentas para pesquisa qualitativa"]
+toc: true
 ---
 
-<style>
-#title-block-header { display: none; }
-</style>
+# **Margem**
 
-```{=html}
-<div class="proj-hero">
-  <img class="proj-logo" src="logo.png" alt="">
-  <div>
-    <h1 class="proj-title">Margem</h1>
-    <p class="proj-subtitle">Leitor de PDF acadêmico com chat e fichamento.</p>
-  </div>
-</div>
-```
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Margem">
 
 O Margem é um leitor de PDF acadêmico com um assistente de chat que cita a página e o trecho usados na resposta, além de um quadro de fichamento organizado por colunas. Foi desenvolvido em Tauri 2, com React e Rust, e funciona de forma local, com foco em leitura e anotação de textos científicos.
 
-## Acesso à ferramenta
-
-- **Código-fonte e instaladores** — [github.com/gerlansilva/margem](https://github.com/gerlansilva/margem)
-
-## O que a ferramenta faz
+**Principais características:**
 
 - **Leitura:** PDF acadêmico com anotações
 - **Chat:** respostas com citação de página e trecho
 - **Fichamento:** quadro com colunas configuráveis
 - **Dados:** leitura e notas mantidas na máquina do pesquisador
+
+## Acesso à ferramenta
+
+- **Código-fonte e instaladores** — [github.com/gerlansilva/margem](https://github.com/gerlansilva/margem)

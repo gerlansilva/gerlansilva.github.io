@@ -1,30 +1,25 @@
 ---
 title: "Memória do EIEM"
 subtitle: "Acervo digital do Encontro de Investigação em Educação Matemática, em Portugal."
+author: "Gerlan Silva"
 image: cover.jpg
 categories: ["Memória científica"]
+toc: true
 ---
 
-<style>
-#title-block-header { display: none; }
-</style>
+# **Memória do EIEM**
 
-```{=html}
-<div class="proj-hero proj-hero-logo">
-  <img class="proj-logo proj-logo-wide" src="logo.png" alt="Memória do EIEM">
-  <p class="proj-subtitle">Acervo digital do Encontro de Investigação em Educação Matemática, em Portugal.</p>
-</div>
-```
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Memória do EIEM">
 
 O acervo reúne e organiza os registros das diferentes edições do Encontro de Investigação em Educação Matemática (EIEM), realizado em Portugal, em especial os trabalhos publicados nos anais. A iniciativa favorece a consulta à produção científica do encontro e a preservação da história das discussões do campo.
+
+**Principais características:**
+
+- **Edições catalogadas:** 21
+- **Trabalhos:** 613
+- **Período documentado:** 2006–2024
 
 ## Acesso ao acervo
 
 - **Acervo digital** — [eiememoria.pages.dev](https://eiememoria.pages.dev)
 - **Código-fonte** — [github.com/gerlansilva/Memoria-EIEM](https://github.com/gerlansilva/Memoria-EIEM)
-
-## O acervo em números
-
-- **Edições catalogadas:** 21
-- **Trabalhos:** 613
-- **Período documentado:** 2006–2024
