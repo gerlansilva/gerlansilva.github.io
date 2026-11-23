@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/en/apresentacoes/index.html",
+    "items": [
+      "/en/apresentacoes/anped-sudeste-2026/index.html"
+    ]
+  },
+  {
     "listing": "/en/projetos/index.html",
     "items": [
       "/en/projetos/memoria/conferencia-1999/index.html",
@@ -16,9 +22,9 @@
     ]
   },
   {
-    "listing": "/es/apresentacoes/index.html",
+    "listing": "/apresentacoes/index.html",
     "items": [
-      "/es/apresentacoes/anped-sudeste-2026/index.html"
+      "/apresentacoes/anped-sudeste-2026/index.html"
     ]
   },
   {
@@ -38,12 +44,6 @@
     ]
   },
   {
-    "listing": "/apresentacoes/index.html",
-    "items": [
-      "/apresentacoes/anped-sudeste-2026/index.html"
-    ]
-  },
-  {
     "listing": "/es/projetos/index.html",
     "items": [
       "/es/projetos/memoria/conferencia-1999/index.html",
@@ -60,9 +60,9 @@
     ]
   },
   {
-    "listing": "/en/apresentacoes/index.html",
+    "listing": "/es/apresentacoes/index.html",
     "items": [
-      "/en/apresentacoes/anped-sudeste-2026/index.html"
+      "/es/apresentacoes/anped-sudeste-2026/index.html"
     ]
   }
 ]
