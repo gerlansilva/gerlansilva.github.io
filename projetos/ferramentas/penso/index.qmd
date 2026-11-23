@@ -1,0 +1,51 @@
+---
+title: "Penso"
+subtitle: "Editor local de mapas conceituais para macOS e Windows."
+author: "Gerlan Silva"
+image: cover.jpg
+categories: ["Ferramentas para pesquisa qualitativa"]
+toc: true
+---
+
+::: {.proj-intro}
+
+<img src="logo.png" align="right" width="30%" class="proj-featured" alt="Penso">
+
+O Penso é um editor de mapas conceituais que fica inteiramente na máquina de quem usa. Não há conta, login ou servidor: cada mapa é um arquivo local, e o trabalho de organizar conceitos e proposições acontece na mesma tela em que se pensa. O nome vem da ideia de que o mapa não é um diagrama para ilustrar um texto pronto, mas o próprio lugar do pensamento.
+
+:::
+
+## O que é
+
+O aplicativo se chama Mapas Conceituais e usa o nome Penso como marca. É inspirado no CmapTools (IHMC) e no fluxo de trabalho do GoConqr, mas foi pensado para quem trabalha sozinho, em sessões longas, com teclado e sem querer passar por um fluxo de publicação. A versão atual é a **0.7.0**, para macOS (11 ou superior, Apple Silicon e Intel) e Windows (10 e 11, 64 bits).
+
+O mapa é o documento. Conceitos aparecem em formas livres — arredondada, retângulo ou elipse — ligados por relações rotuladas, de modo que cada ligação seja lida como uma proposição: "força → atua sobre → corpo". O foco da interface é o canvas; os painéis laterais só aparecem quando há algo a ajustar.
+
+## Como funciona
+
+O aplicativo é construído em **Tauri 2** (Rust) com a interface em HTML, CSS e TypeScript, e o mapa é desenhado em SVG. A persistência passa por comandos locais: cada mapa vira um arquivo JSON independente, gravado em arquivo temporário e trocado de uma vez, para não deixar o mapa pela metade se algo falhar. O salvamento é automático, e **Salvar estágio** cria uma cópia completa do mapa sob outro nome sem interromper a edição.
+
+A caixa de cada conceito acompanha o texto, na mesma lógica do CmapTools: letras e frases curtas ficam compactas, textos longos quebram em até cerca de 280 px e a elipse ganha folga para o texto não tocar a curva. Ao arrastar um conceito, guias mostram bordas e centros alinhados e encaixam o grupo nos vizinhos.
+
+## Recursos principais
+
+- **Conceitos** em forma arredondada, retângulo ou elipse, com cor, borda, família tipográfica, tamanho de 12 a 28 px, negrito, itálico, sublinhado, alinhamento e cor do texto;
+- **Relações** direcionadas com rótulo, setas nos dois sentidos, linha tracejada e curvatura; relações em sentidos opostos se curvam automaticamente para não se sobrepor;
+- **Seleção múltipla**, com alinhamento, distribuição, duplicação e recortar, copiar e colar mantendo as relações internas — inclusive entre mapas diferentes;
+- **Organização automática** hierárquica (vertical ou horizontal, com espaçamento ajustável e opção de respeitar o sentido das setas) ou por força dirigida, com pré-visualização antes de aplicar;
+- **Anotações** soltas no canvas, **busca** incremental em conceitos, rótulos, anotações e palavras-chave, e **informações** por conceito;
+- **Desfazer e refazer**, salvamento automático e **biblioteca local** de mapas, com os recentes na tela inicial;
+- **Exportação** do mapa inteiro em **SVG** (vetor, com o logo embutido) e **PNG 2×**, sempre em fundo branco e com a marca no rodapé;
+- **Intercâmbio com o CmapTools**: importa e exporta `.cxl`, com conceitos, proposições, formas, cores, fontes, setas, tracejado, curvas e metadados;
+- **Interface em português do Brasil**, com atalhos para criar, conectar, editar e navegar sem sair do teclado.
+
+## Requisitos e instalação
+
+Há um `.dmg` universal para macOS e instaladores NSIS e MSI para Windows. O build não tem certificado comercial, então o sistema exibe um aviso na primeira abertura: no macOS, é preciso autorizar em **Ajustes do Sistema → Privacidade e Segurança → Abrir assim mesmo** (nas versões recentes, o Control+clique não basta); se o sistema disser que o app está danificado, basta remover a quarentena do arquivo com `xattr -dr com.apple.quarantine`. No Windows, o SmartScreen pede **Mais informações → Executar assim mesmo**.
+
+Os mapas ficam em `~/Library/Application Support/com.gerlan.mapasconceituais/conceptmaps/` no macOS e em `%APPDATA%\com.gerlan.mapasconceituais\conceptmaps\` no Windows. Para backup, basta copiar essa pasta: remover ou atualizar o aplicativo não apaga os mapas.
+
+## Acesso à ferramenta
+
+- **Código-fonte e instaladores** — [github.com/gerlansilva/mapas-conceituais](https://github.com/gerlansilva/mapas-conceituais). O repositório está privado no momento; para acesso aos instaladores, escreva para [gerlanmatfis@gmail.com](mailto:gerlanmatfis@gmail.com).
+- **Autoria** — Gerlan Silva da Silva, doutorando em Educação na UFSCar. ORCID: [0000-0002-9996-9983](https://orcid.org/0000-0002-9996-9983).

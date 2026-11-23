@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/en/apresentacoes/index.html",
-    "items": [
-      "/en/apresentacoes/anped-sudeste-2026/index.html"
-    ]
-  },
-  {
     "listing": "/en/projetos/index.html",
     "items": [
       "/en/projetos/memoria/conferencia-1999/index.html",
@@ -17,22 +11,8 @@
       "/en/projetos/ferramentas/cite/index.html",
       "/en/projetos/ferramentas/codificando/index.html",
       "/en/projetos/ferramentas/margem/index.html",
+      "/en/projetos/ferramentas/penso/index.html",
       "/en/projetos/ferramentas/redes/index.html"
-    ]
-  },
-  {
-    "listing": "/es/projetos/index.html",
-    "items": [
-      "/es/projetos/memoria/conferencia-1999/index.html",
-      "/es/projetos/memoria/eiem/index.html",
-      "/es/projetos/memoria/gt19/index.html",
-      "/es/projetos/memoria/sipem/index.html",
-      "/es/projetos/ferramentas/buscaem/index.html",
-      "/es/projetos/ferramentas/capesquisa/index.html",
-      "/es/projetos/ferramentas/cite/index.html",
-      "/es/projetos/ferramentas/codificando/index.html",
-      "/es/projetos/ferramentas/margem/index.html",
-      "/es/projetos/ferramentas/redes/index.html"
     ]
   },
   {
@@ -53,6 +33,7 @@
       "/projetos/ferramentas/cite/index.html",
       "/projetos/ferramentas/codificando/index.html",
       "/projetos/ferramentas/margem/index.html",
+      "/projetos/ferramentas/penso/index.html",
       "/projetos/ferramentas/redes/index.html"
     ]
   },
@@ -60,6 +41,28 @@
     "listing": "/apresentacoes/index.html",
     "items": [
       "/apresentacoes/anped-sudeste-2026/index.html"
+    ]
+  },
+  {
+    "listing": "/es/projetos/index.html",
+    "items": [
+      "/es/projetos/memoria/conferencia-1999/index.html",
+      "/es/projetos/memoria/eiem/index.html",
+      "/es/projetos/memoria/gt19/index.html",
+      "/es/projetos/memoria/sipem/index.html",
+      "/es/projetos/ferramentas/buscaem/index.html",
+      "/es/projetos/ferramentas/capesquisa/index.html",
+      "/es/projetos/ferramentas/cite/index.html",
+      "/es/projetos/ferramentas/codificando/index.html",
+      "/es/projetos/ferramentas/margem/index.html",
+      "/es/projetos/ferramentas/penso/index.html",
+      "/es/projetos/ferramentas/redes/index.html"
+    ]
+  },
+  {
+    "listing": "/en/apresentacoes/index.html",
+    "items": [
+      "/en/apresentacoes/anped-sudeste-2026/index.html"
     ]
   }
 ]
